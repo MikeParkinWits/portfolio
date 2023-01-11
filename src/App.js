@@ -3,15 +3,13 @@ import Home from "./pages/Home";
 
 function App() {
   return (
-    <div>
+    <>
       <main>
         <Routes>
-          <Route>
-            <Route path="/portfolio" element={<Home />} />
-          </Route>
+          <Route path="/portfolio" element={<Home />} />
         </Routes>
       </main>
-    </div>
+    </>
   );
 }
 
