@@ -8,6 +8,10 @@
     position: relative;
     bottom: 0rem;
     width: 100%;
+
+    display: flex;
+
+    align-items: center;
   }
   
   .main-footer-contents {
@@ -23,6 +27,14 @@
   time {
     padding: 0.5rem;
     font-weight: 500;
+  }
+
+  .secondary-footer-contents{
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+
+    padding: 1rem;
   }
   
   /* Response View */
