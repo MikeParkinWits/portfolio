@@ -4,11 +4,12 @@ import "../../styles/buttons/heroButton.css";
 export default class HeroButton extends Component {
   static defaultProps = {
     buttonText: "Button",
+    buttonPath: "",
   };
 
   render() {
     const handleClickScroll = () => {
-      const element = document.getElementById("test");
+      const element = document.getElementById("portfolio-section");
       if (element) {
         // 👇 Will scroll smoothly to the top of the next section
         element.scrollIntoView({ behavior: "smooth" });

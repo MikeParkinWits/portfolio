@@ -4,14 +4,15 @@ import { NavLink } from "react-router-dom";
 export default class Linkbutton extends Component {
   static defaultProps = {
     buttonText: "Button",
+    buttonPath: "/",
   };
 
   render() {
-    const { buttonText } = this.props;
+    const { buttonText, buttonPath } = this.props;
 
     return (
       <>
-        <NavLink className="hero-button" to="/portfolio/about_me">
+        <NavLink className="hero-button" to={buttonPath}>
           {buttonText}
         </NavLink>
       </>
