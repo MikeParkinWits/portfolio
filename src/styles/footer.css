@@ -1,0 +1,57 @@
+/* Desktop View */
+
+.main-footer {
+    background-color: #f4f4f4;
+    
+    margin-top: 3rem;
+  
+    position: relative;
+    bottom: 0rem;
+    width: 100%;
+  }
+  
+  .main-footer-contents {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+    padding: 0rem 1rem;
+    color: #444444;
+  }
+  
+  .main-footer-contents p,
+  time {
+    padding: 0.5rem;
+    font-weight: 500;
+  }
+  
+  /* Response View */
+  
+  @media only screen and (max-width: 64rem) {
+    .main-footer {    
+      margin-top: 1rem;
+      font-size: 1.1rem;
+    }
+  
+    .main-footer-contents{
+      padding: 0rem 0.8rem;
+  }
+  }
+  
+  @media only screen and (max-width: 47.9rem) {
+    .main-footer {    
+      margin-top: 0.5rem;
+    }
+  
+  
+    .main-footer-contents{
+      padding:  0rem 0.5rem;
+    }
+  
+    .main-footer-contents p,
+    time{
+      padding: 0.2rem;
+    }
+    
+    
+  }
