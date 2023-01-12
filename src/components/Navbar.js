@@ -42,7 +42,7 @@ export default class Navbar extends Component {
               <ul className="nav-list">
                 <li>
                   <NavLink className="nav-item" to="/portfolio/about_me">
-                    about
+                    about me
                   </NavLink>
                 </li>
 
