@@ -36,7 +36,7 @@
     object-fit: cover;
 
 
-    border: 0.2rem solid rgba(0, 0, 0, 0.601);
+    /* border: 0.2rem solid rgba(0, 0, 0, 0.601); */
 
     box-shadow: rgba(149, 157, 165, 0.099) 0px 8px 24px;
 
