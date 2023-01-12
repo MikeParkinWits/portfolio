@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    background-color: #f0f1f2;
+    margin: 0rem;
+
+    font-family: "Helvetica Neue", sans-serif;
+
+    padding-top: 7%; 
+
+
+    background: rgba(170, 222, 255, 0.384);
+    background: radial-gradient(circle, hsla(203, 100%, 83%, 0.285) 0%, rgba(240,241,242,1) 45%, rgba(240,241,242,1) 100%);
+    background-attachment: fixed; /*edit*/
+}
+
+a {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+.sub-text{
+    font-size: 2rem;
+  }
+
+  h1{
+    font-size: 4rem;
+    color: #232323;
+    margin-bottom: 0rem;
+    padding-bottom: 0rem;
+  }
+
+  .hero-banner p{
+    margin: 0rem;
+  }
+
+  .hero-banner{
+    margin: 2rem;
+    display: flex;
+    border-bottom: 0.3rem solid black;
+    width: 200%;
+  }
+
+  .square{
+    height: 200px;
+    width: 200px;
+
+    border-radius: 15px;
+
+    box-shadow: rgba(50, 50, 93, 0.11) 0px 10px 10px -12px inset, rgba(0, 0, 0, 0.3) 0px 1px 36px -18px inset;
+    
+    margin: 4rem 0rem 0rem 2rem;
+
+    justify-content: center;
+    align-items: center;
+  }
