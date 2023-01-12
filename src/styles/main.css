@@ -8,6 +8,11 @@
     text-decoration-line: line-through;
   } */
 
+  main{
+    margin: 0 auto;
+    max-width: 75rem;
+  }
+
   html {
     scroll-behavior: smooth;
   }
@@ -37,4 +42,6 @@
     background-color: transparent;
     text-decoration: none;
     font-size: 1rem;
+
+    display: inline-block 
   }

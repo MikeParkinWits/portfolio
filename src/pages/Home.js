@@ -1,38 +1,17 @@
 import React, { Component } from "react";
+import "../styles/home.css";
+
+import HeroBanner from "../components/HeroBanner";
 
 export default class Home extends Component {
   render() {
     return (
       <>
-        <h1>Hello</h1>
-        <h1>Hello</h1>
-        <h1>Hello</h1>
-        <h1>Hello</h1>
-        <h1>Hello</h1>
-        <h1>Hello</h1>
-        <h1>Hello</h1>
-        <h1>Hello</h1>
-        <h1>Hello</h1>
-        <h1>Hello</h1>
-        <h1>Hello</h1>
-        <h1>Hello</h1>
-        <h1>Hello</h1>
-        <h1>Hello</h1>
-        <h1>Hello</h1>
-        <h1>Hello</h1>
-        <h1>Hello</h1>
-        <h1>Hello</h1>
-        <h1>Hello</h1>
-        <h1>Hello</h1>
-        <h1>Hello</h1>
-        <h1>Hello</h1>
-        <h1>Hello</h1>
-        <h1>Hello</h1>
-        <h1>Hello</h1>
-        <h1>Hello</h1>
-        <h1>Hello</h1>
-        <h1>Hello</h1>
-        <h1>Hello</h1>
+        <HeroBanner />
+
+        <article id="test">
+          <h2>Portfolio</h2>
+        </article>
       </>
     );
   }
