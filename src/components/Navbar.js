@@ -29,7 +29,7 @@ export default class Navbar extends Component {
         <header className="header-nav">
           <nav className={this.state.navScroll}>
             <section className="logo">
-              <NavLink className="logo" to="/portfolio/">
+              <NavLink className="logo" to="/">
                 MP.
                 {/* <img
                   src={logo}
@@ -41,13 +41,13 @@ export default class Navbar extends Component {
             <section className="navigation">
               <ul className="nav-list">
                 <li>
-                  <NavLink className="nav-item" to="/portfolio/about_me">
+                  <NavLink className="nav-item" to="/about_me">
                     about me
                   </NavLink>
                 </li>
 
                 <li>
-                  <NavLink className="nav-item" to="/portfolio/contact">
+                  <NavLink className="nav-item" to="/contact">
                     contact
                   </NavLink>
                 </li>
