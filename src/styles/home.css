@@ -1,6 +1,6 @@
 .hero{
     display: flex;
-    margin: 7.5rem 2rem 7.5rem 2rem;
+    margin: 6rem 2rem 0rem 2rem;
 
     /* padding-bottom: 7.5rem;
 
@@ -72,4 +72,22 @@
 	100% {
 		transform: translateY(3px);
 	}
+}
+
+
+
+
+
+
+
+
+#portfolio-section{
+    border-top: 0.1rem solid rgba(229, 229, 229, 0.305);
+    margin: 4rem 2rem 7.5rem 2rem;
+}
+
+.home-h2{
+    text-align: left;
+    color: #444444;
+    font-size: 2.5rem;
 }

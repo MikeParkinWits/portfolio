@@ -11,8 +11,15 @@ export default class HeroButton extends Component {
     const handleClickScroll = () => {
       const element = document.getElementById("portfolio-section");
       if (element) {
-        // 👇 Will scroll smoothly to the top of the next section
-        element.scrollIntoView({ behavior: "smooth" });
+        const headerOffset = 55;
+        const elementPosition = element.getBoundingClientRect().top;
+        const offsetPosition =
+          elementPosition + window.pageYOffset - headerOffset;
+
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: "smooth",
+        });
       }
     };
 

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "../styles/home.css";
 
 import HeroBanner from "../components/HeroBanner";
+import PortfolioCard from "../components/PortfolioCard";
 
 export default class Home extends Component {
   render() {
@@ -9,8 +10,9 @@ export default class Home extends Component {
       <>
         <HeroBanner />
 
-        <article id="test">
-          <h2>Portfolio</h2>
+        <article id="portfolio-section">
+          <h2 className="home-h2">Portfolio Spotlight</h2>
+          <PortfolioCard />
         </article>
       </>
     );
