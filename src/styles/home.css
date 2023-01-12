@@ -1,6 +1,6 @@
 .hero{
     display: flex;
-    margin: 6rem 2rem 0rem 2rem;
+    margin: 6rem 5rem 0rem 5rem;
 
     /* padding-bottom: 7.5rem;
 
@@ -11,9 +11,8 @@
     font-size: 4.5rem;
     line-height: 4.75rem;
     text-align: left;
-    margin: 0rem 0rem 2.5rem 0rem;
+    margin: 0rem 0rem 2rem 0rem;
     color: #444444;
-
 }
 
 .hero-name{
@@ -41,7 +40,7 @@
     width:22rem;
 	height:22rem;
 	/* margin:10px; */
-    margin-right: 2.5rem;
+    /* margin-right: 2.5rem; */
     
     border-radius: 20px;
 
@@ -83,7 +82,7 @@
 
 #portfolio-section{
     border-top: 0.1rem solid rgba(229, 229, 229, 0.305);
-    margin: 4rem 2rem 7.5rem 2rem;
+    margin: 4rem 5rem 7.5rem 5rem;
 }
 
 .home-h2{
@@ -91,3 +90,9 @@
     color: #444444;
     font-size: 2.5rem;
 }
+
+
+
+
+
+

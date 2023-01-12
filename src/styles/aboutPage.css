@@ -1,0 +1,44 @@
+.about-page{
+    margin: 0rem 5rem;
+    display: flex;
+
+    flex-direction: column;
+}
+
+.about-desc img{
+    width: 23.5rem;
+	height: 23.5rem;
+	/* margin:10px; */
+    margin-right: 2.5rem;
+    
+    border-radius: 20px;
+
+    box-shadow: rgba(92, 92, 114, 0.4) 0px 7px 29px 0px;
+}
+
+.about-desc{
+    display: flex;
+    flex-direction: row;
+
+    text-align: left;
+
+}
+
+.body-text{
+    margin: 0rem;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #141414;
+}
+
+.about-location{
+    margin: 0.35rem 2.5rem 0rem 0rem;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #2978b5;
+    
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
