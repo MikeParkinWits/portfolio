@@ -11,6 +11,8 @@
   main{
     margin: 0 auto;
     max-width: 75rem;
+    
+    min-height: calc(100vh - 12.68rem);
   }
 
   html {
