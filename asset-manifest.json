@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.e2b1b3be.css",
+    "main.css": "/static/css/main.38cebbc3.css",
     "main.js": "/static/js/main.45e0d331.js",
     "static/media/Me-2.JPG": "/static/media/Me-2.67f9e4fe3d990702d7e9.JPG",
     "static/media/Me-About.JPG": "/static/media/Me-About.617cc3e68b16807f5b37.JPG",
@@ -12,11 +12,11 @@
     "static/media/BraaiSimulatorPreview.png": "/static/media/BraaiSimulatorPreview.66c7bfbb68e920c90c80.png",
     "static/media/SwiftSymbol.png": "/static/media/SwiftSymbol.d0cf8dd3a99e6de3edc6.png",
     "index.html": "/index.html",
-    "main.e2b1b3be.css.map": "/static/css/main.e2b1b3be.css.map",
+    "main.38cebbc3.css.map": "/static/css/main.38cebbc3.css.map",
     "main.45e0d331.js.map": "/static/js/main.45e0d331.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2b1b3be.css",
+    "static/css/main.38cebbc3.css",
     "static/js/main.45e0d331.js"
   ]
 }
