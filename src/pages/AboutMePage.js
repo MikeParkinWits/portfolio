@@ -42,7 +42,7 @@ export default class AboutMePage extends Component {
 
           <section className="about-skills">
             <header>
-              <h2 className="page-sub-title">Tools & Skills</h2>
+              <h2 className="page-sub-title">Expertise</h2>
 
               <section className="skill-list-grid">
                 {SkillList.slice(0, SkillList.length).map(
