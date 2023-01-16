@@ -9,11 +9,6 @@ export default class Home extends Component {
     return (
       <>
         <HeroBanner />
-
-        <article id="portfolio-section">
-          <h2 className="page-sub-title">Portfolio Spotlight</h2>
-          <PortfolioCard />
-        </article>
       </>
     );
   }

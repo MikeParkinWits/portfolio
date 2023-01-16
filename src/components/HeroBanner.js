@@ -23,7 +23,10 @@ export default class HeroBanner extends Component {
                 buttonText={"Learn About Me"}
                 buttonPath={"/about_me"}
               />
-              <HeroButton buttonText={"View My Portfolio"} />
+              <Linkbutton
+                buttonText={"View My Portfolio"}
+                buttonPath={"/Projects"}
+              />
             </section>
           </header>
         </section>
