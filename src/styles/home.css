@@ -29,6 +29,8 @@
     font-weight: 400;
 
     font-size: 1.25rem;
+
+    position:relative
 }
 
 .page-container{
@@ -80,15 +82,19 @@
 
 
 
+
+
 #portfolio-section{
-    border-top: 0.1rem solid rgba(229, 229, 229, 0.305);
+    border-top: 0.1rem solid rgba(215, 215, 215, 0.305);
     margin: 4rem 5rem 7.5rem 5rem;
 }
 
-.home-h2{
+.page-sub-title{
     text-align: left;
     color: #444444;
     font-size: 2.5rem;
+    
+    /* margin: 1rem 0rem; */
 }
 
 

@@ -4,6 +4,13 @@ import "../styles/aboutPage.css";
 import Memoji from "../assets/Me-About.JPG";
 
 import LocationOnIcon from "@mui/icons-material/LocationOn";
+import Linkbutton from "../components/buttons/Linkbutton";
+import Skills from "../components/Skills";
+
+import TestImage from "../assets/Skill Symbols/ReactSymbol.png";
+
+//Importing Helper
+import { SkillList } from "../helpers/SkillList.js";
 
 export default class AboutMePage extends Component {
   render() {
@@ -31,6 +38,26 @@ export default class AboutMePage extends Component {
               error excepturi voluptatum vel nostrum veniam amet harum eum
               dolores?
             </p>
+          </section>
+
+          <section className="about-skills">
+            <header>
+              <h2 className="page-sub-title">Tools & Skills</h2>
+
+              <section className="skill-list-grid">
+                {SkillList.slice(0, SkillList.length).map(
+                  (skillItem, value) => {
+                    return (
+                      <Skills
+                        key={SkillList.length - value}
+                        skillImage={skillItem.skillImage}
+                        skillName={skillItem.skillName}
+                      />
+                    );
+                  }
+                )}
+              </section>
+            </header>
           </section>
         </article>
       </>
