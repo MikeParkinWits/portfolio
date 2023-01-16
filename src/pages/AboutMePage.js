@@ -11,6 +11,7 @@ import TestImage from "../assets/Skill Symbols/ReactSymbol.png";
 
 //Importing Helper
 import { SkillList } from "../helpers/SkillList.js";
+import EducationBlock from "../components/EducationBlock";
 
 export default class AboutMePage extends Component {
   render() {
@@ -20,7 +21,6 @@ export default class AboutMePage extends Component {
           <header>
             <h1 className="page-title">About Me</h1>
           </header>
-
           <section className="about-desc">
             <section className="about-left-column">
               <img src={Memoji} />
@@ -38,6 +38,13 @@ export default class AboutMePage extends Component {
               error excepturi voluptatum vel nostrum veniam amet harum eum
               dolores?
             </p>
+          </section>
+
+          <section className="about-education">
+            <header>
+              <h2 className="page-sub-title">Education</h2>
+              <EducationBlock />
+            </header>
           </section>
 
           <section className="about-skills">

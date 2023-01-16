@@ -48,7 +48,8 @@
 
 
 
-.about-skills{
+.about-skills,
+.about-education{
     margin: 1rem 0rem;
     border-top: 0.1rem solid rgba(215, 215, 215, 0.305);
 
@@ -88,6 +89,79 @@
 
 
 
+
+
+
+.education-block{
+    border: 0.075rem solid rgba(0, 0, 0, 0.229);
+    border-radius: 1rem;
+
+    box-shadow: rgba(92, 92, 114, 0) 0px 7px 29px 0px;
+    
+    display: flex;
+    flex-direction: row;
+
+    margin-bottom: 1rem;
+
+    text-align: left;
+
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.education-block img{
+    width: 6rem;
+	height: 6rem;
+	/* margin:10px; */
+    margin: 0rem 1rem 0rem 0rem;
+    
+    border-radius: 1rem;
+
+    box-shadow: rgba(255, 255, 255, 0.243) 0px 7px 29px 0px;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.education-block-title{
+    font-size: 1.25rem;
+    font-weight: 500;
+
+    margin: 0rem 0rem 0rem 0rem;
+    color: #444444;
+}
+
+.education-block-info p{
+    margin: 1rem 0rem 0rem 0rem;
+    
+    font-size: 1rem;
+    font-weight: 400;
+
+    color: #666666;
+
+    margin: 0rem 0rem 0rem 0rem;
+}
+
+.education-block-info time{
+    margin: 1rem 0rem 0rem 0rem;
+
+    padding: 0rem;
+    
+    font-size: 0.9rem;
+    font-weight: 400;
+
+    color: #8e8e8e;
+
+
+    position: relative;
+
+    margin-top: auto;
+}
+
+.education-block-info{
+    display: flex;
+    flex-direction: column;
+}
 
 
 
