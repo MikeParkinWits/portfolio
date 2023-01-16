@@ -66,4 +66,9 @@
   .nav-item:hover::before {
     bottom: 1rem;
     opacity: 1;
+    background-color: #2978b5;
+  }
+
+    .nav-item:hover {
+    color: #2978b5;
   }
