@@ -20,13 +20,10 @@ export default class HeroBanner extends Component {
               <br />
               <p>And Overall Tech Enthusiast.</p>
               <Linkbutton
-                buttonText={"Learn About Me"}
-                buttonPath={"/about_me"}
+                buttonText={"My Portfolio"}
+                buttonPath={"/portfolio"}
               />
-              <Linkbutton
-                buttonText={"View My Portfolio"}
-                buttonPath={"/Projects"}
-              />
+              <Linkbutton buttonText={"About Me"} buttonPath={"/about_me"} />
             </section>
           </header>
         </section>
