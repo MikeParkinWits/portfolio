@@ -37,7 +37,6 @@ export default class AboutMePage extends Component {
                 experiences and have gained experience in numerous areas such as
                 UI/UX design, front-end development, and game design.
               </p>
-              <br />
               <p className="body-text">
                 I am currently seeking to further this passion by pursuing a
                 masters degree in Human-Comptuer Interaction. I am excited to
@@ -45,7 +44,6 @@ export default class AboutMePage extends Component {
                 like-minded individuals to create innovative and engaging
                 digital experiences.
               </p>
-              <br />
               <p className="body-text">
                 Out of the classroom you’ll find me playing board games, taking
                 photos, and petting all the good dogs.

@@ -1,10 +1,14 @@
 .hero{
     display: flex;
-    margin: 6rem 5rem 0rem 5rem;
+    /* margin: 6rem 5rem 0rem 5rem; */
 
     /* padding-bottom: 7.5rem;
 
     border-bottom: 0.1rem solid rgb(222, 222, 222); */
+
+    margin: 0 5rem;
+    max-width: 75rem;
+    min-width: 20rem;
 }
 
 .hero-typography{
@@ -36,8 +40,12 @@
 }
 
 .page-container{
-    flex: 2 1 auto;
-    margin-right: 6rem;
+    /* flex: 2 1 auto;
+    margin-right: 6rem; */
+
+    margin-right: 1rem;
+    flex: 1 1;
+
 }
 
 .hero-picture img{
@@ -52,6 +60,7 @@
     box-shadow: rgba(92, 92, 114, 0.4) 0px 7px 29px 0px;
 
         display: flex;
+        flex: 1 1;
 
 
     /* width: 17rem;
@@ -64,6 +73,8 @@
     transform: translateY(3px);
     animation: floater 2s ease-in-out infinite;
     transition: cubic-bezier(0.25, 0.46, 0.45, 0.94) 1s; */
+
+    margin-left: 1rem;
 }
 
 @keyframes floater {
@@ -105,3 +116,197 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Desktop View */
+
+.homepage-card{
+    display: inline-flex;
+    flex-direction: row;
+  
+    /* border-bottom: 0.1875rem solid black; */
+  
+    /* margin: 0rem 5rem; */
+    text-align: left;
+  
+    max-width: 75rem;
+    min-width: 20rem;
+  
+    align-items: center;
+
+    margin: 0rem 4rem .7rem;
+  }
+
+  .homepage-card-content{
+    margin: 0rem;
+    font-weight: 400;
+
+    font-size: 1.25rem;
+
+    position:relative;
+    
+    color: #444444eb;
+  }
+
+  .homepage-card-content p{
+    margin: 0rem;
+  }
+  
+  .homepage-card-image,
+  .homepage-card-info{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  
+    /* padding: 2rem 2rem; */
+  }
+  
+  .homepage-card-image{
+    align-items: flex-end;
+    height: 100%;
+    padding: 3% 2%;
+  }
+  
+  .homepage-card-info h1{
+    font-size: 4rem;
+    line-height: 4.75rem;
+    
+    justify-content: center;
+    align-items: center;
+  
+    margin: 0rem -10rem 0.8rem 0rem;
+
+    color: #444444;
+  }
+  
+  
+  .homepage-card-image img{
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: auto;
+      object-fit:contain;
+  
+      width: 70%;
+      height: 70%;
+
+          
+    border-radius: 20px;
+
+    box-shadow: rgba(92, 92, 114, 0.4) 0px 7px 29px 0px;
+  }
+  
+  .homepage-list-item{
+    list-style-type: square;
+  }
+  
+  /* Response View */
+  
+  @media only screen and (max-width: 64rem) {
+    .homepage-card{
+        margin: 0rem 2rem 0rem 2rem;
+    }
+  
+    .homepage-card-info h1{
+      font-size: 3.5rem;
+      line-height: 3.5rem;
+    
+      margin: 0rem -4rem 1rem 0rem;
+    }
+  
+    .homepage-card-content{
+      font-size: 1rem;
+      line-height: 1.75rem;
+    }
+  
+    .homepage-card-image{
+      padding: 3% 1%;
+    }
+    
+    .homepage-card-info{
+      padding: 1rem 1rem 1rem 2rem;
+    }
+  
+    .homepage-card-image img{
+      width: 65%;
+      height: 65%;
+    }
+  }
+  
+  @media only screen and (max-width: 52rem) {
+    .homepage-card,
+    .homepage-card-reverse{
+      margin: 0rem 0rem;
+    
+      min-width: 2rem;
+      
+      margin: 2.5rem;
+    }
+  
+    .homepage-card{
+      flex-direction: column-reverse;
+    }
+  
+   .homepage-card-reverse{
+      flex-direction: column;
+    }
+  
+    .homepage-card-info h1{
+      font-size: 2rem;
+      line-height: 2rem;
+    
+      margin: 0.8rem 0rem 1.25rem 0rem;
+      text-align: center;
+    }
+
+    .homepage-card-buttons{
+        display: flex;
+        flex-direction: column;
+        margin: 1rem 0rem 0rem 0rem;
+    }
+
+    .homepage-card-content{
+        text-align: center;
+    }
+  
+    .homepage-card-info{
+      padding: 0rem;
+      width: 100%;
+    }
+  
+    .homepage-card-content{
+      font-size: 1rem;
+      
+      margin: 0rem 0rem;
+    }
+  
+    .homepage-card-image{
+      padding: 1rem 0rem 1.5rem 0rem;
+    }
+  
+    .homepage-card-image img{
+      width: 100%;
+      height: 100%;
+  
+      max-width: 30rem;
+    }
+
+    .page-sub-title{
+        font-size: 2rem;
+        margin: 2rem 0rem 1.5rem 0rem;
+        text-align: center;
+    }
+  }

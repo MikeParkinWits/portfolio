@@ -9,9 +9,9 @@
 
     margin-top: 4rem;
 
-    margin-right: 3rem;
+    margin-right: 2.5rem;
     
-    padding: 0.75rem 2.3rem;
+    padding: 0.7rem 2rem;
 
     border: 0.1rem solid #2978b5;
 
@@ -32,3 +32,23 @@
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     transform: translateY(-0.20rem);
 }
+
+  /* Response View */
+  
+  @media only screen and (max-width: 64rem) {
+    .hero-button{
+    
+        margin-top: 2.2rem;
+    
+        margin-right: 1.5rem;
+        
+        padding: 0.65rem 1.8rem;
+    }
+  }
+  
+  @media only screen and (max-width: 52rem) {
+    .hero-button{
+        text-align: center;
+        margin: 1rem 0rem;
+    }
+  }

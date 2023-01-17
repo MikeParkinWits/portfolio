@@ -11,14 +11,17 @@
 #root{
   display: flex;
   flex-direction: column;
-  min-height: calc(100vh - 4.5rem);
+  min-height: calc(100vh - 5.25rem);
   margin: 0rem;
+  align-items: center;
 }
   
   main{
-    max-width: 75rem;
+    min-width: 100vw;
     flex-grow: 1;
-    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   html {
@@ -41,7 +44,7 @@
     /* background-color: #fefaf6b5; */
   
     box-sizing: border-box;
-    padding-top: 4.5rem;
+    padding-top: 5.25rem;
   
     height: 100%;
 
@@ -65,4 +68,14 @@
     text-align: left;
     margin: 2rem 0rem 2.5rem 0rem;
     color: #444444;
+}
+
+@media only screen and (max-width: 52rem) {
+  .page-title{
+    font-size: 4rem;
+    line-height: 4.75rem;
+    text-align: center;
+    margin: 2rem 0rem 2.5rem 0rem;
+    color: #444444;
+}
 }
