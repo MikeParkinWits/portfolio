@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.bb343700.css",
-    "main.js": "/static/js/main.b36311e8.js",
+    "main.css": "/static/css/main.efae034c.css",
+    "main.js": "/static/js/main.f3e1465b.js",
     "static/media/Me-2.JPG": "/static/media/Me-2.67f9e4fe3d990702d7e9.JPG",
     "static/media/Me-About.JPG": "/static/media/Me-About.617cc3e68b16807f5b37.JPG",
     "static/media/ReactSymbol.png": "/static/media/ReactSymbol.3af64ee98d06c5688b87.png",
@@ -13,11 +13,11 @@
     "static/media/WitsLogo.png": "/static/media/WitsLogo.cff1fe64939f80dd2159.png",
     "static/media/SwiftSymbol.png": "/static/media/SwiftSymbol.d0cf8dd3a99e6de3edc6.png",
     "index.html": "/index.html",
-    "main.bb343700.css.map": "/static/css/main.bb343700.css.map",
-    "main.b36311e8.js.map": "/static/js/main.b36311e8.js.map"
+    "main.efae034c.css.map": "/static/css/main.efae034c.css.map",
+    "main.f3e1465b.js.map": "/static/js/main.f3e1465b.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb343700.css",
-    "static/js/main.b36311e8.js"
+    "static/css/main.efae034c.css",
+    "static/js/main.f3e1465b.js"
   ]
 }
