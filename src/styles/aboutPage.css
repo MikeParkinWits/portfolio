@@ -6,8 +6,8 @@
 }
 
 .about-desc img{
-    width: 23.5rem;
-	height: 23.5rem;
+    width: 25rem;
+	height: 25rem;
 	/* margin:10px; */
     margin-right: 2.5rem;
     
@@ -30,7 +30,7 @@
     margin: 0rem;
     font-weight: 400;
     font-size: 1.1rem;
-    color: #141414;
+    color: #393939;
 }
 
 .about-location{

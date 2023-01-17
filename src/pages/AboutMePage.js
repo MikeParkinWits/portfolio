@@ -29,15 +29,28 @@ export default class AboutMePage extends Component {
                 Johannesburg, South Africa
               </p>
             </section>
-            <p className="body-text">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod
-              blanditiis repellendus excepturi illum similique sit reprehenderit
-              repellat impedit voluptatibus? Mollitia minus ad iste hic pariatur
-              dolore, excepturi quaerat tempore, enim suscipit minima, qui
-              quisquam! Porro, totam voluptatibus assumenda accusamus, minima
-              error excepturi voluptatum vel nostrum veniam amet harum eum
-              dolores?
-            </p>
+            <section className="about-right-column">
+              <p className="body-text">
+                Hi, I'm Michael Parkin, a recent graduate with a degree in
+                Digital Arts - majoring in game, and interactive media, design.
+                Through my degree, I found my passion for designing good user
+                experiences and have gained experience in numerous areas such as
+                UI/UX design, front-end development, and game design.
+              </p>
+              <br />
+              <p className="body-text">
+                I am currently seeking to further this passion by pursuing a
+                masters degree in Human-Comptuer Interaction. I am excited to
+                see what the future holds, and am eager to work with a team of
+                like-minded individuals to create innovative and engaging
+                digital experiences.
+              </p>
+              <br />
+              <p className="body-text">
+                Out of the classroom you’ll find me playing board games, taking
+                photos, and petting all the good dogs.
+              </p>
+            </section>
           </section>
 
           <section className="about-education">
