@@ -201,6 +201,7 @@
       object-fit: cover;
   
       width: 70%;
+      width: 70%;
 
           
     border-radius: 20px;
@@ -252,7 +253,7 @@
     
       min-width: 2rem;
       
-      margin: 2.5rem;
+      margin: 2rem;
     }
   
     .homepage-card{
@@ -264,10 +265,10 @@
     }
   
     .homepage-card-info h1{
-      font-size: 2rem;
-      line-height: 2rem;
+      font-size: 2.2rem;
+      line-height: 2.5rem;
     
-      margin: 0.8rem 0rem 1.25rem 0rem;
+      margin: 0.8rem -2rem 1.25rem -2rem;
       text-align: center;
     }
 
