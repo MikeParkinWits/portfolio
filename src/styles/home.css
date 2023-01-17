@@ -13,6 +13,10 @@
     margin: 0rem 4rem .7rem;
   }
 
+  .hero-name{
+    color: #2978b5;
+  }
+
   .homepage-card-content{
     margin: 0rem;
     font-weight: 400;
