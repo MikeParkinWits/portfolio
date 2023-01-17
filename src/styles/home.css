@@ -1,146 +1,8 @@
-.hero{
-    display: flex;
-    /* margin: 6rem 5rem 0rem 5rem; */
-
-    /* padding-bottom: 7.5rem;
-
-    border-bottom: 0.1rem solid rgb(222, 222, 222); */
-
-    margin: 0 5rem;
-    max-width: 75rem;
-    min-width: 20rem;
-}
-
-.hero-typography{
-    font-size: 4.5rem;
-    line-height: 4.75rem;
-    text-align: left;
-    margin: 0rem 0rem 2rem 0rem;
-    color: #444444;
-}
-
-.hero-name{
-    color: #2978b5;
-}
-
-.hero-sub-text{
-    text-align: left;
-}
-
-.hero-sub-text p{
-    margin: 0rem;
-    line-height: 0.5rem;
-    font-weight: 400;
-
-    font-size: 1.25rem;
-
-    position:relative;
-    
-    color: #444444eb;
-}
-
-.page-container{
-    /* flex: 2 1 auto;
-    margin-right: 6rem; */
-
-    margin-right: 1rem;
-    flex: 1 1;
-
-}
-
-.hero-picture img{
-
-    width:22rem;
-	height:22rem;
-	/* margin:10px; */
-    /* margin-right: 2.5rem; */
-    
-    border-radius: 20px;
-
-    box-shadow: rgba(92, 92, 114, 0.4) 0px 7px 29px 0px;
-
-        display: flex;
-        flex: 1 1;
-
-
-    /* width: 17rem;
-    height: 17rem;
-    justify-content: center;
-
-    margin-left: 1.5rem; 
-    align-items: center;
-
-    transform: translateY(3px);
-    animation: floater 2s ease-in-out infinite;
-    transition: cubic-bezier(0.25, 0.46, 0.45, 0.94) 1s; */
-
-    margin-left: 1rem;
-}
-
-@keyframes floater {
-	0% {
-		transform: translateY(3px);
-	}
-	50% {
-		transform: translateY(-3px);
-	}
-	100% {
-		transform: translateY(3px);
-	}
-}
-
-
-
-
-
-
-
-
-
-
-#portfolio-section{
-    border-top: 0.1rem solid rgba(215, 215, 215, 0.305);
-    margin: 4rem 5rem 7.5rem 5rem;
-}
-
-.page-sub-title{
-    text-align: left;
-    color: #444444;
-    font-size: 2.5rem;
-    
-    /* margin: 1rem 0rem; */
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Desktop View */
 
 .homepage-card{
     display: inline-flex;
     flex-direction: row;
-  
-    /* border-bottom: 0.1875rem solid black; */
-  
-    /* margin: 0rem 5rem; */
     text-align: left;
   
     max-width: 75rem;
@@ -171,8 +33,6 @@
     display: flex;
     flex-direction: column;
     flex: 1;
-  
-    /* padding: 2rem 2rem; */
   }
   
   .homepage-card-image{
@@ -195,15 +55,14 @@
   
   
   .homepage-card-image img{
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: auto;
-      object-fit: cover;
-  
-      width: 70%;
-      width: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    object-fit: cover;
 
-          
+    width: 70%;
+    width: 70%;
+
     border-radius: 20px;
 
     box-shadow: rgba(92, 92, 114, 0.4) 0px 7px 29px 0px;

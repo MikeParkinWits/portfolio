@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 
-import Memoji from "../assets/Me-2.JPG";
+//Image Imports
+import BannerPhoto from "../assets/MeBannerPhoto.JPG";
+
+//Component Imports
 import HeroButton from "../components/buttons/HeroButton";
 import Linkbutton from "../components/buttons/Linkbutton";
 
@@ -28,38 +31,10 @@ export default class HeroBanner extends Component {
           </section>
 
           <section className="homepage-card-image">
-            <img src={Memoji}></img>
+            <img src={BannerPhoto}></img>
           </section>
         </section>
       </>
     );
-
-    // return (
-    //   <article className="hero">
-    //     <section className="page-container">
-    //       <header>
-    //         <h1 className="hero-typography">
-    //           Hi, I'm <span className="hero-name">Michael</span>
-    //         </h1>
-    //         <section className="hero-sub-text">
-    //           <p>A Game Designer,</p>
-    //           <br />
-    //           <p>Software Developer,</p>
-    //           <br />
-    //           <p>And Overall Tech Enthusiast.</p>
-    //           <Linkbutton
-    //             buttonText={"My Portfolio"}
-    //             buttonPath={"/portfolio"}
-    //           />
-    //           <Linkbutton buttonText={"About Me"} buttonPath={"/about_me"} />
-    //         </section>
-    //       </header>
-    //     </section>
-
-    //     <section className="hero-picture">
-    //       <img src={Memoji} />
-    //     </section>
-    //   </article>
-    // );
   }
 }

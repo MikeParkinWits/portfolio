@@ -1,13 +1,3 @@
-/* main{
-    min-height: calc(100vh - 259px);
-  }
-  
-  .strike-through-text{
-    display: inline;
-    white-space: normal;
-    text-decoration-line: line-through;
-  } */
-
 #root{
   display: flex;
   flex-direction: column;
@@ -41,7 +31,6 @@
     flex-direction: column;
   
     background-color: #fcfcfc;
-    /* background-color: #fefaf6b5; */
   
     box-sizing: border-box;
     padding-top: 5.25rem;
@@ -73,9 +62,7 @@
 @media only screen and (max-width: 52rem) {
   .page-title{
     font-size: 3rem;
-    line-height: 4.75rem;
     text-align: center;
     margin: 1rem 0rem 1.5rem 0rem;
-    color: #444444;
 }
 }
