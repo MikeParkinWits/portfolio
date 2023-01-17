@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.0a9c4c98.css",
+    "main.css": "/static/css/main.cd4e2542.css",
     "main.js": "/static/js/main.3a5b9d8b.js",
     "static/media/Me-2.JPG": "/static/media/Me-2.67f9e4fe3d990702d7e9.JPG",
     "static/media/Me-About.JPG": "/static/media/Me-About.617cc3e68b16807f5b37.JPG",
@@ -13,11 +13,11 @@
     "static/media/WitsLogo.png": "/static/media/WitsLogo.cff1fe64939f80dd2159.png",
     "static/media/SwiftSymbol.png": "/static/media/SwiftSymbol.d0cf8dd3a99e6de3edc6.png",
     "index.html": "/index.html",
-    "main.0a9c4c98.css.map": "/static/css/main.0a9c4c98.css.map",
+    "main.cd4e2542.css.map": "/static/css/main.cd4e2542.css.map",
     "main.3a5b9d8b.js.map": "/static/js/main.3a5b9d8b.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a9c4c98.css",
+    "static/css/main.cd4e2542.css",
     "static/js/main.3a5b9d8b.js"
   ]
 }
