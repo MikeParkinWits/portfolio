@@ -33,20 +33,20 @@ export default class AboutMePage extends Component {
               <p className="body-text">
                 I'm Michael Parkin, a recent graduate with a degree in Digital
                 Arts - majoring in game, and interactive media, design. Through
-                my degree, I found my passion for designing good user
-                experiences, exploring numerous different areas of design. These
-                include UI/UX design, front-end development, and game design.
+                my degree, I explored numerous different areas of design and
+                found my passion for designing good user experiences. From UI/UX
+                design, to front-end development, and even game design.
               </p>
               <p className="body-text">
-                I am currently seeking to further my passion by applying for a
-                masters degree in Human-Comptuer Interaction. I am excited to
+                I am currently looking to further my passion by pursuing a
+                masters degree in this promising digital age. I am excited to
                 see what the future holds, and am eager to work with a team of
                 like-minded individuals to create innovative and engaging
                 digital experiences.
               </p>
               <p className="body-text">
                 Out of the classroom you’ll find me playing board games, taking
-                photos, and petting all the good dogs.
+                photos, studying music, and petting all the good dogs.
               </p>
             </section>
           </section>
