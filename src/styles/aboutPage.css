@@ -218,7 +218,7 @@
     .body-text{
         margin: 0rem;
         font-weight: 400;
-        font-size: 0.95rem;
+        font-size: 1rem;
         color: #393939;
 
         margin-bottom: 0.9rem;
@@ -270,10 +270,15 @@
     .body-text{
           text-align:justify;
           margin-bottom: 1.5rem;
+
+          color: rgb(6, 6, 6);
     }
 
     .about-location{
         margin: 0.85rem 0rem 1.3rem 0rem;
+
+        font-size: 1rem;
+        font-weight: 400;
     }
 
     .about-page{
@@ -283,6 +288,8 @@
 
         text-align: center;
         margin: 0rem 2.5rem 2.5rem 2.5rem;
+
+        min-width: 17rem;
     
     }
 

@@ -34,8 +34,9 @@ export default class AboutMePage extends Component {
                 Hi, I'm Michael Parkin, a recent graduate with a degree in
                 Digital Arts - majoring in game, and interactive media, design.
                 Through my degree, I found my passion for designing good user
-                experiences and have gained experience in numerous areas such as
-                UI/UX design, front-end development, and game design.
+                experiences, gaining experience in numerous different areas.
+                These include UI/UX design, front-end development, and game
+                design.
               </p>
               <p className="body-text">
                 I am currently seeking to further this passion by pursuing a
