@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.76e085ce.css",
-    "main.js": "/static/js/main.33f1c722.js",
+    "main.css": "/static/css/main.6adcb92b.css",
+    "main.js": "/static/js/main.618d51be.js",
     "static/media/MeBannerPhoto.jpg": "/static/media/MeBannerPhoto.84f80267aba52479b32e.jpg",
     "static/media/Me-About.JPG": "/static/media/Me-About.617cc3e68b16807f5b37.JPG",
+    "static/media/Untitled-1.png": "/static/media/Untitled-1.bd6a3f90ea71cf1225d0.png",
     "static/media/ReactSymbol.png": "/static/media/ReactSymbol.3af64ee98d06c5688b87.png",
     "static/media/AffinitySymbol.png": "/static/media/AffinitySymbol.bfeb36a7675bc906a422.png",
     "static/media/CSSSymbol.png": "/static/media/CSSSymbol.c6ca61868c60fe941858.png",
@@ -13,11 +14,11 @@
     "static/media/WitsLogo.png": "/static/media/WitsLogo.cff1fe64939f80dd2159.png",
     "static/media/SwiftSymbol.png": "/static/media/SwiftSymbol.d0cf8dd3a99e6de3edc6.png",
     "index.html": "/index.html",
-    "main.76e085ce.css.map": "/static/css/main.76e085ce.css.map",
-    "main.33f1c722.js.map": "/static/js/main.33f1c722.js.map"
+    "main.6adcb92b.css.map": "/static/css/main.6adcb92b.css.map",
+    "main.618d51be.js.map": "/static/js/main.618d51be.js.map"
   },
   "entrypoints": [
-    "static/css/main.76e085ce.css",
-    "static/js/main.33f1c722.js"
+    "static/css/main.6adcb92b.css",
+    "static/js/main.618d51be.js"
   ]
 }
