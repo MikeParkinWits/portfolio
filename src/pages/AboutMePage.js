@@ -7,8 +7,6 @@ import LocationOnIcon from "@mui/icons-material/LocationOn";
 import Linkbutton from "../components/buttons/Linkbutton";
 import Skills from "../components/Skills";
 
-import TestImage from "../assets/Skill Symbols/ReactSymbol.png";
-
 //Importing Helper
 import { SkillList } from "../helpers/SkillList.js";
 import EducationBlock from "../components/EducationBlock";
@@ -23,7 +21,7 @@ export default class AboutMePage extends Component {
           </header>
           <section className="about-desc">
             <section className="about-left-column">
-              <img src={Memoji} />
+              <img src={Memoji} width="1000" height="1000" />
               <p className="about-location">
                 <LocationOnIcon />
                 Johannesburg, South Africa

@@ -6,7 +6,7 @@ export default class EducationBlock extends Component {
   render() {
     return (
       <section className="education-block">
-        <img src={WitsLogo} />
+        <img src={WitsLogo} width="1000" height="1000" />
         <section className="education-block-info">
           <header>
             <h3 className="education-block-title">

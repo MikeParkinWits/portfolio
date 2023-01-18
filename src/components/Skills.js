@@ -12,7 +12,7 @@ export default class Skills extends Component {
     const { skillImage, skillName } = this.props;
     return (
       <section className="about-skill-block">
-        <img src={skillImage} />
+        <img src={skillImage} width="1000" height="1000" />
         <p>{skillName}</p>
       </section>
     );

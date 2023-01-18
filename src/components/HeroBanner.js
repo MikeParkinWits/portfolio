@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 //Image Imports
-import BannerPhoto from "../assets/MeBannerPhoto.JPG";
+import BannerPhoto from "../assets/MeBannerPhoto.jpg";
 
 //Component Imports
 import HeroButton from "../components/buttons/HeroButton";
@@ -31,7 +31,7 @@ export default class HeroBanner extends Component {
           </section>
 
           <section className="homepage-card-image">
-            <img src={BannerPhoto}></img>
+            <img src={BannerPhoto} width="1000" height="1000"></img>
           </section>
         </section>
       </>

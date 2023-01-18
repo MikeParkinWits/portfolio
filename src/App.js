@@ -8,6 +8,7 @@ import { useEffect } from "react";
 
 //Google Analytics
 import ReactGA from "react-ga";
+import PortfolioPage from "./pages/PortfolioPage";
 const TRACKING_ID = "UA-254281648-1";
 ReactGA.initialize(TRACKING_ID);
 
@@ -23,7 +24,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about_me" element={<AboutMePage />} />
-          <Route path="/portfolio" element={<AboutMePage />} />
+          <Route path="/portfolio" element={<PortfolioPage />} />
         </Routes>
       </main>
 
