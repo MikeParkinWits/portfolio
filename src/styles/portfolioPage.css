@@ -11,3 +11,14 @@
 
     margin-bottom: 1.25rem;
 }
+
+.portfolio-page{
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 52rem) {
+    .portfolio-page{
+        align-items: center;
+    }
+}

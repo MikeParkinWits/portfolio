@@ -8,6 +8,7 @@ import "../styles/portfolioCard.css";
 
 //Image Imports
 import TestImage from "../assets/PortfolioCardImages/BraaiSimulatorPreview.png";
+import TestImageOne from "../assets/PortfolioCardImages/Untitled-1.png";
 
 export default class PortfolioCard extends Component {
   static defaultProps = {
@@ -15,12 +16,12 @@ export default class PortfolioCard extends Component {
     cardDate: "2022",
     cardSummary:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, placeat.",
-    image: TestImage,
+    image: TestImageOne,
     imageTitle: "Card Test Image",
     imageAltText: "A flat black and grey image of shapes",
     cardRoute: "/contact",
-    cardType: "Web Development",
-    isWeb: true,
+    cardType: "Game Design",
+    isWeb: false,
   };
 
   render() {
@@ -38,31 +39,63 @@ export default class PortfolioCard extends Component {
 
     return (
       <>
-        <section className="portfolio-card">
+        <section className="portfolio-card-1">
           <Link className="portfolio-card-link" to={cardRoute}>
-            <img
-              className="portfolio-card-image"
+            <section className="portfolio-case-section">
+              <img
+                className="portfolio-card-image-1"
+                src={image}
+                title={imageTitle}
+                alt={imageAltText}
+              ></img>
+            </section>
+            {/* <img
+              className="portfolio-card-image-1"
               src={image}
               title={imageTitle}
               alt={imageAltText}
-            ></img>
-            <section className="portfolio-card-content">
+            ></img> */}
+            <section className="portfolio-card-content-1">
               <header>
                 <h2>{cardTitle}</h2>
-                {/* <time dateTime={cardDate}>{cardDate}</time> */}
                 <p
                   className={
-                    isWeb ? "project-type web-dev" : "project-type game-dev"
+                    isWeb
+                      ? "project-type-1 web-dev-1"
+                      : "project-type-1 game-dev-1"
                   }
                 >
                   {cardType}
                 </p>
               </header>
-              <p className="portfolio-card-desc">{cardSummary}</p>
+              <p className="portfolio-card-desc-1">{cardSummary}</p>
             </section>
           </Link>
         </section>
       </>
     );
   }
+}
+
+{
+  /* <section className="portfolio-card">
+  <Link className="portfolio-card-link" to={cardRoute}>
+    <img
+      className="portfolio-card-image"
+      src={image}
+      title={imageTitle}
+      alt={imageAltText}
+    ></img>
+    <section className="portfolio-card-content">
+      <header>
+        <h2>{cardTitle}</h2>
+        <time dateTime={cardDate}>{cardDate}</time>
+        <p className={isWeb ? "project-type web-dev" : "project-type game-dev"}>
+          {cardType}
+        </p>
+      </header>
+      <p className="portfolio-card-desc">{cardSummary}</p>
+    </section>
+  </Link>
+</section>; */
 }

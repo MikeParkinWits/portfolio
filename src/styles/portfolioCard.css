@@ -101,9 +101,140 @@
     font-size: 1rem;
 }
 
+
+
+
+
+
+
+
+
+.portfolio-card-1{
+    margin: 1rem auto;
+    text-align: left;
+
+
+    /* border: 0.1rem solid #444444; */
+    border-radius: 0.8rem;
+    background-color: #ffffff;
+
+    /* padding: 1rem; */
+    height: 24rem;
+
+    
+    max-width: 20.5rem;
+
+    box-shadow: rgba(50, 50, 93, 0.081) 0px 6px 12px -2px, rgba(0, 0, 0, 0.216) 0px 3px 7px -3px;
+    transition: all 0.2s ease-out;
+}
+
+.portfolio-card-1:hover{
+    transform: translate(-0rem, -0.25rem);
+    /* box-shadow: 0.5rem 0.4rem #000000; */
+
+    box-shadow: rgba(50, 50, 93, 0.228) 0px 50px 100px -20px, rgba(47, 41, 97, 0.205) 0px 30px 60px -30px;
+}
+
+.portfolio-card-image-1{
+    box-sizing: border-box;
+    object-position: 50% 50%;
+
+    height: 14rem;
+    max-width: 100%;
+    min-width: 8rem;
+    object-fit: cover;
+
+
+    /* border: 0.2rem solid rgba(0, 0, 0, 0.601); */
+
+    /* box-shadow: rgba(149, 157, 165, 0.099) 0px 8px 24px; */
+
+    border-radius: 0.8rem 0.8rem 0rem 0rem;
+    
+    padding: 0rem;
+
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+
+    margin-bottom: 1.5rem;
+}
+
+.portfolio-card-content-1{
+    /* padding-top: 0.2rem; */
+    color: #353535;
+
+    /* border-top: 0.09rem solid rgba(0, 0, 0, 0.07); */
+
+    margin: 0.5rem 1rem;
+}
+
+.portfolio-card-content-1 header{
+    display: inline;
+
+    /* padding-top: 0.2rem; */
+    /* margin: 1rem 0rem 0.5rem 0rem; */
+}
+
+.portfolio-card-content-1 h2{
+    padding: 0rem;
+    /* margin: 1rem 0rem 0.5rem 0rem; */
+    margin: 0.35rem 0rem 0rem 0rem;
+    line-height: 1.8rem;
+    font-size: 1.4rem;
+    color: #353535;
+    font-weight: 600;
+}
+
+.portfolio-case-section{
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+
+    max-width: 20.5rem;
+    min-width: 20rem;
+    height: 14rem;
+    background: rgb(221,251,253);
+background: linear-gradient(27deg, rgba(221,251,253,1) 0%, rgba(160,208,132,1) 82%, rgba(93,161,1,1) 100%);
+clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+
+border-radius: 0.8rem 0.8rem 0rem 0rem;
+    
+padding: 0rem;
+
+}
+
+.project-type-1{
+    border-radius: 6px;
+
+
+    margin: 10rem 0rem;
+    display: inline;
+    /* padding: 0.1rem 0.5rem; */
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+.web-dev-1{
+    /* background-color: #0192e6; */
+    color: #0192e6;
+}
+
+.game-dev-1{
+    /* background-color: #0192e6; */
+    color: #9a01e6;
+}
+
+.portfolio-card-desc-1{    
+    font-weight: 400;
+    margin: 0.85rem 0rem;
+    font-size: 0.95rem;
+
+    color: #353535b0;
+}
+
 .card-grid{
-    width: 85%;
-    max-width: 90%;
+    /* width: 85%; */
+    /* max-width: 90%; */
 
     display: inline-grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -111,6 +242,7 @@
     gap: 1.5rem;
   
     justify-items: center;
+    margin-bottom: 2rem;
 }
 
 /* Response View */
@@ -123,9 +255,21 @@
     }
 }
 
-@media only screen and (max-width: 47.9rem) {
+@media only screen and (max-width: 52rem) {
     .card-grid{
         grid-template-columns: 1fr;
         gap: 0.5rem;
+        margin-bottom: 1rem;
+    }
+    .portfolio-case-section{
+        max-width: 20.5rem;
+        min-width: 18rem;
+    }
+}
+
+@media only screen and (max-width: 34rem) {
+    .portfolio-case-section{
+        max-width: 20.5rem;
+        min-width: 17rem;
     }
 }
