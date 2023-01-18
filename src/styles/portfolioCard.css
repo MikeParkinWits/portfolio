@@ -177,7 +177,7 @@
 .portfolio-card-content-1 h2{
     padding: 0rem;
     /* margin: 1rem 0rem 0.5rem 0rem; */
-    margin: 0.35rem 0rem 0rem 0rem;
+    margin: 0.6rem 0rem 0rem 0rem;
     line-height: 1.8rem;
     font-size: 1.4rem;
     color: #353535;
@@ -194,13 +194,13 @@
     min-width: 20rem;
     height: 14rem;
     background: rgb(221,251,253);
-background: linear-gradient(27deg, rgba(221,251,253,1) 0%, rgba(160,208,132,1) 82%, rgba(93,161,1,1) 100%);
-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 
-border-radius: 0.8rem 0.8rem 0rem 0rem;
-    
-padding: 0rem;
+    background: linear-gradient(27deg, rgba(221,251,253,1) 0%, rgba(160,208,132,1) 82%, rgba(93,161,1,1) 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 
+    border-radius: 0.8rem 0.8rem 0rem 0rem;
+        
+    padding: 0rem;
 }
 
 .project-type-1{
