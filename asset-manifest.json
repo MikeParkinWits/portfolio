@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.7e515dc3.css",
-    "main.js": "/static/js/main.39fc3bb6.js",
-    "static/media/MeBannerPhoto.JPG": "/static/media/MeBannerPhoto.67f9e4fe3d990702d7e9.JPG",
+    "main.css": "/static/css/main.76e085ce.css",
+    "main.js": "/static/js/main.33f1c722.js",
+    "static/media/MeBannerPhoto.jpg": "/static/media/MeBannerPhoto.84f80267aba52479b32e.jpg",
     "static/media/Me-About.JPG": "/static/media/Me-About.617cc3e68b16807f5b37.JPG",
     "static/media/ReactSymbol.png": "/static/media/ReactSymbol.3af64ee98d06c5688b87.png",
     "static/media/AffinitySymbol.png": "/static/media/AffinitySymbol.bfeb36a7675bc906a422.png",
     "static/media/CSSSymbol.png": "/static/media/CSSSymbol.c6ca61868c60fe941858.png",
     "static/media/Logos.png": "/static/media/Logos.4edf56f6badae9050ea4.png",
     "static/media/JavaScriptSymbol.png": "/static/media/JavaScriptSymbol.843632666871162de92f.png",
+    "static/media/BraaiSimulatorPreview.png": "/static/media/BraaiSimulatorPreview.66c7bfbb68e920c90c80.png",
     "static/media/WitsLogo.png": "/static/media/WitsLogo.cff1fe64939f80dd2159.png",
     "static/media/SwiftSymbol.png": "/static/media/SwiftSymbol.d0cf8dd3a99e6de3edc6.png",
     "index.html": "/index.html",
-    "main.7e515dc3.css.map": "/static/css/main.7e515dc3.css.map",
-    "main.39fc3bb6.js.map": "/static/js/main.39fc3bb6.js.map"
+    "main.76e085ce.css.map": "/static/css/main.76e085ce.css.map",
+    "main.33f1c722.js.map": "/static/js/main.33f1c722.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e515dc3.css",
-    "static/js/main.39fc3bb6.js"
+    "static/css/main.76e085ce.css",
+    "static/js/main.33f1c722.js"
   ]
 }
