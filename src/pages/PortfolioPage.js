@@ -12,7 +12,7 @@ export default class PortfolioPage extends Component {
     return (
       <>
         <article className="portfolio-page">
-          <header>
+          <header className="portfolio-page-header">
             <h1 className="page-title">Portfolio</h1>
           </header>
           <section className="card-grid">

@@ -5,7 +5,7 @@
     display: inline-grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-auto-rows: minmax(100vh, autofit);
-    gap: auto;
+    gap: 2rem;
   
     justify-items: center;
 
@@ -23,7 +23,7 @@
     align-items: center;
 }
 
-.portfolio-page header{
+.portfolio-page-header{
     text-align: left;
     margin-right: auto;
 }
@@ -34,7 +34,7 @@
         width: 30rem;
     }
 
-    .portfolio-page header{
+    .portfolio-page-header{
         text-align: center;
         margin-right: 0rem;
     }
