@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.6adcb92b.css",
-    "main.js": "/static/js/main.618d51be.js",
+    "main.css": "/static/css/main.24bce826.css",
+    "main.js": "/static/js/main.e566362a.js",
     "static/media/MeBannerPhoto.jpg": "/static/media/MeBannerPhoto.84f80267aba52479b32e.jpg",
     "static/media/Me-About.JPG": "/static/media/Me-About.617cc3e68b16807f5b37.JPG",
-    "static/media/Untitled-1.png": "/static/media/Untitled-1.bd6a3f90ea71cf1225d0.png",
+    "static/media/BraaiSimulatorPreview.png": "/static/media/BraaiSimulatorPreview.bd6a3f90ea71cf1225d0.png",
     "static/media/ReactSymbol.png": "/static/media/ReactSymbol.3af64ee98d06c5688b87.png",
+    "static/media/TheInternetWeKnowPreview.png": "/static/media/TheInternetWeKnowPreview.420296f59d29dcc4988f.png",
     "static/media/AffinitySymbol.png": "/static/media/AffinitySymbol.bfeb36a7675bc906a422.png",
+    "static/media/SwingPreview.png": "/static/media/SwingPreview.8c6cd6ef12c62be500fd.png",
     "static/media/CSSSymbol.png": "/static/media/CSSSymbol.c6ca61868c60fe941858.png",
     "static/media/Logos.png": "/static/media/Logos.4edf56f6badae9050ea4.png",
     "static/media/JavaScriptSymbol.png": "/static/media/JavaScriptSymbol.843632666871162de92f.png",
-    "static/media/BraaiSimulatorPreview.png": "/static/media/BraaiSimulatorPreview.66c7bfbb68e920c90c80.png",
     "static/media/WitsLogo.png": "/static/media/WitsLogo.cff1fe64939f80dd2159.png",
     "static/media/SwiftSymbol.png": "/static/media/SwiftSymbol.d0cf8dd3a99e6de3edc6.png",
     "index.html": "/index.html",
-    "main.6adcb92b.css.map": "/static/css/main.6adcb92b.css.map",
-    "main.618d51be.js.map": "/static/js/main.618d51be.js.map"
+    "main.24bce826.css.map": "/static/css/main.24bce826.css.map",
+    "main.e566362a.js.map": "/static/js/main.e566362a.js.map"
   },
   "entrypoints": [
-    "static/css/main.6adcb92b.css",
-    "static/js/main.618d51be.js"
+    "static/css/main.24bce826.css",
+    "static/js/main.e566362a.js"
   ]
 }
