@@ -25,6 +25,9 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about_me" element={<AboutMePage />} />
           <Route path="/portfolio" element={<PortfolioPage />} />
+          <Route path="/portfolio1" element={<PortfolioPage />} />
+          <Route path="/portfolio2" element={<PortfolioPage />} />
+          <Route path="/portfolio3" element={<PortfolioPage />} />
         </Routes>
       </main>
 
