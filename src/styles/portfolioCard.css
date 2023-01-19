@@ -195,12 +195,23 @@
     height: 14rem;
     background: rgb(221,251,253);
 
-    background: linear-gradient(27deg, rgba(221,251,253,1) 0%, rgba(160,208,132,1) 82%, rgba(93,161,1,1) 100%);
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 
     border-radius: 0.8rem 0.8rem 0rem 0rem;
         
     padding: 0rem;
+}
+
+.gradient-green{
+    background: linear-gradient(27deg, rgba(221,251,253,1) 0%, rgba(160,208,132,1) 82%, rgba(93,161,1,1) 100%);
+}
+
+.gradient-pink{
+    background: linear-gradient(27deg, rgba(221,251,253,1) 0%, rgba(232,97,175,1) 82%, rgba(255,38,192,1) 100%);
+}
+
+.gradient-blue{
+    background: linear-gradient(115deg, rgba(221,251,253,1) 0%, rgba(97,209,232,1) 82%, rgba(38,141,255,1) 100%);
 }
 
 .project-type-1{
@@ -226,8 +237,9 @@
 
 .portfolio-card-desc-1{    
     font-weight: 400;
-    margin: 0.85rem 0rem;
-    font-size: 0.95rem;
+    margin: 0.7rem 0rem 0.85rem 0rem;
+    font-size: 0.925rem;
+    line-height: 1.33rem;
 
     color: #353535b0;
 }
@@ -271,5 +283,21 @@
     .portfolio-case-section{
         max-width: 20.5rem;
         min-width: 17rem;
+    }
+
+    .portfolio-card-content-1 h2{
+        line-height: 1.5rem;
+        font-size: 1.2rem;
+        margin-bottom: 0.08rem;
+    }
+
+    .project-type-1{
+        font-size: 0.85rem;
+    }
+    
+    .portfolio-card-desc-1{
+        font-size: 0.85rem;
+        line-height: 1.25rem;
+        margin-top: 0.6rem;
     }
 }

@@ -7,8 +7,7 @@ import { Link } from "react-router-dom";
 import "../styles/portfolioCard.css";
 
 //Image Imports
-import TestImage from "../assets/PortfolioCardImages/BraaiSimulatorPreview.png";
-import TestImageOne from "../assets/PortfolioCardImages/Untitled-1.png";
+import TestImageOne from "../assets/PortfolioCardImages/BraaiSimulatorPreview.png";
 
 export default class PortfolioCard extends Component {
   static defaultProps = {
@@ -22,6 +21,7 @@ export default class PortfolioCard extends Component {
     cardRoute: "/contact",
     cardType: "Game Design",
     isWeb: false,
+    cardBackgroundClass: "gradient-green",
   };
 
   render() {
@@ -35,13 +35,16 @@ export default class PortfolioCard extends Component {
       cardRoute,
       cardType,
       isWeb,
+      cardBackgroundClass,
     } = this.props;
 
     return (
       <>
         <section className="portfolio-card-1">
           <Link className="portfolio-card-link" to={cardRoute}>
-            <section className="portfolio-case-section">
+            <section
+              className={"portfolio-case-section " + cardBackgroundClass}
+            >
               <img
                 className="portfolio-card-image-1"
                 src={image}
