@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.24bce826.css",
-    "main.js": "/static/js/main.5a42432b.js",
+    "main.css": "/static/css/main.85877bd2.css",
+    "main.js": "/static/js/main.5911071c.js",
     "static/media/MeBannerPhoto.jpg": "/static/media/MeBannerPhoto.84f80267aba52479b32e.jpg",
     "static/media/Me-About.JPG": "/static/media/Me-About.617cc3e68b16807f5b37.JPG",
     "static/media/BraaiSimulatorPreview.png": "/static/media/BraaiSimulatorPreview.bd6a3f90ea71cf1225d0.png",
@@ -15,11 +15,11 @@
     "static/media/WitsLogo.png": "/static/media/WitsLogo.cff1fe64939f80dd2159.png",
     "static/media/SwiftSymbol.png": "/static/media/SwiftSymbol.d0cf8dd3a99e6de3edc6.png",
     "index.html": "/index.html",
-    "main.24bce826.css.map": "/static/css/main.24bce826.css.map",
-    "main.5a42432b.js.map": "/static/js/main.5a42432b.js.map"
+    "main.85877bd2.css.map": "/static/css/main.85877bd2.css.map",
+    "main.5911071c.js.map": "/static/js/main.5911071c.js.map"
   },
   "entrypoints": [
-    "static/css/main.24bce826.css",
-    "static/js/main.5a42432b.js"
+    "static/css/main.85877bd2.css",
+    "static/js/main.5911071c.js"
   ]
 }
