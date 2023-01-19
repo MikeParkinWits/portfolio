@@ -13,7 +13,7 @@ export default class PortfolioPage extends Component {
       <>
         <article className="portfolio-page">
           <header>
-            <h1 className="page-title">Portfolio</h1>
+            <h1 className="page-title">Portfoli</h1>
           </header>
           <section className="card-grid">
             {PortfolioList.slice(0, PortfolioList.length).map(
