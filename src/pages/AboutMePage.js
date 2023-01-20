@@ -12,6 +12,11 @@ import { SkillList } from "../helpers/SkillList.js";
 import EducationBlock from "../components/EducationBlock";
 
 export default class AboutMePage extends Component {
+  //Lifecycle method that scrolls the page to the top on load
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
       <>

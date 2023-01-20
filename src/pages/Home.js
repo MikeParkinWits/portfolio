@@ -7,6 +7,11 @@ import "../styles/home.css";
 import HeroBanner from "../components/HeroBanner";
 
 export default class Home extends Component {
+  //Lifecycle method that scrolls the page to the top on load
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
       <>

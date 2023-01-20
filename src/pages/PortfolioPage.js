@@ -8,6 +8,11 @@ import "../styles/portfolioPage.css";
 import { PortfolioList } from "../helpers/PortfolioList.js";
 
 export default class PortfolioPage extends Component {
+  //Lifecycle method that scrolls the page to the top on load
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
       <>
