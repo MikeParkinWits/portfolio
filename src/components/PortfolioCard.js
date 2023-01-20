@@ -40,38 +40,36 @@ export default class PortfolioCard extends Component {
 
     return (
       <>
-        <section className="portfolio-card-1">
+        <section className="portfolio-card">
           <Link className="portfolio-card-link" to={cardRoute}>
             <section
               className={"portfolio-case-section " + cardBackgroundClass}
             >
               <img
-                className="portfolio-card-image-1"
+                className="portfolio-card-image"
                 src={image}
                 title={imageTitle}
                 alt={imageAltText}
               ></img>
             </section>
             {/* <img
-              className="portfolio-card-image-1"
+              className="portfolio-card-image"
               src={image}
               title={imageTitle}
               alt={imageAltText}
             ></img> */}
-            <section className="portfolio-card-content-1">
+            <section className="portfolio-card-content">
               <header>
                 <h2>{cardTitle}</h2>
                 <p
                   className={
-                    isWeb
-                      ? "project-type-1 web-dev-1"
-                      : "project-type-1 game-dev-1"
+                    isWeb ? "project-type web-dev" : "project-type game-dev"
                   }
                 >
                   {cardType}
                 </p>
               </header>
-              <p className="portfolio-card-desc-1">{cardSummary}</p>
+              <p className="portfolio-card-desc">{cardSummary}</p>
             </section>
           </Link>
         </section>
