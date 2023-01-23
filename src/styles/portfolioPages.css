@@ -103,6 +103,10 @@
     margin: 0rem auto;
 }
 
+.single-card{
+    width: 70%;
+}
+
 .portfolio-figure figcaption{
     text-align: center;
     /* margin-left: 10%; */

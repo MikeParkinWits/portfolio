@@ -47,13 +47,15 @@ export default class Portfolio1 extends Component {
                 <ExternalLinkbutton
                   buttonText={"Download"}
                   buttonIcon={<DownloadIcon />}
-                  buttonPath={"../downloadFiles/Swing - Michael Parkin.zip"}
+                  buttonPath={
+                    "https://drive.google.com/uc?id=1PUNop0gQmXL2BzGiiI8P0fgXGGpv0cWh&export=download"
+                  }
                   downloadName={"Swing - Michael Parkin"}
                 />
-                <ExternalLinkbutton
+                {/* <ExternalLinkbutton
                   buttonText={"GitHub Repo"}
                   buttonIcon={<GitHubIcon />}
-                />
+                /> */}
                 <ExternalLinkbutton
                   buttonText={"Gameplay Video"}
                   buttonIcon={<YouTubeIcon />}

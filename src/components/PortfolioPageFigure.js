@@ -9,14 +9,16 @@ export default class PortfolioPageFigure extends Component {
     title: "This is a missing image",
     imageAlt: "A missing image with squares of different colours",
     figureCaption: "Figure 1: Caption Missing",
+    singleCard: "",
   };
 
   render() {
-    const { imageSource, title, imageAlt, figureCaption } = this.props;
+    const { imageSource, title, imageAlt, figureCaption, singleCard } =
+      this.props;
 
     return (
       <>
-        <figure className="portfolio-figure">
+        <figure className={"portfolio-figure " + singleCard}>
           <img
             className="portfolio-image u-photo"
             src={imageSource}

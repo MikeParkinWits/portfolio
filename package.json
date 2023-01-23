@@ -50,10 +50,5 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
-  },
-  "reactSnap": {
-    "exclude": [
-      "/portfolio"
-    ]
   }
 }

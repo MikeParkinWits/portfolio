@@ -26,6 +26,8 @@
     position:relative;
     
     color: #444444eb;
+
+    line-height: 2rem;
   }
 
   .homepage-card-content p{

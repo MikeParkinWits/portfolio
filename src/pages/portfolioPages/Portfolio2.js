@@ -58,11 +58,11 @@ export default class Portfolio1 extends Component {
                     "https://github.com/MikeParkinWits/wsoa4175a_1894979"
                   }
                 />
-                <ExternalLinkbutton
+                {/* <ExternalLinkbutton
                   buttonText={"Overview Video"}
                   buttonIcon={<YouTubeIcon />}
                   buttonPath={"https://www.youtube.com/watch?v=b8WvJDNB2VQ"}
-                />
+                /> */}
               </section>
             </header>
 
