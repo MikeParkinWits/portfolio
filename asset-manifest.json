@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9ee79318.css",
-    "main.js": "/static/js/main.01adb1d8.js",
+    "main.js": "/static/js/main.41f8b28b.js",
     "static/media/MeBannerPhoto.jpg": "/static/media/MeBannerPhoto.84f80267aba52479b32e.jpg",
     "static/media/Me-About.JPG": "/static/media/Me-About.617cc3e68b16807f5b37.JPG",
     "static/media/BraaiSimulatorPreview.png": "/static/media/BraaiSimulatorPreview.bd6a3f90ea71cf1225d0.png",
@@ -23,10 +23,10 @@
     "static/media/Image1.png": "/static/media/Image1.dd78b2442dfda4b55ac1.png",
     "index.html": "/index.html",
     "main.9ee79318.css.map": "/static/css/main.9ee79318.css.map",
-    "main.01adb1d8.js.map": "/static/js/main.01adb1d8.js.map"
+    "main.41f8b28b.js.map": "/static/js/main.41f8b28b.js.map"
   },
   "entrypoints": [
     "static/css/main.9ee79318.css",
-    "static/js/main.01adb1d8.js"
+    "static/js/main.41f8b28b.js"
   ]
 }
