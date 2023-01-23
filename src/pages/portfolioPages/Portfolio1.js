@@ -76,10 +76,10 @@ export default class Portfolio1 extends Component {
               </h2>
 
               <p>
-                Swing is a simple - 2D - arcade game I created in two weeks.
-                While brainstorming for this game, I kept coming back to the
-                idea of creating a small game with a simple main mechanic that
-                felt extremely satisfying to use and evoked a sense of
+                <cite>Swing</cite> is a simple - 2D - arcade game I created in
+                two weeks. While brainstorming for this game, I kept coming back
+                to the idea of creating a small game with a simple main mechanic
+                that felt extremely satisfying to use and evoked a sense of
                 relaxation throughout. In Swing, the player uses a grappling
                 hook to swing around and traverse an infinite game world where
                 they attach to various geometric shapes to do so. The player is
