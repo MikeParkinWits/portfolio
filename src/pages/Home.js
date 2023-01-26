@@ -5,6 +5,7 @@ import "../styles/home.css";
 
 //Component Imports
 import HeroBanner from "../components/HeroBanner";
+import FadeIn from "react-fade-in/lib/FadeIn";
 
 export default class Home extends Component {
   //Lifecycle method that scrolls the page to the top on load
@@ -15,7 +16,9 @@ export default class Home extends Component {
   render() {
     return (
       <>
-        <HeroBanner />
+        <FadeIn transitionDuration={750}>
+          <HeroBanner />
+        </FadeIn>
       </>
     );
   }
