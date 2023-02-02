@@ -14,6 +14,7 @@ import ExternalLinkbutton from "../../components/buttons/ExternalLinkButton";
 import DownloadIcon from "@mui/icons-material/Download";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import YouTubeIcon from "@mui/icons-material/YouTube";
+import PriorityHighIcon from "@mui/icons-material/PriorityHigh";
 
 import PortfolioPageFigure from "../../components/PortfolioPageFigure";
 import FadeIn from "react-fade-in/lib/FadeIn";
@@ -31,6 +32,15 @@ export default class Portfolio1 extends Component {
         <article className="portfolio-pages h-entry">
           <article>
             <header className="portfolio-header">
+              <section className="disclaimer-text">
+                <PriorityHighIcon />
+                <p>
+                  As this is an interactive piece, it is highly encouraged that
+                  you play the game (or watch the gameplay video) before reading
+                  about its design process.
+                </p>
+              </section>
+
               <section className="portfolio-page-title-line">
                 <section>
                   <h1 className="portfolio-item-title p-name">Swing</h1>
@@ -81,33 +91,37 @@ export default class Portfolio1 extends Component {
               </h2>
 
               <p>
-                <cite>Swing</cite> is a simple - 2D - arcade game I created in
-                two weeks. While brainstorming for this game, I kept coming back
-                to the idea of creating a small game with a simple main mechanic
-                that felt extremely satisfying to use and evoked a sense of
-                relaxation throughout. In Swing, the player uses a grappling
-                hook to swing around and traverse an infinite game world where
-                they attach to various geometric shapes to do so. The player is
-                then encouraged to swing quickly and smoothly while
-                simultaneously not colliding into any of the shapes to increase
-                their score.
+                <cite>Swing</cite> is a simple - 2D - arcade game that I created
+                in two weeks. While brainstorming ideas for this game, I kept
+                coming back to the idea of creating a small game with a simple
+                main mechanic that felt extremely satisfying to use and evoked a
+                sense of relaxation throughout. In <cite>Swing</cite>, the
+                player uses a grappling hook to swing around and traverse an
+                infinite game world where they attach to various geometric
+                shapes to do so. The player is then encouraged to swing quickly
+                and smoothly while simultaneously not colliding into any of the
+                shapes to increase their score.
               </p>
               <p>
                 To achieve this effect, I set out three design goals, all of
                 which aid in creating the aesthetic quality of submission – as
                 defined by Hunicke, LeBlanc, and Zubek in their MDA Framework.
-                Firstly, I wanted the game to make use of one simple main
-                mechanic that could be picked up at any time without a huge
-                learning curve. This simplicity would then allow for a greater
-                level of refinement to ensure that the main mechanic feels
-                smooth and relaxing to use. Secondly, I wanted to create a
-                gameplay loop that allowed for the single mechanic to be fully
-                explored while simultaneously helping create a sense of calmness
-                for the player as they traversed the game world. Lastly, I
-                wanted the game to be extremely minimalistic so that all aspects
-                of design and tutorialization would be critically analyzed, only
-                displaying necessary elements to enhance the gameplay
-                experience.
+                Firstly, I wanted the game to make use of{" "}
+                <strong>one simple main mechanic</strong> that could be picked
+                up at any time without a huge learning curve. This simplicity
+                would then allow for a greater level of refinement to ensure
+                that the main mechanic feels smooth and relaxing to use.
+                Secondly, I wanted to create a{" "}
+                <strong>
+                  gameplay loop that allowed for the single mechanic to be fully
+                  explored
+                </strong>{" "}
+                while simultaneously helping create a sense of calmness for the
+                player as they traversed the game world. Lastly, I wanted the
+                game to be <strong>extremely minimalistic</strong> so that all
+                aspects of design and tutorialization would be critically
+                analyzed, only displaying necessary elements to enhance the
+                gameplay experience.
               </p>
 
               <h2 className="portfolio-page-heading-1">2. Process</h2>
@@ -116,9 +130,9 @@ export default class Portfolio1 extends Component {
                 Although, just because the game is designed to be simple and
                 minimalist does not mean the process was simple – in fact, the
                 simplicity of the project required that I evaluate each element
-                and design choice more critically. As such, we can now start to
-                look at the process behind Swing’s creation – using the three
-                main design goals as success criteria:
+                and design choice more critically. As such, we can now look at
+                the process behind Swing’s creation – using the three main
+                design goals, outlined above, as success criteria:
               </p>
 
               <h3 className="portfolio-page-heading-2">
@@ -131,76 +145,77 @@ export default class Portfolio1 extends Component {
                 – evoking a sense of relaxation throughout play. While
                 brainstorming ideas for this main mechanic, I kept coming back
                 to one extremely smooth, and satisfying, mechanic – the web
-                swinging ability from Spiderman for PS4. As such, I thought
-                about ways that I could create a game around this type of
-                ability. However, I knew that creating a full 3D game to do this
-                would be extremely over scoped for my timeline. As a result, I
-                also took inspiration from other smaller games that revolve
-                around smooth feeling mechanics – such as the infinite arcade
-                game One More Line. This then ultimately led to the game main
-                mechanic of a grappling hook, which players would then use to
-                swing around an infinite gameworld. Importantly though, in order
-                to align with the design goals, I needed to make sure that the
-                grappling and swinging felt extremely smooth and refined. As
-                such, the grapple was designed to smoothly wrap around corners
-                and have ample room to be refined through rigorous external
-                playtesting.
+                swinging ability from <cite>Spiderman</cite> for PS4. As such, I
+                thought about ways that I could create a game around this type
+                of ability. However, I knew that creating a full 3D game to do
+                this would be extremely over scoped for my timeline. As a
+                result, I began taking inspiration from other smaller games that
+                revolve around smooth feeling mechanics – such as the infinite
+                arcade game <cite>One More Line</cite>. This then ultimately led
+                to the games main mechanic of a grappling hook, which players
+                then use to swing around an infinite gameworld. Importantly
+                though, in order to align with my design goals, I needed to make
+                sure that the grappling, and swinging felt extremely smooth and
+                refined. As such, the grapple was designed to smoothly wrap
+                around corners and have ample room to be refined through
+                rigorous external playtesting.
               </p>
               <p>
                 However, before I could start refining the feel of the mechanic,
                 I first needed to decide the most appropriate control scheme for
-                it – allowing for the simple mechanic to feel as intuitive as
-                possible. To do this, I made use of Andrew Dotsenko’s 2017 blog
-                post Designing Game Controls to create four different control
-                schemes for the game, each taking into account Dotsenko’s three
-                main principles of accessibility, intent communication, and
-                expression space. Firstly, there is the{" "}
-                <strong>mixed mouse button</strong>
-                control scheme, which requires the player to make three
-                movements per one action – moving the mouse to select an attach
-                direction, left clicking to attach the grapple, and right
-                clicking to detach the grapple. Secondly, we have the{" "}
-                <string>single mouse button</string> control scheme, which is
-                similar to the previous control scheme except the player only
-                uses two separate movements per action – using the mouse to
-                select your attach direction, and the left mouse button to both
-                attach, by clicking and holding, and detach, by letting go.
-                Thirdly, there is the <strong>mouse and keyboard</strong>{" "}
-                control scheme, which is similar to the previous, except it
-                replaces the left mouse button with the spacebar on the
-                keyboard, allowing the right hand to act solely as the direction
-                indicator. Lastly, there is <strong>keyboard only</strong>{" "}
-                control scheme, which is the simplest control scheme and only
-                requires one movement per action. Like the previous control
-                scheme, the player still uses the space button to attach and
-                detach, but the direction is determined by a rotating arrow
-                around the player – with this final control scheme intended to
-                test how the game would function on mobile.
+                it – allowing for the simple mechanic to feel as intuitive to
+                use as possible. To do this, I made use of Andrew Dotsenko’s
+                2017 blog post <cite>Designing Game Controls</cite> to create
+                four different control schemes for the game, each taking into
+                account Dotsenko’s three main principles: accessibility, intent
+                communication, and expression space. Firstly, there is the{" "}
+                <strong>mixed mouse button</strong> control scheme, which
+                requires the player to make three movements per one action –
+                moving the mouse to select an attach direction, left clicking to
+                attach the grapple, and right clicking to detach the grapple.
+                Secondly, we have the <string>single mouse button</string>{" "}
+                control scheme, which is similar to the previous control scheme
+                except the player only uses two separate movements per action –
+                using the mouse to select your attach direction, and the left
+                mouse button to both attach, by clicking and holding, and
+                detach, by letting go. Thirdly, there is the{" "}
+                <strong>mouse and keyboard</strong> control scheme, which is
+                similar to the previous, except it replaces the left mouse
+                button with the spacebar on the keyboard, allowing the right
+                hand to act solely as the direction indicator. Lastly, there is{" "}
+                <strong>keyboard only</strong> control scheme, which is the
+                simplest control scheme and only requires one movement per
+                action. Like the previous control scheme, the player still uses
+                the space button to attach and detach, but the direction is
+                determined by a rotating arrow around the player – with this
+                final control scheme intended to test how the game would
+                function on mobile.
               </p>
               <p>
                 With these control schemes set, I then performed various formal,
-                and informal, playtests – where the results were unanimous –
-                providing a clear favorite. Playtesters preferred the intuitive
+                and informal, playtests where the results were unanimous and
+                provided a clear favorite. Playtesters preferred the intuitive
                 and natural controls of the single mouse button control scheme
                 (control scheme two), as it mimicked the action of attaching and
                 detaching occurring on screen. This is in contrast to the least
                 favorite control scheme, the mixed mouse button control scheme
                 (control scheme one), as it required a higher cognitive load and
-                was not representative of the mechanic on-screen. When
+                was not representative of the mechanics actions on-screen. When
                 playtesting, players also noted that they much preferred the
                 precision of the control schemes on PC, and so I decided to
-                continue development there.
+                continue development there (as opposed to pursuing a mobile
+                game).
               </p>
               <p>
-                With the control scheme now selected, I could begin refining the
+                With the control scheme selected, I then began refining the
                 controls of the mechanic itself. Through more informal
                 playtesting, I began tweaking various elements – such as the
-                amount of pull the grapple has when attaching, how quickly it
+                amount of pull the grapple had when attaching, how quickly it
                 grapples, how quickly it swings, the gravity scale, and more. By
                 doing this, I was then able to create a mechanic that felt
                 smooth and satisfying to use, giving players adequate control
-                over the mechanic, allow them to traverse smoothly through the
-                gameworld and reach a sense of relaxation.
+                over the mechanic, allow them to traverse smoothly throughout
+                the gameworld and reach a higher sense of relaxation.
               </p>
               <p>
                 With the main mechanic completed to a satisfactory level, I then
@@ -240,22 +255,23 @@ export default class Portfolio1 extends Component {
               <p>
                 The first of these templates is the spawn point template, which
                 spawn a random selection of the game’s shapes in eight
-                pre-defined grid patterns (as seen below in figure 1) – with
-                each shaping shape spawning in a random rotation on the grid.
+                pre-defined grid patterns (which can be seen below in figure 1)
+                – with each shape spawning in a random rotation on the grid.
                 This randomness then ultimately helps to introduce endless
                 scenarios for play, while still being controlled through the
                 various pre-defined spawn patterns for the objects – making sure
                 that the player never gets stuck. Secondly, there are the
                 prebuilt area templates, where I created seven specific
                 ‘showpiece’ scenarios to allow the player to express themselves
-                freely through a pre-defined area (as seen below in figure 2).
-                These two types of templates then complimented each other well,
-                with the prebuilt area templates balancing out the randomness of
-                the spawn point templates – allowing for a satisfying gameplay
-                experience consisting of smoother, and faster, traversal.
-                However, I had to make sure that the starting area for the world
-                was always the same – as this allows for a consistent, and
-                stable, starting point whenever beginning the game.
+                freely through a pre-defined area (which can be seen below in
+                figure 2). These two types of templates then complimented each
+                other well, with the prebuilt area templates balancing out the
+                randomness of the spawn point templates – allowing for a
+                satisfying gameplay experience consisting of smoother, and
+                faster, traversal. However, I had to make sure that the starting
+                area for the world was always the same – as this allows for a
+                consistent, and stable, starting point whenever beginning the
+                game.
               </p>
 
               <section className="portfolio-double-figures">
@@ -274,7 +290,7 @@ export default class Portfolio1 extends Component {
               </section>
 
               <p>
-                Thereafter, we looked at how to spawn these different templates
+                Thereafter, I looked at how to spawn these different templates
                 throughout play. It was extremely important to me that when
                 generating these templates, they do two things: spawn out of
                 sight from the player, as not to break the players submission to
@@ -285,8 +301,8 @@ export default class Portfolio1 extends Component {
                 balance, how these templates spawn. Initially, all the templates
                 had an equal chance of spawning, but I soon noticed that while
                 players enjoyed all the template designs, certain templates
-                appearing too often was frustrating for the player, and as such
-                I balanced the spawn rate of different templates – spawning the
+                appearing too often was frustrating for the player. As such, I
+                balanced the spawn rate of different templates – spawning the
                 templates that players enjoyed the most more often.
               </p>
 
@@ -294,11 +310,11 @@ export default class Portfolio1 extends Component {
 
               <p>
                 Lastly, we then reach the final design goal for the game –
-                minimalism. Although minimalism was only a minor design goal for
-                the game, it was still something I considered extremely
-                seriously throughout the project. However, minimalism is an
-                extremely broad term and as such I broke it down into three
-                parts: visual, audio, and user interface.
+                minimalism. Although minimalism was only a minor design goal, it
+                was still something I considered extremely seriously throughout
+                the project. However, minimalism is an extremely broad term and
+                as such I broke it down into three parts: visual, audio, and
+                user interface.
               </p>
 
               <h4 className="portfolio-page-heading-3">2.3.1. Visuals</h4>
@@ -341,26 +357,27 @@ export default class Portfolio1 extends Component {
 
               <p>
                 However, just because I was aiming for minimalism did not mean I
-                sacrificed functionality and communication design. As such,
-                there were two areas where I implemented additional layered
-                visual feedback. Firstly, I added a trail renderer to the ball
-                that appears when the player swings, as I found that this helps
-                to better convey the speed, and direction, of the player while
-                simultaneously being more visually pleasing. Secondly, I found
-                that during playtesting players failed to understand that their
-                current scores reset when hitting objects, and believed that
-                they were just being reset at random. As such, I implemented a
-                further layer of communication design to indicate to the player
-                that colliding into objects causes the reset.
+                sacrificed functionality and communication design as a result.
+                As such, there were two areas where I implemented additional
+                layered visual feedback. Firstly, I added a trail renderer to
+                the ball that appears when the player swings, as I found that
+                this helps to better convey the speed, and direction, of the
+                player while simultaneously being more visually pleasing.
+                Secondly, I found that during playtesting players failed to
+                understand that their current scores reset when hitting objects,
+                and believed that they were just being reset at random. As such,
+                I implemented a further layer of communication design to
+                indicate to the player that colliding into objects causes the
+                reset.
               </p>
 
               <h4 className="portfolio-page-heading-3">2.3.2. Audio</h4>
 
               <p>
                 Next, we can look at the audio design of Swing which, while
-                simple, has been thought out thoroughly. As I wanted the game to
-                be relaxing and satisfying, I made sure that only the necessary
-                and useful audio effects were added, so not distract the player
+                simple, were completely thought out. As I wanted the game to be
+                relaxing and satisfying, I made sure that only necessary and
+                useful audio effects were added, so not to distract the player
                 during gameplay. This resulted in sound effects only being found
                 in three places: when attaching the grapple hook, colliding with
                 an object, and breaking your high score. On top of this, I also
@@ -398,11 +415,10 @@ export default class Portfolio1 extends Component {
                 Furthermore, although the games single mechanic is designed to
                 be simple and intuitive to use, I felt it was still necessary to
                 add some sort of tutorialization to teach the player how to
-                play, in the case that they do not figure it out on their own.
-                Thus, I added an element within the game at the very start of
-                the game which plays a basic animation on screen, indicating
-                that pressing the left mouse button will let them attach to
-                objects.
+                play, in case they do not figure it out on their own. Thus, I
+                added an element within the game at the very start which plays a
+                basic animation on screen, indicating that pressing the left
+                mouse button will let them attach to objects.
               </p>
 
               <h2 className="portfolio-page-heading-1">3. Reflection</h2>

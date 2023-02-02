@@ -12,6 +12,7 @@ import ExternalLinkbutton from "../../components/buttons/ExternalLinkButton";
 import DownloadIcon from "@mui/icons-material/Download";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import YouTubeIcon from "@mui/icons-material/YouTube";
+import PriorityHighIcon from "@mui/icons-material/PriorityHigh";
 
 import PortfolioPageFigure from "../../components/PortfolioPageFigure";
 import FadeIn from "react-fade-in/lib/FadeIn";
@@ -29,6 +30,15 @@ export default class Portfolio1 extends Component {
         <article className="portfolio-pages h-entry">
           <article>
             <header className="portfolio-header">
+              <section className="disclaimer-text">
+                <PriorityHighIcon />
+                <p>
+                  As this is an interactive piece, it is highly encouraged that
+                  you play the game (or watch the gameplay video) before reading
+                  about its design process.
+                </p>
+              </section>
+
               <section className="portfolio-page-title-line">
                 <section>
                   <h1 className="portfolio-item-title p-name">

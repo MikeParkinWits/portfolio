@@ -12,6 +12,7 @@ import ExternalLinkbutton from "../../components/buttons/ExternalLinkButton";
 import LanguageIcon from "@mui/icons-material/Language";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import YouTubeIcon from "@mui/icons-material/YouTube";
+import PriorityHighIcon from "@mui/icons-material/PriorityHigh";
 
 import PortfolioPageFigure from "../../components/PortfolioPageFigure";
 import FadeIn from "react-fade-in/lib/FadeIn";
@@ -29,6 +30,14 @@ export default class Portfolio1 extends Component {
         <article className="portfolio-pages h-entry">
           <article>
             <header className="portfolio-header">
+              <section className="disclaimer-text">
+                <PriorityHighIcon />
+                <p>
+                  As this is an interactive piece, it is highly encouraged that
+                  you engage with it.
+                </p>
+              </section>
+
               <section className="portfolio-page-title-line">
                 <section>
                   <h1 className="portfolio-item-title p-name">
@@ -82,18 +91,18 @@ export default class Portfolio1 extends Component {
               </h2>
 
               <p>
-                <cite>The Internet We Know</cite> is an interactive piece of net
-                art created to critique the increasingly dark design practices
-                that are present on many modern-day websites, practices that we
-                often ignore as we have become extremely desensitized towards
-                them. To do this, I aimed to create a blog/news website,
-                focusing on issues in the web, which acted as the canvas for my
-                artwork; subverting the users preconceived, desensitized,
-                expectations by taking these bad practices and pushing them to
-                their extreme and mocking them, in an attempt to bring awareness
-                to their true intentions. Below I have outlined the process for
-                how I went about creating this internet artwork, and the reasons
-                behind my decisions.
+                <cite>The Internet We Know</cite> is an interactive piece of
+                internet art created, during my undergraduate, that critiques
+                the increasingly dark design practices that are present on many
+                modern-day websites, practices that we often ignore as we have
+                become extremely desensitized towards them. To do this, I aimed
+                to create a blog/news website, focusing on issues on the web,
+                which acted as the canvas for my artwork; subverting the users
+                preconceived, desensitized, expectations by taking these bad
+                practices and pushing them to their extreme and mocking them, in
+                an attempt to bring awareness to their true intentions. Below I
+                have outlined the process for how I went about creating this
+                internet artwork, and the reasons behind my decisions.
               </p>
 
               <h2 className="portfolio-page-heading-1">2. Process</h2>
@@ -108,27 +117,29 @@ export default class Portfolio1 extends Component {
                 normalized, however, we must first understand what cookies are.
                 According to Kaspersky Antivirus, cookies are a small piece of
                 identifying information that is saved to your browser, allowing
-                information to be retained between browsing sessions. Although,
-                while these may be useful, with first party cookies from the
-                website you are visiting used to keep you logged in and remember
+                information to be retained between browsing sessions. While
+                these may be useful, with first party cookies from the website
+                you are visiting being used to keep you logged in and remember
                 your preferences; they are often abused through third party
                 cookies, which are used to track your movement on the web –
                 serving you more accurate, and increasingly creepier,
-                advertisements in addition unwanted spam. As such, governments
-                around the world have begun implementing laws to combat this –
-                with one of the most prominent being the ePrivacy Directive put
-                in place by the EU in 2002, which requires websites to ask for
-                consent before using cookies. Although, while this may appear to
-                be a good idea on the surface, loose wording, and very little
-                enforcement, has led to it being grossly abused and misused. In
-                the law, it states that the methods for giving information,
-                offering a right to refuse or requesting consent, should be made
-                as user-friendly as possible; however, many websites have taken
-                this liberally, which has resulted in websites making use of
-                dark UI/UX patterns – which Arushi Jaiswal, in their article
-                Dark patterns in UX, notes are deceptive UI/UX interactions that
-                are designed to mislead and trick users – to make accepting
-                cookie usage easy, but declining it extremely difficult.
+                advertisements in addition to unwanted spam. As such,
+                governments around the world have begun implementing laws to
+                combat this – with one of the most prominent being the ePrivacy
+                Directive put in place by the EU in 2002, which requires
+                websites to ask for consent before using cookies. Although,
+                while this may appear to be a good idea on the surface, loose
+                wording, and very little enforcement, has led to it being
+                grossly abused and misused. In the law, it states that the
+                methods for giving information, offering a right to refuse or
+                requesting consent, should be made as user-friendly as possible;
+                however, many websites have taken this liberally, which has
+                resulted in websites making use of dark UI/UX patterns – which
+                Arushi Jaiswal, in their article{" "}
+                <cite>Dark patterns in UX</cite>, notes are deceptive UI/UX
+                interactions that are designed to mislead and trick users – to
+                make accepting cookie usage easy, but declining it extremely
+                difficult.
               </p>
 
               <h3 className="portfolio-page-heading-2">
@@ -154,7 +165,7 @@ export default class Portfolio1 extends Component {
                 cookies. However, it is important to note that while crossed out
                 text usual signifies text that should not be read, by placing it
                 in a space that seldom has this, it actually stands out more and
-                users are more inclined to engage with it (see figure 5 below).
+                users are more inclined to engage with it (see figure 1 below).
                 Similarly, this same dark UI/UX pattern can also been seen
                 throughout the entire site – with the ‘adjust preferences’ popup
                 making use of the same crossed out text and button colour
@@ -162,7 +173,7 @@ export default class Portfolio1 extends Component {
                 using an even more abusive, but still legal, dark UI/UX pattern
                 – placing a cookie wall at the front of the website that
                 requires users to disable cookie blockers if enabled (see figure
-                6 below); as well as encouraging the user to re-evaluate their
+                2 below); as well as encouraging the user to re-evaluate their
                 cookie choices later if they did not accept them all when first
                 updating their cookie preferences. These then act as a physical
                 barrier to the user, putting a major emphasis on how easily
@@ -193,24 +204,25 @@ export default class Portfolio1 extends Component {
                 Next, I then looked at how I could expand upon these ideas to
                 better reach my desired goal, which led to my next idea –
                 utilizing forced continuity and action. According to Dheeraj
-                Khindri, in their 2021 article 10 Common Dark Patterns in UX and
-                How to Avoid Them, forced continuity and action is, for example,
-                when you need to enter your email to continue using a website or
-                an app – such as The New York Times requiring you to login just
-                to read an article. So, while many may be unfamiliar with the
-                term, most have experienced forced action in some shape or form
-                on the internet, becoming desensitized to it as a result.
-                However, when looking more closely at it, the question may arise
-                as to why websites even require you to login if something is
-                free. The answer: while the content is monetarily free, you are
-                paying for it with your personal data, and at the expense of
-                your own privacy – as websites are allowed to do with your data
-                as they please. So, for my internet artwork I decided to create
-                a popup that requires the user to login after they have read
-                just one blog post, acknowledging that they are providing the
-                website with their personal data, with no way to ignore this
-                request – similar to that of The New York Times forced action.
-                However, through the previously mentioned satirical phrasing and
+                Khindri, in their 2021 article{" "}
+                <cite>10 Common Dark Patterns in UX and How to Avoid Them</cite>
+                , forced continuity and action is, for example, when you need to
+                enter your email to continue using a website or an app – such as
+                The New York Times requiring you to login just to read an
+                article. So, while many may be unfamiliar with the term, most
+                have experienced forced action in some shape or form on the
+                internet, becoming desensitized to it as a result. However, when
+                looking more closely at it, the question may arise as to why
+                websites even require you to login if something is free. The
+                answer: while the content is monetarily free, you are paying for
+                it with your personal data, and at the expense of your own
+                privacy – as websites are allowed to do with your data as they
+                please. So, for my internet artwork I decided to create a popup
+                that requires the user to login after they have read just one
+                blog post, acknowledging that they are providing the website
+                with their personal data, with no way to ignore this request –
+                similar to that of The New York Times forced action. However,
+                through the previously mentioned satirical phrasing and
                 extremely abusive appearance, the user is then made more aware
                 of the developer’s true intentions for including this artificial
                 limitation on the website. In addition to this, it is important
@@ -220,23 +232,12 @@ export default class Portfolio1 extends Component {
                 access to it is difficult. So, while logging in only requires a
                 single button click, logging out presents an additional popup
                 which tries to persuade the user to not log out – utilizing the
-                same button colours and layout as the cookie banner, with no
-                appearing as the ‘correct’ option.
-              </p>
-
-              <h3 className="portfolio-page-heading-2">2.3. Minimalism</h3>
-
-              <p>
-                Lastly, we then reach the final design goal for the game –
-                minimalism. Although minimalism was only a minor design goal for
-                the game, it was still something I considered extremely
-                seriously throughout the project. However, minimalism is an
-                extremely broad term and as such I broke it down into three
-                parts: visual, audio, and user interface.
+                same button colours and layout as the cookie banner, with the
+                'no' button appearing as the ‘correct’ option.
               </p>
 
               <h3 className="portfolio-page-heading-2">
-                2.4. Web Notifications
+                2.3. Web Notifications
               </h3>
 
               <p>
@@ -251,24 +252,24 @@ export default class Portfolio1 extends Component {
                 assuming they will enhance their experience, unaware of how to
                 block them later once they are no longer beneficial and misused.
                 So, for my website I designed push notifications which are sent
-                frequently throughout while viewing the site, with the goal of
-                distracting users whilst they read blog posts – taking the types
-                of ad and spams that normally get sent through browser
-                notifications, making them appear more frequently and being
-                extremely satirical. However, I quickly ran into an issue while
-                creating this aspect of the internet artwork. With notification
-                spam becoming a big issue in recent years, not only do less
-                people accept push notifications; but browsers, and operating
-                systems, have begun giving the user the option to block all
-                notifications system wide. As such, this could make my internet
-                artwork less effective – with no way to alter this from the
-                website. So, to counter this I made it so that if the user has
-                blocked notifications, or does not accept push notifications, an
+                frequently while viewing the site, with the goal of distracting
+                users whilst they read blog posts – taking the types of ad and
+                spam that normally get sent through browser notifications, and
+                making them appear more frequently and while being extremely
+                satirical. However, I quickly ran into an issue while creating
+                this aspect of the internet artwork. With notification spam
+                becoming a big issue in recent years, not only do less people
+                accept push notifications; but browsers, and operating systems,
+                have begun giving the user the option to block all notifications
+                system wide. As such, this could make my internet artwork less
+                effective – with no way to alter this from the website. So, to
+                counter this I made it so that if the user has blocked
+                notifications, or does not accept push notifications, an
                 in-browser notification appears to still make the push
-                notifications abuse noticeable.
+                notification abuse noticeable.
               </p>
 
-              <h3 className="portfolio-page-heading-2">2.5. Confirm Shaming</h3>
+              <h3 className="portfolio-page-heading-2">2.4. Confirm Shaming</h3>
 
               <p>
                 Although, while I had intended to stop my net art with those
@@ -278,9 +279,9 @@ export default class Portfolio1 extends Component {
                 site. As such, I implemented one final deceptive design, confirm
                 shamming – which is the process of using emotional manipulation
                 to make a user signup for something or provide personal
-                information (ibid.). In the case of my website, midway through
-                the site the user is prompted to join the websites mailing list.
-                Not only is this artificial gateway placed on the user’s
+                information. In the case of my website, midway through the site
+                the user is prompted to join the websites mailing list. Not only
+                is there an artificial gateway placed on the user’s browsing
                 experience, but by using confirm shaming, the option for no is
                 turned into “no thanks, I don't want to be a front runner in web
                 development” – shaming the user into subscribing to the websites
@@ -290,7 +291,7 @@ export default class Portfolio1 extends Component {
                 be more aware.
               </p>
 
-              <h3 className="portfolio-page-heading-2">2.6. Final Touches</h3>
+              <h3 className="portfolio-page-heading-2">2.5. Final Touches</h3>
 
               <p>
                 Lastly, with all of the features of my internet artwork now in
