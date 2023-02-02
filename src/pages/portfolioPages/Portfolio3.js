@@ -34,8 +34,8 @@ export default class Portfolio1 extends Component {
                 <PriorityHighIcon />
                 <p>
                   As this is an interactive piece, it is highly encouraged that
-                  you play the game (or watch the gameplay video) before reading
-                  about its design process.
+                  you play the game (or watch the gameplay video) to better
+                  understand its design process.
                 </p>
               </section>
 

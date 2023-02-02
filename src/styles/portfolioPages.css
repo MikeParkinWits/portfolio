@@ -192,6 +192,7 @@
     .portfolio-page-contents p{
         text-align: justify;
         margin-bottom: 1.5rem;
+        font-size: 1rem;
         color: hsl(0, 0%, 2%);
         line-height: 1.8rem;
     }
