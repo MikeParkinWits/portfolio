@@ -16,9 +16,9 @@ export default class Home extends Component {
   render() {
     return (
       <>
-        <FadeIn transitionDuration={750}>
-          <HeroBanner />
-        </FadeIn>
+        {/* <FadeIn transitionDuration={750}> */}
+        <HeroBanner />
+        {/* </FadeIn> */}
       </>
     );
   }

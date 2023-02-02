@@ -43,3 +43,18 @@
     align-items: center;
     margin: 0rem;
 }
+
+@media only screen and (max-width: 52rem) {
+    .external-link-button p{
+        display: none;
+    }
+
+    .external-link-button{
+        width:100%;
+        padding: 0.7rem 0.25rem 0.7rem 0rem;
+    }
+
+    .external-link-button svg{
+        width:100%;
+    }
+}

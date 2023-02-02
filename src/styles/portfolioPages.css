@@ -148,3 +148,78 @@
     display: flex;
     margin-bottom: 2.7rem;
 }
+
+
+/* Response View */
+
+@media only screen and (max-width: 52rem) {
+    .portfolio-item-title{
+        font-size: 3rem;
+        text-align: center;
+        margin: 1rem 0rem 1rem 0rem;
+        line-height: 3.5rem;
+    }
+    
+    .portfolio-page-title-line{
+        flex-direction: column-reverse;
+        margin-top: 1rem;
+    }
+
+    .portfolio-page-icon{
+        margin: 0rem;
+    }
+
+    .portfolio-page-contents p{
+        text-align: justify;
+        margin-bottom: 1.5rem;
+        color: hsl(0, 0%, 2%);
+        line-height: 1.8rem;
+    }
+
+    .portfolio-pages{
+        width: 100%;
+    height: 100%;
+    max-width: 30rem;
+    text-align: center;
+    margin: 0rem 2rem 2.5rem 2rem;
+    min-width: 17rem;
+    }
+
+    .portfolio-page-buttons{
+        justify-content: space-evenly;
+        margin-bottom: 0rem;
+    }
+
+    .portfolio-sub-title{
+        text-align: center;
+        margin: 0rem 0rem 1.5rem 0rem;
+    }
+
+    .portfolio-double-figures{
+        flex-direction: column;
+    }
+
+    .portfolio-figure{
+        width: 95%;
+    
+        margin: 0rem auto;
+    }
+
+    .portfolio-page-heading-1{
+        font-size: 1.9rem;
+        margin: 2rem 0rem 1.5rem 0rem;
+        text-align: center;
+    }
+
+    .portfolio-page-heading-2{
+        font-size: 1.5rem;
+        margin: 1rem 0rem 0.5rem 0rem;
+        text-align: center;
+    }
+
+    .portfolio-page-heading-3{
+        font-size: 1.25rem;
+        margin: 0.5rem 0rem 0.5rem 0rem;
+        text-align: center;
+    }
+}
