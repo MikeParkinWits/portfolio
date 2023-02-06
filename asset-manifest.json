@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.f82e4325.css",
-    "main.js": "/static/js/main.5ac24790.js",
+    "main.css": "/static/css/main.e1a91915.css",
+    "main.js": "/static/js/main.adbfabda.js",
     "static/media/MeBannerPhoto.jpg": "/static/media/MeBannerPhoto.84f80267aba52479b32e.jpg",
     "static/media/Image1.png": "/static/media/Image1.dd78b2442dfda4b55ac1.png",
     "static/media/Me-About.JPG": "/static/media/Me-About.617cc3e68b16807f5b37.JPG",
     "static/media/BraaiSimulatorPreview.png": "/static/media/BraaiSimulatorPreview.bd6a3f90ea71cf1225d0.png",
     "static/media/LongPhotoTest.jpg": "/static/media/LongPhotoTest.1b319d8ce76c847a4fef.jpg",
     "static/media/ReactSymbol.png": "/static/media/ReactSymbol.3af64ee98d06c5688b87.png",
+    "static/media/GameDesignResearchPaperPreview.png": "/static/media/GameDesignResearchPaperPreview.ac71e0c0f1a546bbea9b.png",
+    "static/media/UIUXResearchPaperPreview.png": "/static/media/UIUXResearchPaperPreview.ee575ce2b67f70e91760.png",
     "static/media/TheInternetWeKnowPreview.png": "/static/media/TheInternetWeKnowPreview.420296f59d29dcc4988f.png",
     "static/media/TIKWIcon.svg": "/static/media/TIKWIcon.ca17519414ae6ed92670e560131200f1.svg",
     "static/media/Image2.png": "/static/media/Image2.da028be1bd32abce57c1.png",
@@ -23,11 +25,11 @@
     "static/media/SwiftSymbol.png": "/static/media/SwiftSymbol.d0cf8dd3a99e6de3edc6.png",
     "static/media/SwingIcon.png": "/static/media/SwingIcon.a394cb1f01a8a8b8465b.png",
     "index.html": "/index.html",
-    "main.f82e4325.css.map": "/static/css/main.f82e4325.css.map",
-    "main.5ac24790.js.map": "/static/js/main.5ac24790.js.map"
+    "main.e1a91915.css.map": "/static/css/main.e1a91915.css.map",
+    "main.adbfabda.js.map": "/static/js/main.adbfabda.js.map"
   },
   "entrypoints": [
-    "static/css/main.f82e4325.css",
-    "static/js/main.5ac24790.js"
+    "static/css/main.e1a91915.css",
+    "static/js/main.adbfabda.js"
   ]
 }
