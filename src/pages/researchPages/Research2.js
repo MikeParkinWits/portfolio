@@ -34,12 +34,17 @@ export default class Research2 extends Component {
         <article className="portfolio-pages h-entry">
           <article>
             <header className="portfolio-header">
-              <section className="portfolio-page-title-line">
+              <section className="research-page-title-line">
                 <section>
-                  <h1 className="reserach-item-title p-name">
-                    How does PowerWash Simulator’s core gameplay loop motivate
-                    us in ways that real-life power washing jobs do not?
-                  </h1>
+                  <section>
+                    <h1 className="research-item-title p-name">
+                      Game Design Research Paper
+                    </h1>
+                    <p className="research-sub-title">
+                      How does PowerWash Simulator’s core gameplay loop motivate
+                      us in ways that real-life power washing jobs do not?
+                    </p>
+                  </section>
                 </section>
               </section>
               <section className="portfolio-page-buttons">

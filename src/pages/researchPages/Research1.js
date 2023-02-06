@@ -34,12 +34,15 @@ export default class Research1 extends Component {
         <article className="portfolio-pages h-entry">
           <article>
             <header className="portfolio-header">
-              <section className="portfolio-page-title-line">
+              <section className="research-page-title-line">
                 <section>
-                  <h1 className="reserach-item-title p-name">
-                    Exploring the Usability Design of Applications Created with
-                    the Hybrid Development Framework Flutter
+                  <h1 className="research-item-title p-name">
+                    UI/UX Research Paper
                   </h1>
+                  <p className="research-sub-title">
+                    Exploring the Usability Design of Applications Created with
+                    the Hybrid Development Framework Flutter{" "}
+                  </p>
                 </section>
               </section>
               <section className="portfolio-page-buttons">
