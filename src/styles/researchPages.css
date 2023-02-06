@@ -7,6 +7,11 @@
 }
 
 .research-page-title-line{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
     margin: 0rem 0rem 1rem 0rem;
 }
 
@@ -23,8 +28,9 @@
         line-height: 3.5rem;
     }
 
-    .portfolio-page-title-line{
-    margin-top: 1rem;
+    .research-page-title-line{
+        flex-direction: column-reverse;
+        margin-top: 1rem;
     }
 
     .research-sub-title{

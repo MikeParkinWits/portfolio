@@ -4,7 +4,7 @@ import "../../styles/portfolioPages.css";
 import "../../styles/researchPages.css";
 
 //Image Imports
-import TestImageOne from "../../assets/PortfolioPageAssets/PortfolioIcons/SwingIcon.png";
+import TestImageOne from "../../assets/PortfolioPageAssets/PortfolioIcons/ResearchIcon.png";
 import Figure1Image from "../../assets/PortfolioPageAssets/Portfolio1/Image1.png";
 import Figure2Image from "../../assets/PortfolioPageAssets/Portfolio1/Image2.png";
 import Figure3Image from "../../assets/PortfolioPageAssets/Portfolio1/Image3.png";
@@ -21,7 +21,7 @@ import PriorityHighIcon from "@mui/icons-material/PriorityHigh";
 import PortfolioPageFigure from "../../components/PortfolioPageFigure";
 import FadeIn from "react-fade-in/lib/FadeIn";
 
-export default class Research1 extends Component {
+export default class Portfolio4 extends Component {
   //Lifecycle method which scrolls the page to the top on load
   componentDidMount() {
     window.scrollTo(0, 0);
@@ -37,13 +37,19 @@ export default class Research1 extends Component {
               <section className="research-page-title-line">
                 <section>
                   <h1 className="research-item-title p-name">
-                    UI/UX Research Paper
+                    UX & Usability Research Paper
                   </h1>
                   <p className="research-sub-title">
                     Exploring the Usability Design of Applications Created with
                     the Hybrid Development Framework Flutter{" "}
                   </p>
                 </section>
+                <img
+                  className="portfolio-page-icon"
+                  src={TestImageOne}
+                  //   title={imageTitle}
+                  //   alt={imageAltText}
+                ></img>
               </section>
               <section className="portfolio-page-buttons">
                 <ExternalLinkbutton

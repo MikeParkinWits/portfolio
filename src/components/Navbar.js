@@ -47,16 +47,16 @@ export default class Navbar extends Component {
                 </li>
 
                 <li>
-                  <NavLink className="nav-item" to="/project">
-                    projects
+                  <NavLink className="nav-item" to="/portfolio">
+                    portfolio
                   </NavLink>
                 </li>
 
-                <li>
+                {/* <li>
                   <NavLink className="nav-item" to="/research">
                     research papers
                   </NavLink>
-                </li>
+                </li> */}
               </ul>
             </section>
           </nav>

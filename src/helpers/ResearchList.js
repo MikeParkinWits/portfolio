@@ -6,19 +6,6 @@ import UIUXResearchPaper from "../assets/PortfolioCardImages/UIUXResearchPaperPr
 
 export const ResearchList = [
   {
-    cardTitle: "UI/UX Research Paper",
-    cardDate: "2021",
-    cardSummary:
-      "A research paper that explores the usability design of applications created with the hybrid development framework Flutter",
-    image: UIUXResearchPaper,
-    imageTitle: "JavaScript Logo",
-    imageAltText: "JavaScript Logo",
-    cardRoute: "/research/research1",
-    cardType: "Research Paper",
-    type: "research-type",
-    cardBackgroundClass: "gradient-blue",
-  },
-  {
     cardTitle: "Game Design Research Paper",
     cardDate: "2021",
     cardSummary:
