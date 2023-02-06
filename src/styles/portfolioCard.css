@@ -6,10 +6,10 @@
     border-radius: 0.8rem;
     background-color: #ffffff;
 
-    height: 24rem;
+    height: 26.5rem;
     
     max-width: 20.5rem;
-    min-width: 12rem;
+    min-width: 19rem;
 
     box-shadow: rgba(50, 50, 93, 0.081) 0px 6px 12px -2px, rgba(0, 0, 0, 0.216) 0px 3px 7px -3px;
     transition: all 0.2s ease-out;
@@ -90,6 +90,16 @@
     background: linear-gradient(115deg, rgba(221,251,253,1) 0%, rgba(97,209,232,1) 82%, rgba(38,141,255,1) 100%);
 }
 
+.gradient-yellow{
+    background: rgb(246,253,221);
+    background: linear-gradient(115deg, rgba(246,253,221,1) 0%, rgba(216,232,97,1) 82%, rgba(234,255,38,1) 100%);
+}
+
+.gradient-grey{
+    background: rgb(246,246,246);
+    background: linear-gradient(115deg, rgba(246,246,246,1) 0%, rgba(184,184,184,1) 82%, rgba(129,129,129,1) 100%);
+}
+
 .project-type{
     border-radius: 6px;
 
@@ -106,6 +116,10 @@
 
 .game-dev{
     color: #9a01e6;
+}
+
+.research-type{
+    color: #9f4515;
 }
 
 .portfolio-card-desc{    
@@ -127,10 +141,20 @@
     margin-bottom: 2rem;
 }
 
+.research-card-grid{
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(100vh, autofit);
+    gap: 8rem;
+  
+    justify-items: center;
+    margin-bottom: 2rem;
+}
+
 /* Response View */
 
 @media only screen and (max-width: 64rem) {
-    .card-grid{
+    .card-grid, .research-card-grid{
         grid-template-columns: 1fr 1fr;
         gap: 1rem 2rem;
         max-width: 85%;
@@ -142,7 +166,7 @@
 }
 
 @media only screen and (max-width: 52rem) {
-    .card-grid{
+    .card-grid, .research-card-grid{
         grid-template-columns: 1fr;
         gap: 0.5rem;
         margin-bottom: 1rem;

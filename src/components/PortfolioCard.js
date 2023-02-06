@@ -20,7 +20,7 @@ export default class PortfolioCard extends Component {
     imageAltText: "A flat black and grey image of shapes",
     cardRoute: "/contact",
     cardType: "Game Design",
-    isWeb: false,
+    type: "web-dev",
     cardBackgroundClass: "gradient-green",
   };
 
@@ -34,7 +34,7 @@ export default class PortfolioCard extends Component {
       imageAltText,
       cardRoute,
       cardType,
-      isWeb,
+      type,
       cardBackgroundClass,
     } = this.props;
 
@@ -61,13 +61,7 @@ export default class PortfolioCard extends Component {
             <section className="portfolio-card-content">
               <header>
                 <h2>{cardTitle}</h2>
-                <p
-                  className={
-                    isWeb ? "project-type web-dev" : "project-type game-dev"
-                  }
-                >
-                  {cardType}
-                </p>
+                <p className={"project-type " + type}>{cardType}</p>
               </header>
               <p className="portfolio-card-desc">{cardSummary}</p>
             </section>

@@ -22,10 +22,7 @@ export default class HeroBanner extends Component {
               <p>And Overall Tech Enthusiast.</p>
             </section>
             <section className="homepage-card-buttons">
-              <Linkbutton
-                buttonText={"My Portfolio"}
-                buttonPath={"/portfolio"}
-              />
+              <Linkbutton buttonText={"My Projects"} buttonPath={"/project"} />
               <Linkbutton buttonText={"About Me"} buttonPath={"/about_me"} />
             </section>
           </section>

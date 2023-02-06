@@ -1,6 +1,8 @@
 import BraaiSimulatorImage from "../assets/PortfolioCardImages/BraaiSimulatorPreview.png";
 import TIWKImage from "../assets/PortfolioCardImages/TheInternetWeKnowPreview.png";
 import SwingImage from "../assets/PortfolioCardImages/SwingPreview.png";
+import GameDesignResearchPaper from "../assets/PortfolioCardImages/GameDesignResearchPaperPreview.png";
+import UIUXResearchPaper from "../assets/PortfolioCardImages/UIUXResearchPaperPreview.png";
 
 export const PortfolioList = [
   {
@@ -11,9 +13,9 @@ export const PortfolioList = [
     image: BraaiSimulatorImage,
     imageTitle: "Braai Simulator Image",
     imageAltText: "A computer with Braai Simulator Open",
-    cardRoute: "/portfolio/portfolio3",
+    cardRoute: "/project/project3",
     cardType: "Game Design",
-    isWeb: false,
+    type: "game-dev",
     cardBackgroundClass: "gradient-green",
   },
   {
@@ -24,9 +26,9 @@ export const PortfolioList = [
     image: TIWKImage,
     imageTitle: "JavaScript Logo",
     imageAltText: "JavaScript Logo",
-    cardRoute: "/portfolio/portfolio2",
+    cardRoute: "/project/project2",
     cardType: "Web Development",
-    isWeb: true,
+    type: "web-dev",
     cardBackgroundClass: "gradient-pink",
   },
   {
@@ -37,9 +39,9 @@ export const PortfolioList = [
     image: SwingImage,
     imageTitle: "JavaScript Logo",
     imageAltText: "JavaScript Logo",
-    cardRoute: "/portfolio/portfolio1",
+    cardRoute: "/project/project1",
     cardType: "Game Design",
-    isWeb: false,
+    type: "game-dev",
     cardBackgroundClass: "gradient-blue",
   },
 ];
