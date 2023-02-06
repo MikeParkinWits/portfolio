@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f3205ec2.css",
-    "main.js": "/static/js/main.adbfabda.js",
+    "main.css": "/static/css/main.f99c6c0c.css",
+    "main.js": "/static/js/main.0f53c7f9.js",
     "static/media/MeBannerPhoto.jpg": "/static/media/MeBannerPhoto.84f80267aba52479b32e.jpg",
     "static/media/Image1.png": "/static/media/Image1.dd78b2442dfda4b55ac1.png",
     "static/media/Me-About.JPG": "/static/media/Me-About.617cc3e68b16807f5b37.JPG",
@@ -25,11 +25,11 @@
     "static/media/SwiftSymbol.png": "/static/media/SwiftSymbol.d0cf8dd3a99e6de3edc6.png",
     "static/media/SwingIcon.png": "/static/media/SwingIcon.a394cb1f01a8a8b8465b.png",
     "index.html": "/index.html",
-    "main.f3205ec2.css.map": "/static/css/main.f3205ec2.css.map",
-    "main.adbfabda.js.map": "/static/js/main.adbfabda.js.map"
+    "main.f99c6c0c.css.map": "/static/css/main.f99c6c0c.css.map",
+    "main.0f53c7f9.js.map": "/static/js/main.0f53c7f9.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3205ec2.css",
-    "static/js/main.adbfabda.js"
+    "static/css/main.f99c6c0c.css",
+    "static/js/main.0f53c7f9.js"
   ]
 }
