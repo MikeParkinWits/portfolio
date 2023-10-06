@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import "../styles/aboutPage.css";
 
 import Memoji from "../assets/Me-About.JPG";
+import WitsLogo from "../assets/WitsLogo.png";
+import GeorgiaTechLogo1 from "../assets/GeorgiaTechLogo1.png";
+import GeorgiaTechLogo2 from "../assets/GeorgiaTechLogo2.jpeg";
 
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import Linkbutton from "../components/buttons/Linkbutton";
@@ -59,7 +62,19 @@ export default class AboutMePage extends Component {
           <section className="about-education">
             <header>
               <h2 className="page-sub-title">Education</h2>
-              <EducationBlock />
+              <EducationBlock
+                educationImage={GeorgiaTechLogo2}
+                educationName="Georgia Institute of Technology"
+                educationQualification="Master of Science in Human-Computer Interaction"
+                educationYear="2023 - 2025"
+              />
+              <EducationBlock
+                educationImage={WitsLogo}
+                educationName="The University of the Witwatersrand"
+                educationQualification="Bachelor of Arts in Digital Arts (Game, and Interactive Media,
+                  Design)"
+                educationYear="2019 - 2022"
+              />
             </header>
           </section>
 
