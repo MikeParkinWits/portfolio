@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7ea54da2.css",
-    "main.js": "/static/js/main.7f4043e5.js",
+    "main.js": "/static/js/main.3d296dc1.js",
     "static/media/MeBannerPhoto.jpg": "/static/media/MeBannerPhoto.84f80267aba52479b32e.jpg",
     "static/media/Image1.png": "/static/media/Image1.dd78b2442dfda4b55ac1.png",
     "static/media/Me-About.JPG": "/static/media/Me-About.617cc3e68b16807f5b37.JPG",
@@ -20,16 +20,17 @@
     "static/media/Image4.png": "/static/media/Image4.b4fdec76f10a33115a3b.png",
     "static/media/JavaScriptSymbol.png": "/static/media/JavaScriptSymbol.843632666871162de92f.png",
     "static/media/Image3.png": "/static/media/Image3.6dc0b7f7ff4ec663e6ab.png",
+    "static/media/GeorgiaTechLogo1.png": "/static/media/GeorgiaTechLogo1.4000c2b66bcd00dae004.png",
     "static/media/BraaiSimulatorIcon.png": "/static/media/BraaiSimulatorIcon.d5009f954bda1f8750a0.png",
     "static/media/WitsLogo.png": "/static/media/WitsLogo.cff1fe64939f80dd2159.png",
     "static/media/SwiftSymbol.png": "/static/media/SwiftSymbol.d0cf8dd3a99e6de3edc6.png",
     "static/media/SwingIcon.png": "/static/media/SwingIcon.a394cb1f01a8a8b8465b.png",
     "index.html": "/index.html",
     "main.7ea54da2.css.map": "/static/css/main.7ea54da2.css.map",
-    "main.7f4043e5.js.map": "/static/js/main.7f4043e5.js.map"
+    "main.3d296dc1.js.map": "/static/js/main.3d296dc1.js.map"
   },
   "entrypoints": [
     "static/css/main.7ea54da2.css",
-    "static/js/main.7f4043e5.js"
+    "static/js/main.3d296dc1.js"
   ]
 }
