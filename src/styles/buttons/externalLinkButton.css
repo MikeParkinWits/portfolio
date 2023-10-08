@@ -1,60 +1,60 @@
-.external-link-button{
-    background: none;
-	color: inherit;
-	border: none;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
+.external-link-button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
 
-    margin: 0rem 1rem 0rem 0rem;
-    
-    padding: 0.7rem 1rem;
+  margin: 0rem 1rem 0rem 0rem;
 
-    border: 0.1rem solid #2978b5;
+  padding: 0.7rem 1rem;
 
-    border-radius: 7px;
+  border: 0.1rem solid #2978b5;
 
-    font-size: 1rem;
+  border-radius: 7px;
 
-    color: #2978b5;
+  font-size: 1rem;
 
-    transition: 0.2s;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  color: #2978b5;
+
+  transition: 0.2s;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .external-link-button:hover {
-    background-color:#2978b5;
-    color: #fcfcfc;
-    transition: 0.2s;
+  background-color: #2978b5;
+  color: #fcfcfc;
+  transition: 0.2s;
 
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    transform: translateY(-0.20rem);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transform: translateY(-0.25rem) scale(1.03);
 }
 
-.external-link-button svg{
-    padding: 0rem 0.3rem;
+.external-link-button svg {
+  padding: 0rem 0.3rem;
 }
 
-.external-link-button p{
-    padding: 0rem;
-    align-items: center;
-    margin: 0rem;
+.external-link-button p {
+  padding: 0rem;
+  align-items: center;
+  margin: 0rem;
 }
 
 @media only screen and (max-width: 52rem) {
-    .external-link-button p{
-        display: none;
-    }
+  .external-link-button p {
+    display: none;
+  }
 
-    .external-link-button{
-        width:100%;
-        padding: 0.7rem 0.25rem 0.7rem 0rem;
-    }
+  .external-link-button {
+    width: 100%;
+    padding: 0.7rem 0.25rem 0.7rem 0rem;
+  }
 
-    .external-link-button svg{
-        width:100%;
-    }
+  .external-link-button svg {
+    width: 100%;
+  }
 }

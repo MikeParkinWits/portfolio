@@ -1,54 +1,53 @@
-.hero-button{
-    background: none;
-	color: inherit;
-	border: none;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
+.hero-button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
 
-    margin-top: 4rem;
+  margin-top: 4rem;
 
-    margin-right: 2.5rem;
-    
-    padding: 0.7rem 2rem;
+  margin-right: 2.5rem;
 
-    border: 0.1rem solid #2978b5;
+  padding: 0.7rem 2rem;
 
-    border-radius: 7px;
+  border: 0.1rem solid #2978b5;
 
-    font-size: 1rem;
+  border-radius: 7px;
 
-    color: #2978b5;
+  font-size: 1rem;
 
-    transition: 0.2s;
+  color: #2978b5;
+
+  transition: 0.2s;
 }
 
 .hero-button:hover {
-    background-color:#2978b5;
-    color: #fcfcfc;
-    transition: 0.2s;
+  background-color: #2978b5;
+  color: #fcfcfc;
+  transition: 0.2s;
 
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    transform: translateY(-0.20rem);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transform: translateY(-0.25rem) scale(1.05);
 }
 
-  /* Response View */
-  
-  @media only screen and (max-width: 64rem) {
-    .hero-button{
-    
-        margin-top: 2.2rem;
-    
-        margin-right: 1.5rem;
-        
-        padding: 0.65rem 1.8rem;
-    }
+/* Response View */
+
+@media only screen and (max-width: 64rem) {
+  .hero-button {
+    margin-top: 2.2rem;
+
+    margin-right: 1.5rem;
+
+    padding: 0.65rem 1.8rem;
   }
-  
-  @media only screen and (max-width: 52rem) {
-    .hero-button{
-        text-align: center;
-        margin: 1rem 0rem;
-    }
+}
+
+@media only screen and (max-width: 52rem) {
+  .hero-button {
+    text-align: center;
+    margin: 1rem 0rem;
   }
+}
