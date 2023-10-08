@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 //Image Imports
 import BannerPhoto from "../assets/MeBannerPhoto.jpg";
+import Video from "../assets/Memoji.mov";
 
 //Component Imports
 import HeroButton from "../components/buttons/HeroButton";
@@ -31,7 +32,10 @@ export default class HeroBanner extends Component {
           </section>
 
           <section className="homepage-card-image">
-            <img src={BannerPhoto} width="1000" height="1000"></img>
+            {/* <img src={BannerPhoto} width="1000" height="1000"></img> */}
+            <video width="1000" height="1000" autoPlay loop muted>
+              <source src={Video} type="video/mp4" />
+            </video>
           </section>
         </section>
       </>
