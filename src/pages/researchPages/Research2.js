@@ -30,36 +30,37 @@ export default class Research2 extends Component {
   render() {
     return (
       <>
-        {/* <FadeIn transitionDuration={750}> */}
-        <article className="portfolio-pages h-entry">
-          <article>
-            <header className="portfolio-header">
-              <section className="research-page-title-line">
-                <section>
+        <FadeIn transitionDuration={750}>
+          <article className="portfolio-pages h-entry">
+            <article>
+              <header className="portfolio-header">
+                <section className="research-page-title-line">
                   <section>
-                    <h1 className="research-item-title p-name">
-                      Game Design Research Paper
-                    </h1>
-                    <p className="research-sub-title">
-                      How does PowerWash Simulator’s core gameplay loop motivate
-                      us in ways that real-life power washing jobs do not?
-                    </p>
+                    <section>
+                      <h1 className="research-item-title p-name">
+                        Game Design Research Paper
+                      </h1>
+                      <p className="research-sub-title">
+                        How does PowerWash Simulator’s core gameplay loop
+                        motivate us in ways that real-life power washing jobs do
+                        not?
+                      </p>
+                    </section>
                   </section>
                 </section>
-              </section>
-              <section className="portfolio-page-buttons">
-                <ExternalLinkbutton
-                  buttonText={"Download Paper"}
-                  buttonIcon={<DownloadIcon />}
-                  buttonPath={
-                    "https://drive.google.com/uc?id=1WuZknQ3HsTACVdpGZOLfyjcMVakLqN9I&export=download"
-                  }
-                  downloadName={"Michael Parkin - Game Design Research Paper"}
-                />
-              </section>
-            </header>
+                <section className="portfolio-page-buttons">
+                  <ExternalLinkbutton
+                    buttonText={"Download Paper"}
+                    buttonIcon={<DownloadIcon />}
+                    buttonPath={
+                      "https://drive.google.com/uc?id=1WuZknQ3HsTACVdpGZOLfyjcMVakLqN9I&export=download"
+                    }
+                    downloadName={"Michael Parkin - Game Design Research Paper"}
+                  />
+                </section>
+              </header>
 
-            {/* <Titles
+              {/* <Titles
             //   mainTitle={true}
             //   title={BlogList[blogInfoToLoad].cardTitle}
             //   subTitle={true}
@@ -67,29 +68,29 @@ export default class Research2 extends Component {
             //   blogWords={BlogList[blogInfoToLoad].blogWords}
             //   freeArticlesLeft={this.props.freeArticlesLeft}
             /> */}
-            <section className="portfolio-page-contents e-content">
-              <h2 className="portfolio-page-heading-1">Abstract</h2>
+              <section className="portfolio-page-contents e-content">
+                <h2 className="portfolio-page-heading-1">Abstract</h2>
 
-              <p>
-                Job simulations are a long-established part of the Simulation
-                genre of games, catering to an audience of enthusiasts that
-                enjoy interacting with accurately simulated versions of their
-                interests, such as flying a plane or driving a truck. However,
-                an interesting phenomenon occurs when people outside an
-                enthusiast realm interact with job simulations, with most
-                quickly becoming motivated to keep playing the game – but why?
-                Moreover, why are more and more people playing job simulation
-                games that simulate seemingly mundane tasks such as cleaning?
-                These questions form the basis of my research, as I aim to
-                investigate the psychological factors behind how cleaning
-                simulations frame mundane tasks in an engaging way, continually
-                motivating players – referring specifically to the game{" "}
-                <cite>PowerWash Simulator</cite> throughout my paper to
-                substantiate my claims.
-              </p>
-            </section>
-          </article>
-          {/* <BlogReferences
+                <p>
+                  Job simulations are a long-established part of the Simulation
+                  genre of games, catering to an audience of enthusiasts that
+                  enjoy interacting with accurately simulated versions of their
+                  interests, such as flying a plane or driving a truck. However,
+                  an interesting phenomenon occurs when people outside an
+                  enthusiast realm interact with job simulations, with most
+                  quickly becoming motivated to keep playing the game – but why?
+                  Moreover, why are more and more people playing job simulation
+                  games that simulate seemingly mundane tasks such as cleaning?
+                  These questions form the basis of my research, as I aim to
+                  investigate the psychological factors behind how cleaning
+                  simulations frame mundane tasks in an engaging way,
+                  continually motivating players – referring specifically to the
+                  game <cite>PowerWash Simulator</cite> throughout my paper to
+                  substantiate my claims.
+                </p>
+              </section>
+            </article>
+            {/* <BlogReferences
             references={[
               {
                 referenceStart:
@@ -111,9 +112,9 @@ export default class Research2 extends Component {
               },
             ]}
           /> */}
-          {/* <BlogButtons type="Blog" /> */}
-        </article>
-        {/* </FadeIn> */}
+            {/* <BlogButtons type="Blog" /> */}
+          </article>
+        </FadeIn>
       </>
     );
   }

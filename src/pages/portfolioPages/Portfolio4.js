@@ -30,42 +30,42 @@ export default class Portfolio4 extends Component {
   render() {
     return (
       <>
-        {/* <FadeIn transitionDuration={750}> */}
-        <article className="portfolio-pages h-entry">
-          <article>
-            <header className="portfolio-header">
-              <section className="research-page-title-line">
-                <section>
-                  <h1 className="research-item-title p-name">
-                    UX & Usability Research Paper
-                  </h1>
-                  <p className="research-sub-title">
-                    Exploring the Usability Design of Applications Created with
-                    the Hybrid Development Framework Flutter{" "}
-                  </p>
+        <FadeIn transitionDuration={750}>
+          <article className="portfolio-pages h-entry">
+            <article>
+              <header className="portfolio-header">
+                <section className="research-page-title-line">
+                  <section>
+                    <h1 className="research-item-title p-name">
+                      UX & Usability Research Paper
+                    </h1>
+                    <p className="research-sub-title">
+                      Exploring the Usability Design of Applications Created
+                      with the Hybrid Development Framework Flutter{" "}
+                    </p>
+                  </section>
+                  <img
+                    className="portfolio-page-icon"
+                    src={TestImageOne}
+                    //   title={imageTitle}
+                    //   alt={imageAltText}
+                  ></img>
                 </section>
-                <img
-                  className="portfolio-page-icon"
-                  src={TestImageOne}
-                  //   title={imageTitle}
-                  //   alt={imageAltText}
-                ></img>
-              </section>
-              <section className="portfolio-page-buttons">
-                <ExternalLinkbutton
-                  buttonText={"Download Paper"}
-                  buttonIcon={<DownloadIcon />}
-                  buttonPath={
-                    "https://drive.google.com/uc?id=1mrB9Zc4XKA8X0eqwLxaLLqRWBqex7LGR&export=download"
-                  }
-                  downloadName={
-                    "Michael Parkin - UI/UX Usability Research Paper"
-                  }
-                />
-              </section>
-            </header>
+                <section className="portfolio-page-buttons">
+                  <ExternalLinkbutton
+                    buttonText={"Download Paper"}
+                    buttonIcon={<DownloadIcon />}
+                    buttonPath={
+                      "https://drive.google.com/uc?id=1mrB9Zc4XKA8X0eqwLxaLLqRWBqex7LGR&export=download"
+                    }
+                    downloadName={
+                      "Michael Parkin - UI/UX Usability Research Paper"
+                    }
+                  />
+                </section>
+              </header>
 
-            {/* <Titles
+              {/* <Titles
             //   mainTitle={true}
             //   title={BlogList[blogInfoToLoad].cardTitle}
             //   subTitle={true}
@@ -73,27 +73,27 @@ export default class Portfolio4 extends Component {
             //   blogWords={BlogList[blogInfoToLoad].blogWords}
             //   freeArticlesLeft={this.props.freeArticlesLeft}
             /> */}
-            <section className="portfolio-page-contents e-content">
-              <h2 className="portfolio-page-heading-1">Abstract</h2>
+              <section className="portfolio-page-contents e-content">
+                <h2 className="portfolio-page-heading-1">Abstract</h2>
 
-              <p>
-                With both the smartphone and mobile application markets having
-                grown substantially over the past few years, there has been a
-                shift in how developers are approaching mobile application
-                creation. This has resulted in the emergence of two dominant
-                development methods – native and hybrid. While there have been a
-                handful of articles and papers published discussing both
-                approaches, most focus solely on the technical and development
-                differences between the two methods. Very few explore the impact
-                these methods have on the applications’ usability and user
-                experience design. This paper then serves to provide further
-                insight into this using a set of heuristic principles to explore
-                the usability design of an application created with the hybrid
-                development framework <cite>Flutter</cite>.
-              </p>
-            </section>
-          </article>
-          {/* <BlogReferences
+                <p>
+                  With both the smartphone and mobile application markets having
+                  grown substantially over the past few years, there has been a
+                  shift in how developers are approaching mobile application
+                  creation. This has resulted in the emergence of two dominant
+                  development methods – native and hybrid. While there have been
+                  a handful of articles and papers published discussing both
+                  approaches, most focus solely on the technical and development
+                  differences between the two methods. Very few explore the
+                  impact these methods have on the applications’ usability and
+                  user experience design. This paper then serves to provide
+                  further insight into this using a set of heuristic principles
+                  to explore the usability design of an application created with
+                  the hybrid development framework <cite>Flutter</cite>.
+                </p>
+              </section>
+            </article>
+            {/* <BlogReferences
             references={[
               {
                 referenceStart:
@@ -115,9 +115,9 @@ export default class Portfolio4 extends Component {
               },
             ]}
           /> */}
-          {/* <BlogButtons type="Blog" /> */}
-        </article>
-        {/* </FadeIn> */}
+            {/* <BlogButtons type="Blog" /> */}
+          </article>
+        </FadeIn>
       </>
     );
   }
