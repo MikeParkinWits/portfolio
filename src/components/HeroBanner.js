@@ -33,7 +33,7 @@ export default class HeroBanner extends Component {
 
           <section className="homepage-card-image">
             {/* <img src={BannerPhoto} width="1000" height="1000"></img> */}
-            <video width="1000" height="1000" autoPlay loop muted>
+            <video width="1000" height="1000" autoPlay loop playsInline>
               <source src={Video} type="video/mp4" />
             </video>
           </section>
