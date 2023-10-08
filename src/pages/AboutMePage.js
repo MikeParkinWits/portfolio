@@ -40,8 +40,8 @@ export default class AboutMePage extends Component {
               <section className="about-right-column">
                 <p className="body-text">
                   Hi, I’m <b className="bio-bold">Michael Parkin</b>, a recent
-                  Digital Arts graduate from The University of the
-                  Witwatersrand, one of Sub-Saharan Africa's top universities.
+                  Digital Arts graduate from the University of the
+                  Witwatersrand, one of Sub-Saharan Africa's institutions.
                   During my undergraduate degree, I explored numerous areas of
                   design, ultimately discovering my passion for crafting
                   exceptional user experiences. From UX design, to front-end
