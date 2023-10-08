@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.58aecef3.css",
-    "main.js": "/static/js/main.2d3923ea.js",
+    "main.css": "/static/css/main.e3556f5a.css",
+    "main.js": "/static/js/main.f9edd3da.js",
+    "static/media/Memoji.mov": "/static/media/Memoji.baedb603b0f81c22e9d6.mov",
     "static/media/MeBannerPhoto.jpg": "/static/media/MeBannerPhoto.84f80267aba52479b32e.jpg",
     "static/media/Image1.png": "/static/media/Image1.dd78b2442dfda4b55ac1.png",
     "static/media/Me-About.JPG": "/static/media/Me-About.617cc3e68b16807f5b37.JPG",
@@ -26,11 +27,11 @@
     "static/media/SwiftSymbol.png": "/static/media/SwiftSymbol.d0cf8dd3a99e6de3edc6.png",
     "static/media/SwingIcon.png": "/static/media/SwingIcon.a394cb1f01a8a8b8465b.png",
     "index.html": "/index.html",
-    "main.58aecef3.css.map": "/static/css/main.58aecef3.css.map",
-    "main.2d3923ea.js.map": "/static/js/main.2d3923ea.js.map"
+    "main.e3556f5a.css.map": "/static/css/main.e3556f5a.css.map",
+    "main.f9edd3da.js.map": "/static/js/main.f9edd3da.js.map"
   },
   "entrypoints": [
-    "static/css/main.58aecef3.css",
-    "static/js/main.2d3923ea.js"
+    "static/css/main.e3556f5a.css",
+    "static/js/main.f9edd3da.js"
   ]
 }
