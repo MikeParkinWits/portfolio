@@ -41,15 +41,16 @@ export default class AboutMePage extends Component {
                 <p className="body-text">
                   Hi, I’m <b className="bio-bold">Michael Parkin</b>, a recent
                   Digital Arts graduate from the University of the
-                  Witwatersrand, one of Sub-Saharan Africa's institutions.
-                  During my undergraduate degree, I explored numerous areas of
-                  design, ultimately discovering my passion for crafting
-                  exceptional user experiences. From UX design, to front-end
-                  development, and even game design.
+                  Witwatersrand, one of the top universities in Sub-Saharan
+                  Africa. During my undergraduate degree, I explored numerous
+                  areas of design, ultimately discovering my passion for
+                  crafting exceptional user experiences. From UX design, to
+                  front-end development, and even game design.
                 </p>
                 <p className="body-text">
-                  As such, I am currently furthering my passion by pursuing a
-                  masters degree at <b className="bio-bold">Georgia Tech</b> in{" "}
+                  As such, I am currently furthering my passion by pursuing a{" "}
+                  <b className="bio-bold">masters degree</b> at{" "}
+                  <b className="bio-bold">Georgia Tech</b> in{" "}
                   <b className="bio-bold">Human-Computer Interaction</b>,
                   specializing in <b className="bio-bold">UX Design</b>. I'm
                   excited to delve deeper into this field and work alongside
