@@ -10,6 +10,10 @@
   margin: 0rem 4rem 0.7rem;
 }
 
+.bio-bold {
+  color: #2978b5;
+}
+
 .about-desc img {
   background-position: center;
   background-repeat: no-repeat;
@@ -52,10 +56,10 @@
 }
 
 .about-location {
-  margin: 0.85rem 2.5rem 0rem 0rem;
+  margin: 0.6rem 2.5rem 0rem 0rem;
   font-weight: 400;
   font-size: 1.1rem;
-  color: #444444;
+  color: #444444d8;
 
   display: flex;
 

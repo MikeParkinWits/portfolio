@@ -34,28 +34,32 @@ export default class AboutMePage extends Component {
                 <img src={Memoji} width="1000" height="1000" />
                 <p className="about-location">
                   <LocationOnIcon />
-                  Johannesburg, South Africa
+                  Atlanta, Georgia, USA
                 </p>
               </section>
               <section className="about-right-column">
                 <p className="body-text">
-                  I'm Michael Parkin, a recent graduate with a degree in Digital
-                  Arts - majoring in game, and interactive media, design.
-                  Through my degree, I explored numerous different areas of
-                  design and found my passion for designing good user
-                  experiences. From UI/UX design, to front-end development, and
-                  even game design.
+                  Hi, I’m <b className="bio-bold">Michael Parkin</b>, a recent
+                  Digital Arts graduate from The University of the
+                  Witwatersrand, one of Sub-Saharan Africa's top universities.
+                  During my undergraduate degree, I explored numerous areas of
+                  design, ultimately discovering my passion for crafting
+                  exceptional user experiences. From UX design, to front-end
+                  development, and even game design.
                 </p>
                 <p className="body-text">
-                  I am currently looking to further my passion by pursuing a
-                  masters degree in this promising digital field. I am excited
-                  to see what the future holds, and am eager to work with a team
-                  of like-minded individuals to create innovative, accessible,
-                  and engaging digital experiences.
+                  As such, I am currently furthering my passion by pursuing a
+                  masters degree at <b className="bio-bold">Georgia Tech</b> in{" "}
+                  <b className="bio-bold">Human-Computer Interaction</b>,
+                  specializing in <b className="bio-bold">UX Design</b>. I'm
+                  excited to delve deeper into this field and work alongside
+                  like-minded individuals to create innovative, accessible, and
+                  engaging digital experiences.
                 </p>
                 <p className="body-text">
-                  Out of the classroom you’ll find me playing board games,
-                  taking photos, studying music, and petting all the good dogs.
+                  Beyond the academic world, you'll often find me immersed in
+                  board games, video games, and capturing moments through
+                  photography.
                 </p>
               </section>
             </section>
