@@ -21,7 +21,7 @@ export default class HeroBanner extends Component {
   componentDidMount() {
     // Try to play the video when the component mounts
 
-    console.log(this.videoRef);
+    // console.log(this.videoRef);
     this.videoRef.current
       .play()
       .then(() => {})
