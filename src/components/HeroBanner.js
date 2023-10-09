@@ -67,7 +67,6 @@ export default class HeroBanner extends Component {
               <video
                 ref={this.videoRef}
                 width="1000"
-                height="1000"
                 autoPlay
                 loop
                 playsInline
