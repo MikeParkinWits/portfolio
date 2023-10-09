@@ -42,7 +42,7 @@
 }
 
 .homepage-card-image {
-  align-items: flex-end;
+  align-items: center;
   height: 100%;
   /* padding: 3% 2%; */
 
@@ -161,7 +161,7 @@
 
     min-width: 2rem;
 
-    margin: 2rem;
+    margin: 1.5rem 2rem 2rem 2rem;
   }
 
   .homepage-card {
@@ -206,15 +206,31 @@
   } */
 
   .homepage-card-image img {
-    max-width: 100%;
+    max-width: 80%;
     max-height: 100%;
 
     /* max-width: 30rem; */
+  }
+
+  .homepage-card-image video {
+    margin-bottom: -0.5rem;
   }
 
   .page-sub-title {
     font-size: 2rem;
     margin: 2rem 0rem 1.5rem 0rem;
     text-align: center;
+  }
+
+  @keyframes floatUpDown {
+    0%,
+    100% {
+      transform: translateY(0.5rem);
+    }
+    50% {
+      transform: translateY(
+        -0.5rem
+      ); /* Adjust this value for the desired floating range */
+    }
   }
 }
