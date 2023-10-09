@@ -1,15 +1,41 @@
-import React, { Component } from "react";
+import React, { Component, createRef } from "react";
 
 //Image Imports
 import BannerPhoto from "../assets/MeBannerPhoto.jpg";
 import Video from "../assets/Memoji.mov";
+import Photo from "../assets/Memoji.png";
 
 //Component Imports
 import HeroButton from "../components/buttons/HeroButton";
 import Linkbutton from "../components/buttons/Linkbutton";
 
 export default class HeroBanner extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      lowPowerMode: false,
+    };
+    this.videoRef = React.createRef();
+  }
+
+  componentDidMount() {
+    // Try to play the video when the component mounts
+
+    console.log(this.videoRef);
+    this.videoRef.current
+      .play()
+      .then(() => {})
+      .catch((error) => {
+        if (error.name === "NotAllowedError") {
+          // Low power mode detected
+          this.setState({ lowPowerMode: true });
+        }
+      });
+  }
+
   render() {
+    const { lowPowerMode } = this.state;
+
     return (
       <>
         <section className="homepage-card">
@@ -33,9 +59,23 @@ export default class HeroBanner extends Component {
 
           <section className="homepage-card-image">
             {/* <img src={BannerPhoto} width="1000" height="1000"></img> */}
-            <video width="1000" height="1000" autoPlay loop playsInline>
-              <source src={Video} type="video/mp4" />
-            </video>
+            {/* <img src={GIF} width="1000" height="1000"></img> */}
+
+            {lowPowerMode ? (
+              <img src={Photo} width="800" height="800"></img>
+            ) : (
+              <video
+                ref={this.videoRef}
+                width="1000"
+                height="1000"
+                autoPlay
+                loop
+                playsInline
+                muted
+              >
+                <source src={Video} type="video/mp4" />
+              </video>
+            )}
           </section>
         </section>
       </>

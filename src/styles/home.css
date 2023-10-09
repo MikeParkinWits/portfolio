@@ -106,7 +106,8 @@
 
   border-radius: 20px;
 
-  box-shadow: rgba(92, 92, 114, 0.4) 0px 7px 29px 0px;
+  /* Re-add if using photo */
+  /* box-shadow: rgba(92, 92, 114, 0.4) 0px 7px 29px 0px; */
 }
 
 .homepage-list-item {
