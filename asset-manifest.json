@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e3556f5a.css",
-    "main.js": "/static/js/main.8430d103.js",
+    "main.css": "/static/css/main.3444e190.css",
+    "main.js": "/static/js/main.ee782ba2.js",
     "static/media/Memoji.mov": "/static/media/Memoji.baedb603b0f81c22e9d6.mov",
     "static/media/MeBannerPhoto.jpg": "/static/media/MeBannerPhoto.84f80267aba52479b32e.jpg",
     "static/media/Image1.png": "/static/media/Image1.dd78b2442dfda4b55ac1.png",
@@ -15,6 +15,7 @@
     "static/media/TIKWIcon.svg": "/static/media/TIKWIcon.ca17519414ae6ed92670e560131200f1.svg",
     "static/media/Image2.png": "/static/media/Image2.da028be1bd32abce57c1.png",
     "static/media/AffinitySymbol.png": "/static/media/AffinitySymbol.bfeb36a7675bc906a422.png",
+    "static/media/Memoji.png": "/static/media/Memoji.4d9ab3f6d9076e437983.png",
     "static/media/SwingPreview.png": "/static/media/SwingPreview.8c6cd6ef12c62be500fd.png",
     "static/media/CSSSymbol.png": "/static/media/CSSSymbol.c6ca61868c60fe941858.png",
     "static/media/Logos.png": "/static/media/Logos.4edf56f6badae9050ea4.png",
@@ -27,11 +28,11 @@
     "static/media/SwiftSymbol.png": "/static/media/SwiftSymbol.d0cf8dd3a99e6de3edc6.png",
     "static/media/SwingIcon.png": "/static/media/SwingIcon.a394cb1f01a8a8b8465b.png",
     "index.html": "/index.html",
-    "main.e3556f5a.css.map": "/static/css/main.e3556f5a.css.map",
-    "main.8430d103.js.map": "/static/js/main.8430d103.js.map"
+    "main.3444e190.css.map": "/static/css/main.3444e190.css.map",
+    "main.ee782ba2.js.map": "/static/js/main.ee782ba2.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3556f5a.css",
-    "static/js/main.8430d103.js"
+    "static/css/main.3444e190.css",
+    "static/js/main.ee782ba2.js"
   ]
 }
