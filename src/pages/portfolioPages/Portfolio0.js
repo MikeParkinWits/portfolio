@@ -10,10 +10,19 @@ import DownloadIcon from "@mui/icons-material/Download";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 
+//Google Analytics Import
+import ReactGA from "react-ga4";
+
 export default class Portfolio1 extends Component {
   //Lifecycle method which scrolls the page to the top on load
   componentDidMount() {
     window.scrollTo(0, 0);
+
+    ReactGA.send({
+      hitType: "pageview",
+      page: window.location.pathname + window.location.search,
+      title: "Portfolio 0",
+    });
   }
 
   render() {

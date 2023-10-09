@@ -7,7 +7,7 @@ import "./styles/main.css";
 import { useEffect } from "react";
 
 //Google Analytics
-import ReactGA from "react-ga";
+import ReactGA from "react-ga4";
 import PortfolioPage from "./pages/PortfolioPage";
 import Portfolio0 from "./pages/portfolioPages/Portfolio0";
 import Portfolio1 from "./pages/portfolioPages/Portfolio1";
@@ -18,12 +18,17 @@ import WritingPage from "./pages/WritingPage";
 import Research2 from "./pages/researchPages/Research2";
 import Portfolio4 from "./pages/portfolioPages/Portfolio4";
 
-const TRACKING_ID = "UA-254281648-1";
+const TRACKING_ID = "G-EJ4SX3B6EQ";
 ReactGA.initialize(TRACKING_ID);
 
 function App() {
   useEffect(() => {
-    ReactGA.pageview(window.location.pathname + window.location.search);
+    // ReactGA.pageview(window.location.pathname + window.location.search);
+    // ReactGA.send({
+    //   hitType: "pageview",
+    //   page: window.location.pathname + window.location.search,
+    //   title: "Custom Title",
+    // });
   }, []);
 
   return (

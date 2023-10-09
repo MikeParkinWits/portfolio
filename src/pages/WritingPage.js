@@ -8,10 +8,19 @@ import "../styles/portfolioPage.css";
 import { ResearchList } from "../helpers/ResearchList.js";
 import FadeIn from "react-fade-in/lib/FadeIn";
 
+//Google Analytics Import
+import ReactGA from "react-ga4";
+
 export default class WritingPage extends Component {
   //Lifecycle method that scrolls the page to the top on load
   componentDidMount() {
     window.scrollTo(0, 0);
+
+    ReactGA.send({
+      hitType: "pageview",
+      page: window.location.pathname + window.location.search,
+      title: "Writing",
+    });
   }
 
   render() {
