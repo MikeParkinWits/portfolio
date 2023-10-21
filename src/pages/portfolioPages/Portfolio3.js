@@ -54,7 +54,7 @@ export default class Portfolio1 extends Component {
                       Braai Simulator
                     </h1>
                     <p className="portfolio-sub-title">
-                      An Game Created With Unity & C#
+                      A Game Created With Unity & C#
                     </p>
                   </section>
                   <img
