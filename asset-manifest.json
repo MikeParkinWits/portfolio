@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.af95bb69.css",
-    "main.js": "/static/js/main.6a07f1f4.js",
+    "main.js": "/static/js/main.1d50c08e.js",
     "static/media/Memoji.mov": "/static/media/Memoji.baedb603b0f81c22e9d6.mov",
     "static/media/MeBannerPhoto.jpg": "/static/media/MeBannerPhoto.84f80267aba52479b32e.jpg",
+    "static/media/Me-About.JPG": "/static/media/Me-About.e3084192c3d05a0d36b8.JPG",
     "static/media/Image1.png": "/static/media/Image1.dd78b2442dfda4b55ac1.png",
-    "static/media/Me-About.JPG": "/static/media/Me-About.617cc3e68b16807f5b37.JPG",
     "static/media/BraaiSimulatorPreview.png": "/static/media/BraaiSimulatorPreview.bd6a3f90ea71cf1225d0.png",
     "static/media/LongPhotoTest.jpg": "/static/media/LongPhotoTest.1b319d8ce76c847a4fef.jpg",
     "static/media/ReactSymbol.png": "/static/media/ReactSymbol.3af64ee98d06c5688b87.png",
@@ -29,10 +29,10 @@
     "static/media/SwingIcon.png": "/static/media/SwingIcon.a394cb1f01a8a8b8465b.png",
     "index.html": "/index.html",
     "main.af95bb69.css.map": "/static/css/main.af95bb69.css.map",
-    "main.6a07f1f4.js.map": "/static/js/main.6a07f1f4.js.map"
+    "main.1d50c08e.js.map": "/static/js/main.1d50c08e.js.map"
   },
   "entrypoints": [
     "static/css/main.af95bb69.css",
-    "static/js/main.6a07f1f4.js"
+    "static/js/main.1d50c08e.js"
   ]
 }
