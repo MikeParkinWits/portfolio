@@ -17,6 +17,7 @@ import WritingPage from "./pages/WritingPage";
 // import Research1 from "./pages/researchPages/Research1";
 import Research2 from "./pages/researchPages/Research2";
 import Portfolio4 from "./pages/portfolioPages/Portfolio4";
+import Portfolio5 from "./pages/portfolioPages/Portfolio5";
 
 const TRACKING_ID = "G-EJ4SX3B6EQ";
 ReactGA.initialize(TRACKING_ID);
@@ -46,6 +47,7 @@ function App() {
           <Route path="/portfolio/portfolio2" element={<Portfolio2 />} />
           <Route path="/portfolio/portfolio3" element={<Portfolio3 />} />
           <Route path="/portfolio/portfolio4" element={<Portfolio4 />} />
+          <Route path="/portfolio/portfolio5" element={<Portfolio5 />} />
 
           <Route path="/research" element={<WritingPage />} />
           {/* <Route path="/research/research1" element={<Research1 />} /> */}

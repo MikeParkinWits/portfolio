@@ -27,7 +27,7 @@
   box-sizing: border-box;
   object-position: 50% 50%;
 
-  height: 14rem;
+  height: 15rem;
   max-width: 100%;
   min-width: 12rem;
 
@@ -63,7 +63,7 @@
 }
 
 .portfolio-case-section {
-  display: flex;
+  /* display: flex; */
   align-items: center;
 
   justify-content: center;
@@ -71,7 +71,7 @@
   max-width: 20.5rem;
   min-width: 12rem;
   height: 14rem;
-  background: rgb(221, 251, 253);
+  /* background: rgb(221, 251, 253); */
 
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 
@@ -80,7 +80,7 @@
   padding: 0rem;
 }
 
-.gradient-green {
+/* .gradient-green {
   background: linear-gradient(
     27deg,
     rgba(221, 251, 253, 1) 0%,
@@ -105,7 +105,7 @@
     rgba(97, 209, 232, 1) 82%,
     rgba(38, 141, 255, 1) 100%
   );
-}
+} */
 
 .gradient-yellow {
   background: rgb(246, 253, 221);
@@ -143,6 +143,10 @@
 
 .game-dev {
   color: #9a01e6;
+}
+
+.ux-case-study {
+  color: #0192e6;
 }
 
 .research-type {

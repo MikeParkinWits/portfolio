@@ -57,14 +57,18 @@
   display: flex;
 }
 
+.portfolio-page-contents p.sub-head-p {
+  margin: 1.5rem 0rem 1.5rem 3rem;
+}
+
 .portfolio-page-contents p {
   text-align: left;
 
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   color: #282828;
   margin: 1.5rem 0rem 1.5rem 0rem;
-  line-height: 1.9rem;
+  line-height: 1.65rem;
 }
 
 .portfolio-page-contents {
@@ -80,14 +84,14 @@
 
 .portfolio-page-heading-2 {
   font-size: 1.45rem;
-  margin: 2.5rem 0rem 0.2rem 2rem;
+  margin: 2rem 0rem 0.2rem 0rem;
   text-align: left;
   color: #444444;
 }
 
 .portfolio-page-heading-3 {
   font-size: 1.2rem;
-  margin: 2.25rem 0rem 0.5rem 4.5rem;
+  margin: 1.5rem 0rem 0.5rem 3rem;
   text-align: left;
   color: #444444;
 }
@@ -99,6 +103,17 @@
   table-layout: fixed;
   border-collapse: collapse;
   width: 30%;
+
+  margin: 0rem auto;
+}
+
+.portfolio-figure-long {
+  text-align: center;
+  display: table;
+
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 100%;
 
   margin: 0rem auto;
 }
@@ -124,10 +139,27 @@
   caption-side: bottom;
 }
 
+.portfolio-figure-long figcaption {
+  text-align: center;
+  /* margin-left: 10%; */
+
+  margin: 0rem 0rem;
+
+  /* border-left: 3px solid black; */
+
+  /* padding-left: 1rem; */
+
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #4b4b4b;
+
+  caption-side: bottom;
+}
+
 .portfolio-image {
   text-align: center;
 
-  margin: 2rem 0rem 0.25rem 0rem;
+  margin: 0.5rem 0rem 0.25rem 0rem;
 
   height: 100%;
 
@@ -141,7 +173,74 @@
   padding: -1rem;
 
   /* border: 0.2rem solid black; */
-  border-radius: 0.3rem;
+  /* border-radius: 0.75rem;
+  border: 0.1rem solid #4076b03e;
+  box-shadow: rgba(9, 81, 126, 0.099) 0.1rem 0.1rem 01rem 0.1rem; */
+}
+
+.portfolio-image-long {
+  text-align: center;
+
+  margin: 1.5rem 0rem 1rem 0rem;
+
+  height: 100%;
+
+  width: 90%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  object-fit: contain;
+
+  padding: -1rem;
+
+  /* border: 0.2rem solid black; */
+  /* border-radius: 0.75rem;
+  border: 0.1rem solid #4076b03e;
+  box-shadow: rgba(9, 81, 126, 0.099) 0.1rem 0.1rem 01rem 0.1rem; */
+}
+
+.portfolio-bullet-cont {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1em;
+  text-indent: -1em;
+
+  text-align: left;
+
+  font-weight: 400;
+  font-size: 1.05rem;
+  color: #282828;
+  margin: 1.5rem 0rem 1.5rem 3rem;
+  line-height: 1.65rem;
+}
+
+.portfolio-bullet:before {
+  content: "■";
+  padding-right: 5px;
+
+  text-align: left;
+
+  font-weight: 800;
+  font-size: 1.05rem;
+  color: #2978b5;
+  margin: 1.5rem 0rem 1.5rem 0rem;
+  line-height: 1.65rem;
+}
+
+.portfolio-figma {
+  display: flex;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem auto;
+  border-radius: 1rem;
+
+  box-shadow: rgba(9, 81, 126, 0.098) 0.1rem 0.1rem 01rem 0.1rem;
+}
+
+.portfolio-figma.double {
+  margin: 0rem 2rem;
 }
 
 .portfolio-double-figures {
@@ -167,6 +266,35 @@
 .disclaimer-text p {
   font-size: 1rem;
   color: #444444;
+}
+
+.problem-text {
+  /* border: 0.1rem solid #444444; */
+  background-color: rgba(181, 181, 181, 0.262);
+  box-shadow: rgba(9, 81, 126, 0.098) 0.1rem 0.1rem 01rem 0.1rem;
+  border-radius: 0.6rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  margin: 1rem 0rem;
+  color: white;
+}
+
+.video {
+  display: flex;
+  width: 70%;
+  margin-top: 1rem;
+  border-radius: 0.6rem;
+  box-shadow: rgba(9, 81, 126, 0.098) 0.1rem 0.1rem 01rem 0.1rem;
+  justify-content: center;
+  align-items: center;
+  height: 27rem;
+}
+
+.video-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Response View */
@@ -220,6 +348,12 @@
   }
 
   .portfolio-figure {
+    width: 95%;
+
+    margin: 0rem auto;
+  }
+
+  .portfolio-figure-long {
     width: 95%;
 
     margin: 0rem auto;

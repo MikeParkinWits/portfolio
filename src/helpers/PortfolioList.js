@@ -1,10 +1,24 @@
-import BraaiSimulatorImage from "../assets/PortfolioCardImages/BraaiSimulatorPreview.png";
+import BraaiSimulatorImage from "../assets/PortfolioCardImages/BraaiSimulatorPreview2.jpg";
+import ParkerImage from "../assets/PortfolioCardImages/Untitled-3.jpg";
 import TIWKImage from "../assets/PortfolioCardImages/TheInternetWeKnowPreview.png";
-import SwingImage from "../assets/PortfolioCardImages/SwingPreview.png";
+import SwingImage from "../assets/PortfolioCardImages/SwingPreview2.jpg";
 import GameDesignResearchPaper from "../assets/PortfolioCardImages/GameDesignResearchPaperPreview.png";
 import UIUXResearchPaper from "../assets/PortfolioCardImages/UIUXResearchPaperPreview.png";
 
 export const PortfolioList = [
+  {
+    cardTitle: "Parker",
+    cardDate: "2022",
+    cardSummary:
+      "An app-based platform, for mobile devices, that aims to revolutionise on-street parking in South Africa",
+    image: ParkerImage,
+    imageTitle: "Braai Simulator Image",
+    imageAltText: "A computer with Braai Simulator Open",
+    cardRoute: "/portfolio/portfolio5",
+    cardType: "UX Case Study",
+    type: "ux-case-study",
+    cardBackgroundClass: "gradient-blue",
+  },
   {
     cardTitle: "Braai Simulator",
     cardDate: "2021",
@@ -18,19 +32,19 @@ export const PortfolioList = [
     type: "game-dev",
     cardBackgroundClass: "gradient-green",
   },
-  {
-    cardTitle: "The Internet We Know",
-    cardDate: "2022",
-    cardSummary:
-      "An interactive net artwork that critiques the ever increasing dark design patterns used on the web",
-    image: TIWKImage,
-    imageTitle: "JavaScript Logo",
-    imageAltText: "JavaScript Logo",
-    cardRoute: "/portfolio/portfolio2",
-    cardType: "Web Development",
-    type: "web-dev",
-    cardBackgroundClass: "gradient-pink",
-  },
+  // {
+  //   cardTitle: "The Internet We Know",
+  //   cardDate: "2022",
+  //   cardSummary:
+  //     "An interactive net artwork that critiques the ever increasing dark design patterns used on the web",
+  //   image: TIWKImage,
+  //   imageTitle: "JavaScript Logo",
+  //   imageAltText: "JavaScript Logo",
+  //   cardRoute: "/portfolio/portfolio2",
+  //   cardType: "Web Development",
+  //   type: "web-dev",
+  //   cardBackgroundClass: "gradient-pink",
+  // },
   {
     cardTitle: "Swing",
     cardDate: "2021",
@@ -44,17 +58,17 @@ export const PortfolioList = [
     type: "game-dev",
     cardBackgroundClass: "gradient-blue",
   },
-  {
-    cardTitle: "UX & Usability Research Paper",
-    cardDate: "2021",
-    cardSummary:
-      "A research paper that explores the usability design of applications created with the hybrid development framework Flutter",
-    image: UIUXResearchPaper,
-    imageTitle: "JavaScript Logo",
-    imageAltText: "JavaScript Logo",
-    cardRoute: "/portfolio/portfolio4",
-    cardType: "Research Paper",
-    type: "research-type",
-    cardBackgroundClass: "gradient-grey",
-  },
+  // {
+  //   cardTitle: "UX & Usability Research Paper",
+  //   cardDate: "2021",
+  //   cardSummary:
+  //     "A research paper that explores the usability design of applications created with the hybrid development framework Flutter",
+  //   image: UIUXResearchPaper,
+  //   imageTitle: "JavaScript Logo",
+  //   imageAltText: "JavaScript Logo",
+  //   cardRoute: "/portfolio/portfolio4",
+  //   cardType: "Research Paper",
+  //   type: "research-type",
+  //   cardBackgroundClass: "gradient-grey",
+  // },
 ];
