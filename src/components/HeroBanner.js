@@ -45,8 +45,11 @@ export default class HeroBanner extends Component {
             </h1>
             <section className="homepage-card-content">
               <p>A UX Designer,</p>
-              <p>Game Developer,</p>
-              <p>And Overall Tech Enthusiast.</p>
+              <p>Overall Tech Enthusiast,</p>
+              <p>
+                & Current{" "}
+                <b className="bio-bold">MS-HCI Student @ Georgia Tech 🐝</b>
+              </p>
             </section>
             <section className="homepage-card-buttons">
               <Linkbutton
