@@ -1,13 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.af95bb69.css",
-    "main.js": "/static/js/main.06b3cccd.js",
+    "main.css": "/static/css/main.2271d636.css",
+    "main.js": "/static/js/main.c6c71140.js",
     "static/media/Memoji.mov": "/static/media/Memoji.baedb603b0f81c22e9d6.mov",
+    "static/media/Untitled-3.jpg": "/static/media/Untitled-3.9b53ff0db4b9a620460c.jpg",
+    "static/media/BraaiSimulatorPreview2.jpg": "/static/media/BraaiSimulatorPreview2.90322229a5ce77072108.jpg",
+    "static/media/UserJourney.png": "/static/media/UserJourney.79431820ac2837f9db05.png",
+    "static/media/SwingPreview2.jpg": "/static/media/SwingPreview2.e4e9cf255fc182894ffd.jpg",
     "static/media/MeBannerPhoto.jpg": "/static/media/MeBannerPhoto.84f80267aba52479b32e.jpg",
     "static/media/Me-About.JPG": "/static/media/Me-About.e3084192c3d05a0d36b8.JPG",
+    "static/media/SWOT-test.png": "/static/media/SWOT-test.ae4330a7a2feeade8e70.png",
     "static/media/Image1.png": "/static/media/Image1.dd78b2442dfda4b55ac1.png",
     "static/media/BraaiSimulatorPreview.png": "/static/media/BraaiSimulatorPreview.bd6a3f90ea71cf1225d0.png",
     "static/media/LongPhotoTest.jpg": "/static/media/LongPhotoTest.1b319d8ce76c847a4fef.jpg",
+    "static/media/StakeholderDiagram-test.png": "/static/media/StakeholderDiagram-test.4a53b4f6fb4e4d8c70c3.png",
+    "static/media/Styleguide.png": "/static/media/Styleguide.6475affc09c874fb3492.png",
+    "static/media/DoubleDiamond-test.png": "/static/media/DoubleDiamond-test.b7013b12ded5b8ce6670.png",
     "static/media/ReactSymbol.png": "/static/media/ReactSymbol.3af64ee98d06c5688b87.png",
     "static/media/GameDesignResearchPaperPreview.png": "/static/media/GameDesignResearchPaperPreview.ac71e0c0f1a546bbea9b.png",
     "static/media/UIUXResearchPaperPreview.png": "/static/media/UIUXResearchPaperPreview.ee575ce2b67f70e91760.png",
@@ -18,21 +26,23 @@
     "static/media/Memoji.png": "/static/media/Memoji.4d9ab3f6d9076e437983.png",
     "static/media/SwingPreview.png": "/static/media/SwingPreview.8c6cd6ef12c62be500fd.png",
     "static/media/CSSSymbol.png": "/static/media/CSSSymbol.c6ca61868c60fe941858.png",
+    "static/media/Test.png": "/static/media/Test.4f3eb265806a43ef3329.png",
     "static/media/Logos.png": "/static/media/Logos.4edf56f6badae9050ea4.png",
     "static/media/Image4.png": "/static/media/Image4.b4fdec76f10a33115a3b.png",
     "static/media/JavaScriptSymbol.png": "/static/media/JavaScriptSymbol.843632666871162de92f.png",
     "static/media/Image3.png": "/static/media/Image3.6dc0b7f7ff4ec663e6ab.png",
     "static/media/GeorgiaTechLogo1.png": "/static/media/GeorgiaTechLogo1.4000c2b66bcd00dae004.png",
     "static/media/BraaiSimulatorIcon.png": "/static/media/BraaiSimulatorIcon.d5009f954bda1f8750a0.png",
+    "static/media/ParkerIcon.png": "/static/media/ParkerIcon.2fc460c332fd773b8abc.png",
     "static/media/WitsLogo.png": "/static/media/WitsLogo.cff1fe64939f80dd2159.png",
     "static/media/SwiftSymbol.png": "/static/media/SwiftSymbol.d0cf8dd3a99e6de3edc6.png",
     "static/media/SwingIcon.png": "/static/media/SwingIcon.a394cb1f01a8a8b8465b.png",
     "index.html": "/index.html",
-    "main.af95bb69.css.map": "/static/css/main.af95bb69.css.map",
-    "main.06b3cccd.js.map": "/static/js/main.06b3cccd.js.map"
+    "main.2271d636.css.map": "/static/css/main.2271d636.css.map",
+    "main.c6c71140.js.map": "/static/js/main.c6c71140.js.map"
   },
   "entrypoints": [
-    "static/css/main.af95bb69.css",
-    "static/js/main.06b3cccd.js"
+    "static/css/main.2271d636.css",
+    "static/js/main.c6c71140.js"
   ]
 }
