@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2271d636.css",
-    "main.js": "/static/js/main.3e59fcf7.js",
+    "main.js": "/static/js/main.9e370449.js",
     "static/media/Memoji.mov": "/static/media/Memoji.baedb603b0f81c22e9d6.mov",
     "static/media/Untitled-3.jpg": "/static/media/Untitled-3.9b53ff0db4b9a620460c.jpg",
     "static/media/BraaiSimulatorPreview2.jpg": "/static/media/BraaiSimulatorPreview2.90322229a5ce77072108.jpg",
@@ -39,10 +39,10 @@
     "static/media/SwingIcon.png": "/static/media/SwingIcon.a394cb1f01a8a8b8465b.png",
     "index.html": "/index.html",
     "main.2271d636.css.map": "/static/css/main.2271d636.css.map",
-    "main.3e59fcf7.js.map": "/static/js/main.3e59fcf7.js.map"
+    "main.9e370449.js.map": "/static/js/main.9e370449.js.map"
   },
   "entrypoints": [
     "static/css/main.2271d636.css",
-    "static/js/main.3e59fcf7.js"
+    "static/js/main.9e370449.js"
   ]
 }
