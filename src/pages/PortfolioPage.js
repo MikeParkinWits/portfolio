@@ -29,7 +29,7 @@ export default class PortfolioPage extends Component {
         <FadeIn transitionDuration={750}>
           <article className="portfolio-page">
             <header className="portfolio-page-header">
-              <h1 className="page-title">Projects</h1>
+              <h1 className="page-title">Portfolio</h1>
             </header>
             <section className="card-grid">
               {PortfolioList.slice(0, PortfolioList.length).map(

@@ -84,21 +84,12 @@ export default class Portfolio5 extends Component {
                 <h2 className="portfolio-page-heading-1">Overview</h2>
                 <h3 className="portfolio-page-heading-2">🔍 The Scenario</h3>
                 <p>
-                  As a driver in South Africa, there is one experience everyone
-                  is familair with. You go out and decide to take your car, only
-                  to discover there is only on-street parking available. When
-                  arriving there is nothing to worry about – you find an open
-                  parking spot, park, lock your car, and go on your way.
-                  However, upon arriving back at your car later, it quickly
-                  becomes a different story. You see, just as you’re about to
-                  leave, an informal ‘car guard’ appears out of nowhere –
-                  claiming to have been watching your car the entire time,
-                  soliciting for money in return. So, what do you do? You get in
-                  your car, pull out some spare change in your pocket, give it
-                  to the car guard, and go on your way so as not to cause any
-                  awkward encounters. What should have been a simple in and out
-                  process, becomes an almost stressful, and potentially awkward,
-                  game of cat and mouse.
+                  In South Africa, the experience of on-street parking can turn
+                  stressful quickly. Finding an open parking spot seems easy,
+                  but returning to your car often involves dealing with informal
+                  'car guards' soliciting money. What should have been a simple
+                  process turns into a potentially awkward encounter, disrupting
+                  the usual in-and-out routine.
                 </p>
                 <h3 className="portfolio-page-heading-2">⚠️ The Problem</h3>
                 <p className="problem-text">
@@ -111,16 +102,13 @@ export default class Portfolio5 extends Component {
                   {/* </b> */}
                 </p>
                 <p>
-                  For the most part these self-proclaimed 'car guards' are
-                  unreliable, intoxicated, and often offer very little actual
-                  protection against car theft. In fact, their presence often
-                  times actually leads to a more unsafe situation – especially
-                  for female drivers travelling alone at night, where a creepy
-                  man appearing out of nowhere, confronting you, is not safe nor
-                  comforting. It raises the question of what happens if you
-                  don't have change to give them? Or are they really a car
-                  guard? It is a problem unique to South Africa, and as such one
-                  unexplored.
+                  Self-proclaimed 'car guards' in South Africa are generally
+                  unreliable, often intoxicated, and provide minimal protection
+                  against theft. Their presence can create unsafe situations,
+                  particularly for solo female drivers at night, raising
+                  concerns about confronting strangers and the reliability of
+                  these guards. It is a problem unique to South Africa, and as
+                  such one unexplored.
                 </p>
                 <h3 className="portfolio-page-heading-2">💡 The Solution</h3>
                 <p>
@@ -159,9 +147,8 @@ export default class Portfolio5 extends Component {
                 </p>
                 <PortfolioPageFigure
                   imageSource={Figure3Image}
-                  figureCaption={
-                    "Double diamond diagram showing design process"
-                  }
+                  figureCaption={""}
+                  title={"Double diamond diagram showing design process"}
                   singleCard={"single-card"}
                 />
                 <h3 className="portfolio-page-heading-2">🕵🏼‍♂️ Discover</h3>
@@ -184,7 +171,8 @@ export default class Portfolio5 extends Component {
                 </p>
                 <PortfolioPageFigure
                   imageSource={Figure4Image}
-                  figureCaption={
+                  figureCaption={""}
+                  title={
                     "Stakeholder diagram showing the primary, secondary, and tertiary stakeholders"
                   }
                   singleCard={"single-card"}
@@ -275,7 +263,8 @@ export default class Portfolio5 extends Component {
                 </p>
                 <PortfolioPageFigure
                   imageSource={Figure5Image}
-                  figureCaption={
+                  figureCaption={""}
+                  title={
                     "A SWOT diagram of all the parking service competitors in South Africa"
                   }
                   singleCard={"single-card"}
@@ -291,9 +280,8 @@ export default class Portfolio5 extends Component {
                 <h4 className="portfolio-page-heading-3">Findings</h4>
                 <PortfolioPageFigureLong
                   imageSource={Figure6Image}
-                  figureCaption={
-                    "Double diamond diagram showing design process"
-                  }
+                  figureCaption={""}
+                  title={""}
                   singleCard={"single-card"}
                 />
                 <p className="sub-head-p">
@@ -369,8 +357,9 @@ export default class Portfolio5 extends Component {
 
                 <PortfolioPageFigure
                   imageSource={Figure7Image}
-                  figureCaption={
-                    "Stakeholder diagram showing the primary, secondary, and tertiary stakeholders"
+                  figureCaption={""}
+                  title={
+                    "User journey map showing process of driver when parking"
                   }
                   singleCard={"single-card"}
                 />
@@ -385,9 +374,8 @@ export default class Portfolio5 extends Component {
 
                 <PortfolioPageFigure
                   imageSource={Figure8Image}
-                  figureCaption={
-                    "Stakeholder diagram showing the primary, secondary, and tertiary stakeholders"
-                  }
+                  figureCaption={""}
+                  title={"Styleguide for Parker"}
                   singleCard={"single-card"}
                 />
 
@@ -415,16 +403,14 @@ export default class Portfolio5 extends Component {
                 <section className="portfolio-double-figures">
                   <iframe
                     // style="border: 1px solid rgba(0, 0, 0, 0.1);"
-                    width={"100%"}
-                    height={"500px"}
+
                     src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FltOD8UKv7IThncGx7LzEBH%2FParker-(Client)-Wireframes%3Ftype%3Ddesign%26node-id%3D118%253A10404%26mode%3Ddesign%26t%3D5rcobC87ZrjCVNMU-1"
                     allowfullscreen
                     className="portfolio-figma double"
                   />
                   <iframe
                     // style="border: 1px solid rgba(0, 0, 0, 0.1);"
-                    width={"100%"}
-                    height={"500px"}
+
                     src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FltOD8UKv7IThncGx7LzEBH%2FParker-(Client)-Wireframes%3Ftype%3Ddesign%26node-id%3D345%253A11956%26mode%3Ddesign%26t%3D5rcobC87ZrjCVNMU-1"
                     allowfullscreen
                     className="portfolio-figma double"
