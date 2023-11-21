@@ -41,11 +41,11 @@ export default class HeroBanner extends Component {
         <section className="homepage-card">
           <section className="homepage-card-info">
             <h1>
-              Hi, I'm <span className="hero-name">Michael</span>
+              Hi, I'm <span className="hero-name">Michael 👋🏼</span>
             </h1>
             <section className="homepage-card-content">
-              <p>A Game Designer,</p>
-              <p>Software Developer,</p>
+              <p>A UX Designer,</p>
+              <p>Game Developer,</p>
               <p>And Overall Tech Enthusiast.</p>
             </section>
             <section className="homepage-card-buttons">
