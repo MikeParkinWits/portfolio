@@ -1,32 +1,32 @@
 import React, { Component } from "react";
 import "../../styles/portfolioPages.css";
 
+//Component Imports
+import PortfolioPageFigure from "../../components/PortfolioPageFigure";
+import PortfolioPageFigureLong from "../../components/PortfolioPageFigureLong";
+import FindingsCard from "../../components/FindingsCard";
+
 //Image Imports
-import TestImageOne from "../../assets/PortfolioPageAssets/PortfolioIcons/ParkerIcon.png";
-import Figure1Image from "../../assets/PortfolioPageAssets/Portfolio5/ScenarioVisualization.png";
-import Figure2Image from "../../assets/PortfolioPageAssets/Portfolio2/Image2.png";
-import Figure3Image from "../../assets/PortfolioPageAssets/Portfolio5/DoubleDiamond-test.png";
-import Figure4Image from "../../assets/PortfolioPageAssets/Portfolio5/StakeholderDiagram-test.png";
-import Figure5Image from "../../assets/PortfolioPageAssets/Portfolio5/SWOT-test.png";
-import Figure6Image from "../../assets/PortfolioPageAssets/Portfolio5/Frame 13.png";
-import Figure7Image from "../../assets/PortfolioPageAssets/Portfolio5/UserJourney.png";
-import Figure8Image from "../../assets/PortfolioPageAssets/Portfolio5/Styleguide.png";
-import Figure9Image from "../../assets/PortfolioPageAssets/Portfolio5/Banner.png";
-import Figure10Image from "../../assets/PortfolioPageAssets/Portfolio5/LowFidelityGif.gif";
-import Figure11Image from "../../assets/PortfolioPageAssets/Portfolio5/HiFidelityWireframes-1.png";
-import Figure12Image from "../../assets/PortfolioPageAssets/Portfolio5/HiFidelityWireframes-2.png";
-import Figure13Image from "../../assets/PortfolioPageAssets/Portfolio5/HiFidelityWireframes-3.png";
-import Figure14Image from "../../assets/PortfolioPageAssets/Portfolio5/HiFidelityWireframes-4.png";
-import Figure15Image from "../../assets/PortfolioPageAssets/Portfolio5/HiFidelityWireframes-5.png";
-import Figure16Image from "../../assets/PortfolioPageAssets/Portfolio5/LowFidelity/LowFidelityWireframes-1.png";
-import Figure17Image from "../../assets/PortfolioPageAssets/Portfolio5/LowFidelity/LowFidelityWireframes-2.png";
-import Figure18Image from "../../assets/PortfolioPageAssets/Portfolio5/LowFidelity/LowFidelityWireframes-3.png";
-import Figure19Image from "../../assets/PortfolioPageAssets/Portfolio5/LowFidelity/LowFidelityWireframes-4.png";
-import Figure20Image from "../../assets/PortfolioPageAssets/Portfolio5/LowFidelity/LowFidelityWireframes-5.png";
-import Figure21Image from "../../assets/PortfolioPageAssets/Portfolio5/Crazy8.png";
+import PortfolioImage from "../../assets/PortfolioPageAssets/PortfolioIcons/ParkerIcon.png";
+import DoubleDiamondImage from "../../assets/PortfolioPageAssets/Portfolio5/DoubleDiamond-test.png";
+import StakeholderDiagramImage from "../../assets/PortfolioPageAssets/Portfolio5/StakeholderDiagram-test.png";
+import SWOTDiagramImage from "../../assets/PortfolioPageAssets/Portfolio5/SWOT-test.png";
+import UserJourneyImage from "../../assets/PortfolioPageAssets/Portfolio5/UserJourney.png";
+import StyleguideImage from "../../assets/PortfolioPageAssets/Portfolio5/Styleguide.png";
+import HiFiWireframeOneImage from "../../assets/PortfolioPageAssets/Portfolio5/HiFidelityWireframes-1.png";
+import HiFiWireframeTwoImage from "../../assets/PortfolioPageAssets/Portfolio5/HiFidelityWireframes-2.png";
+import HiFiWireframeThreeImage from "../../assets/PortfolioPageAssets/Portfolio5/HiFidelityWireframes-3.png";
+import HiFiWireframeFourImage from "../../assets/PortfolioPageAssets/Portfolio5/HiFidelityWireframes-4.png";
+import HiFiWireframeFiveImage from "../../assets/PortfolioPageAssets/Portfolio5/HiFidelityWireframes-5.png";
+import LoFiWireframeOneImage from "../../assets/PortfolioPageAssets/Portfolio5/LowFidelity/LowFidelityWireframes-1.png";
+import LoFiWireframeTwoImage from "../../assets/PortfolioPageAssets/Portfolio5/LowFidelity/LowFidelityWireframes-2.png";
+import LoFiWireframeThreeImage from "../../assets/PortfolioPageAssets/Portfolio5/LowFidelity/LowFidelityWireframes-3.png";
+import LoFiWireframeFourImage from "../../assets/PortfolioPageAssets/Portfolio5/LowFidelity/LowFidelityWireframes-4.png";
+import LoFiWireframeFiveImage from "../../assets/PortfolioPageAssets/Portfolio5/LowFidelity/LowFidelityWireframes-5.png";
+import Crazy8Image from "../../assets/PortfolioPageAssets/Portfolio5/Crazy8.png";
+import ParkerBannerImage from "../../assets/PortfolioCardImages/ParkerPreview-1.png";
 
-import ParkerImage from "../../assets/PortfolioCardImages/ParkerPreview-1.png";
-
+//Icon Imports
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
@@ -38,16 +38,15 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import PriorityHighIcon from "@mui/icons-material/PriorityHigh";
 
-import PortfolioPageFigure from "../../components/PortfolioPageFigure";
+//FadeIn Package Import
 import FadeIn from "react-fade-in/lib/FadeIn";
 
 //Google Analytics Import
 import ReactGA from "react-ga4";
-import PortfolioPageFigureLong from "../../components/PortfolioPageFigureLong";
 
+//Carousel Package Import
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
-import FindingsCard from "../../components/FindingsCard";
 
 export default class Portfolio5 extends Component {
   //Lifecycle method which scrolls the page to the top on load
@@ -61,6 +60,7 @@ export default class Portfolio5 extends Component {
     });
   }
 
+  //Custom Carousel Indicator Code
   indicatorStyles = {
     position: "absolute",
     bottom: "1rem", // Adjust the distance from the bottom
@@ -93,6 +93,7 @@ export default class Portfolio5 extends Component {
     );
   };
 
+  //Custom Carousel Arrow Style Code
   arrowStyles = {
     position: "absolute",
     zIndex: 1,
@@ -100,17 +101,7 @@ export default class Portfolio5 extends Component {
     width: "2rem",
     height: "2rem",
     cursor: "pointer",
-    // borderRadius: "1rem",
-    // backgroundColor: "white",
-    // border: "0.1rem solid rgb(41 120 181 / 14%)",
-    // display: "flex",
-    // justifyContent: "center",
-    // alignItems: "center",
-    // paddingBottom: "0.1rem",
     fontSize: "2rem",
-    // color: "#2978b5",
-    // // margin: "1rem",
-    // boxShadow: "0px 0px 13px 0px rgba(41, 120, 181, 0.08)",
   };
 
   renderCustomPrevArrow = (clickHandler) => (
@@ -129,39 +120,18 @@ export default class Portfolio5 extends Component {
     return (
       <>
         <FadeIn transitionDuration={750}>
-          {/* <PortfolioPageFigureLong
-            imageSource={Figure9Image}
-            figureCaption={""}
-            title={"Double diamond diagram showing design process"}
-            singleCard={"single-card"}
-          /> */}
           <article className="portfolio-pages h-entry">
             <img
               className="banner-image"
-              src={ParkerImage}
+              src={ParkerBannerImage}
               title={"Banner Image"}
               alt={"Banner Image"}
               width="1000"
               height="1000"
             ></img>
+
             <article>
               <header className="portfolio-header">
-                {/* <section className="disclaimer-text">
-                  <PriorityHighIcon />
-                  <p>
-                    As this is an interactive piece, it is highly encouraged
-                    that you play the game (or watch the gameplay video) to
-                    better understand its design process.
-                  </p>
-                </section> */}
-
-                {/* <PortfolioPageFigureLong
-                  imageSource={Figure9Image}
-                  figureCaption={""}
-                  title={"Double diamond diagram showing design process"}
-                  singleCard={"single-card"}
-                /> */}
-
                 <section className="portfolio-page-title-line">
                   <section>
                     <h1 className="portfolio-item-title p-name">Parker</h1>
@@ -172,7 +142,7 @@ export default class Portfolio5 extends Component {
                   </section>
                   <img
                     className="portfolio-page-icon"
-                    src={TestImageOne}
+                    src={PortfolioImage}
                     //   title={imageTitle}
                     //   alt={imageAltText}
                   ></img>
@@ -192,14 +162,6 @@ export default class Portfolio5 extends Component {
                 </section>
               </header>
 
-              {/* <Titles
-            //   mainTitle={true}
-            //   title={BlogList[blogInfoToLoad].cardTitle}
-            //   subTitle={true}
-            //   blogDate={BlogList[blogInfoToLoad].cardDate}
-            //   blogWords={BlogList[blogInfoToLoad].blogWords}
-            //   freeArticlesLeft={this.props.freeArticlesLeft}
-            /> */}
               <section className="portfolio-page-contents e-content">
                 <h2 className="portfolio-page-heading-1">Overview</h2>
                 <section className="grid-container">
@@ -215,7 +177,6 @@ export default class Portfolio5 extends Component {
                       awkward encounter, disrupting the usual in-and-out
                       routine.
                     </p>
-                    {/* Add your other content for the first item here */}
                   </section>
 
                   <section className="grid-item">
@@ -235,7 +196,6 @@ export default class Portfolio5 extends Component {
                       reliability. This unique issue in South Africa remains
                       unexplored.
                     </p>
-                    {/* Add your other content for the second item here */}
                   </section>
 
                   <section className="grid-item">
@@ -253,7 +213,6 @@ export default class Portfolio5 extends Component {
                       parking in South Africa much more convenient and safer for
                       everyone.
                     </p>
-                    {/* Add your other content for the third item here */}
                   </section>
                 </section>
 
@@ -269,10 +228,11 @@ export default class Portfolio5 extends Component {
                   />
                 </section>
                 <h2 className="portfolio-page-heading-1">Details</h2>
-                {/* <p>
+                <p>
                   With an overview of the project, we can then look more closely
                   at the entire process below:
-                </p> */}
+                </p>
+
                 <h3 className="portfolio-page-heading-2">🎨 Design Process</h3>
                 <p>
                   The project can be divided into{" "}
@@ -281,7 +241,7 @@ export default class Portfolio5 extends Component {
                   overview of the steps and tasks involved in each one.
                 </p>
                 <PortfolioPageFigure
-                  imageSource={Figure3Image}
+                  imageSource={DoubleDiamondImage}
                   figureCaption={""}
                   title={"Double diamond diagram showing design process"}
                   singleCard={"single-card"}
@@ -319,7 +279,7 @@ export default class Portfolio5 extends Component {
                     </ul>
                   </section>
                   <PortfolioPageFigure
-                    imageSource={Figure4Image}
+                    imageSource={StakeholderDiagramImage}
                     figureCaption={""}
                     title={
                       "Stakeholder diagram showing the primary, secondary, and tertiary stakeholders"
@@ -343,9 +303,7 @@ export default class Portfolio5 extends Component {
                   parking experiences. Findings are discussed in the subsequent
                   section.
                 </p>
-                {/* <h4 className="portfolio-page-heading-3">
-                  <b className="bio-bold">Surveys</b>
-                </h4> */}
+
                 <p className="sub-head-p">
                   Recognizing the limitations of surveys, I complemented the
                   research with in-depth semi-structured interviews involving a
@@ -354,6 +312,7 @@ export default class Portfolio5 extends Component {
                   experiential aspects of the on-street parking scenario,
                   detailed further in the findings section.
                 </p>
+
                 <h4 className="portfolio-page-heading-3">
                   Competitive Analysis
                 </h4>
@@ -373,7 +332,7 @@ export default class Portfolio5 extends Component {
 
                 <section className="portfolio-double-figures">
                   <PortfolioPageFigure
-                    imageSource={Figure5Image}
+                    imageSource={SWOTDiagramImage}
                     figureCaption={""}
                     title={
                       "A SWOT diagram of all the parking service competitors in South Africa"
@@ -416,23 +375,8 @@ export default class Portfolio5 extends Component {
                       </li>
                     </ul>
                   </section>
-                  {/* <iframe
-                  // style="border: 1px solid rgba(0, 0, 0, 0.1);"
-                  width="800"
-                  height="650"
-                  src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FxkgKGLBPjnOdr1ZN3wh6y0%2FBrainstorm-crazy-8s-(Community)%3Ftype%3Dwhiteboard%26node-id%3D0%253A1%26t%3DbgV1pamu5fdx1iQP-1"
-                  allowfullscreen
-                  className="portfolio-figma"
-                /> */}
                 </section>
 
-                {/* <iframe
-                  className="figma-embed"
-                  width="800"
-                  height="450"
-                  src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F62YiZ6s9rk0FROXFZL4VZ9%2FUntitled%3Ftype%3Dwhiteboard%26node-id%3D0%253A1%26t%3DpUDpcNv2qhAcKNqD-1"
-                  allowfullscreen
-                /> */}
                 <h3 className="portfolio-page-heading-2 line-class">
                   🎯 Define
                 </h3>
@@ -476,13 +420,7 @@ export default class Portfolio5 extends Component {
                     }
                   />
                 </section>
-                {/* 
-                <PortfolioPageFigureLong
-                  imageSource={Figure6Image}
-                  figureCaption={""}
-                  title={""}
-                  singleCard={"single-card"}
-                /> */}
+
                 <p className="sub-head-p">
                   From the research performed, there is clearly a pressing need
                   for innovation in the on-street parking landscape in South
@@ -495,6 +433,7 @@ export default class Portfolio5 extends Component {
                   will guide the development of a solution that aligns with the
                   unique needs and challenges faced by drivers in the region.
                 </p>
+
                 <h4 className="portfolio-page-heading-3">
                   Design Requirements
                 </h4>
@@ -555,7 +494,7 @@ export default class Portfolio5 extends Component {
                 /> */}
 
                   <PortfolioPageFigure
-                    imageSource={Figure21Image}
+                    imageSource={Crazy8Image}
                     figureCaption={""}
                     title={
                       "User journey map showing process of driver when parking"
@@ -572,7 +511,7 @@ export default class Portfolio5 extends Component {
                 </p>
 
                 <PortfolioPageFigure
-                  imageSource={Figure7Image}
+                  imageSource={UserJourneyImage}
                   figureCaption={""}
                   title={
                     "User journey map showing process of driver when parking"
@@ -589,7 +528,7 @@ export default class Portfolio5 extends Component {
                 </p>
 
                 <PortfolioPageFigure
-                  imageSource={Figure8Image}
+                  imageSource={StyleguideImage}
                   figureCaption={""}
                   title={"Styleguide for Parker"}
                   singleCard={"single-card"}
@@ -609,36 +548,6 @@ export default class Portfolio5 extends Component {
                     this project focuses solely on the customer side.
                   </b>
                 </p>
-                {/* 
-                <section className="portfolio-double-figures">
-                  <iframe
-                    // style="border: 1px solid rgba(0, 0, 0, 0.1);"
-
-                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FltOD8UKv7IThncGx7LzEBH%2FParker-(Client)-Wireframes%3Ftype%3Ddesign%26node-id%3D118%253A10404%26mode%3Ddesign%26t%3D5rcobC87ZrjCVNMU-1"
-                    allowfullscreen
-                    className="portfolio-figma double"
-                  />
-                  <iframe
-                    // style="border: 1px solid rgba(0, 0, 0, 0.1);"
-
-                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FltOD8UKv7IThncGx7LzEBH%2FParker-(Client)-Wireframes%3Ftype%3Ddesign%26node-id%3D345%253A11956%26mode%3Ddesign%26t%3D5rcobC87ZrjCVNMU-1"
-                    allowfullscreen
-                    className="portfolio-figma double"
-                  />
-                </section> */}
-                {/* 
-                <PortfolioPageFigureLong
-                  imageSource={Figure11Image}
-                  figureCaption={""}
-                  title={"Styleguide for Parker"}
-                  singleCard={"single-card"}
-                /> */}
-                {/* <PortfolioPageFigureLong
-                  imageSource={Figure12Image}
-                  figureCaption={""}
-                  title={"Styleguide for Parker"}
-                  singleCard={"single-card"}
-                /> */}
 
                 <Carousel
                   autoPlay={true}
@@ -653,7 +562,7 @@ export default class Portfolio5 extends Component {
                 >
                   <div>
                     <PortfolioPageFigureLong
-                      imageSource={Figure16Image}
+                      imageSource={LoFiWireframeOneImage}
                       figureCaption={""}
                       title={"Styleguide for Parker"}
                       singleCard={"single-card"}
@@ -662,7 +571,7 @@ export default class Portfolio5 extends Component {
                   </div>
                   <div>
                     <PortfolioPageFigureLong
-                      imageSource={Figure17Image}
+                      imageSource={LoFiWireframeTwoImage}
                       figureCaption={""}
                       title={"Styleguide for Parker"}
                       singleCard={"single-card"}
@@ -671,7 +580,7 @@ export default class Portfolio5 extends Component {
                   </div>
                   <div>
                     <PortfolioPageFigureLong
-                      imageSource={Figure18Image}
+                      imageSource={LoFiWireframeThreeImage}
                       figureCaption={""}
                       title={"Styleguide for Parker"}
                       singleCard={"single-card"}
@@ -680,7 +589,7 @@ export default class Portfolio5 extends Component {
                   </div>
                   <div>
                     <PortfolioPageFigureLong
-                      imageSource={Figure19Image}
+                      imageSource={LoFiWireframeFourImage}
                       figureCaption={""}
                       title={"Styleguide for Parker"}
                       singleCard={"single-card"}
@@ -689,7 +598,7 @@ export default class Portfolio5 extends Component {
                   </div>
                   <div>
                     <PortfolioPageFigureLong
-                      imageSource={Figure20Image}
+                      imageSource={LoFiWireframeFiveImage}
                       figureCaption={""}
                       title={"Styleguide for Parker"}
                       singleCard={"single-card"}
@@ -709,36 +618,6 @@ export default class Portfolio5 extends Component {
                   high-fidelity wireframes into a working prototype, which was
                   seen in the video earlier.
                 </p>
-                {/* 
-                <section className="portfolio-double-figures">
-                  <iframe
-                    // style="border: 1px solid rgba(0, 0, 0, 0.1);"
-
-                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FltOD8UKv7IThncGx7LzEBH%2FParker-(Client)-Wireframes%3Ftype%3Ddesign%26node-id%3D118%253A10404%26mode%3Ddesign%26t%3D5rcobC87ZrjCVNMU-1"
-                    allowfullscreen
-                    className="portfolio-figma double"
-                  />
-                  <iframe
-                    // style="border: 1px solid rgba(0, 0, 0, 0.1);"
-
-                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FltOD8UKv7IThncGx7LzEBH%2FParker-(Client)-Wireframes%3Ftype%3Ddesign%26node-id%3D345%253A11956%26mode%3Ddesign%26t%3D5rcobC87ZrjCVNMU-1"
-                    allowfullscreen
-                    className="portfolio-figma double"
-                  />
-                </section> */}
-                {/* 
-                <PortfolioPageFigureLong
-                  imageSource={Figure11Image}
-                  figureCaption={""}
-                  title={"Styleguide for Parker"}
-                  singleCard={"single-card"}
-                /> */}
-                {/* <PortfolioPageFigureLong
-                  imageSource={Figure12Image}
-                  figureCaption={""}
-                  title={"Styleguide for Parker"}
-                  singleCard={"single-card"}
-                /> */}
 
                 <Carousel
                   autoPlay={true}
@@ -753,7 +632,7 @@ export default class Portfolio5 extends Component {
                 >
                   <div>
                     <PortfolioPageFigureLong
-                      imageSource={Figure11Image}
+                      imageSource={HiFiWireframeOneImage}
                       figureCaption={""}
                       title={"Styleguide for Parker"}
                       singleCard={"single-card"}
@@ -762,7 +641,7 @@ export default class Portfolio5 extends Component {
                   </div>
                   <div>
                     <PortfolioPageFigureLong
-                      imageSource={Figure12Image}
+                      imageSource={HiFiWireframeTwoImage}
                       figureCaption={""}
                       title={"Styleguide for Parker"}
                       singleCard={"single-card"}
@@ -771,7 +650,7 @@ export default class Portfolio5 extends Component {
                   </div>
                   <div>
                     <PortfolioPageFigureLong
-                      imageSource={Figure13Image}
+                      imageSource={HiFiWireframeThreeImage}
                       figureCaption={""}
                       title={"Styleguide for Parker"}
                       singleCard={"single-card"}
@@ -780,7 +659,7 @@ export default class Portfolio5 extends Component {
                   </div>
                   <div>
                     <PortfolioPageFigureLong
-                      imageSource={Figure14Image}
+                      imageSource={HiFiWireframeFourImage}
                       figureCaption={""}
                       title={"Styleguide for Parker"}
                       singleCard={"single-card"}
@@ -789,7 +668,7 @@ export default class Portfolio5 extends Component {
                   </div>
                   <div>
                     <PortfolioPageFigureLong
-                      imageSource={Figure15Image}
+                      imageSource={HiFiWireframeFiveImage}
                       figureCaption={""}
                       title={"Styleguide for Parker"}
                       singleCard={"single-card"}
@@ -880,28 +759,6 @@ export default class Portfolio5 extends Component {
                 </ul>
               </section>
             </article>
-            {/* <BlogReferences
-            references={[
-              {
-                referenceStart:
-                  "Carrier, D. (2020). 'The Work of Art in the Age of the Internet', ",
-                referenceCite: <cite>Hyperallergic, </cite>,
-                referenceEnd:
-                  "Available At: http://hyperallergic.com/563938/the-work-of-art-in-the-age-of-the-internet/ (Accessed: 7 March 2022).",
-              },
-              {
-                referenceStart: "FemmeAndroid (2020). ",
-                referenceCite: <cite>This Website Will Self Destruct. </cite>,
-                referenceEnd:
-                  "[Online] Available At: https://www.thiswebsitewillselfdestruct.com",
-              },
-              {
-                referenceStart: "McLuhan, M., Fiore, Q., & Fairey, S. (2001). ",
-                referenceCite: <cite>Medium is the Massage (1st ed.). </cite>,
-                referenceEnd: "Gingko Press.",
-              },
-            ]}
-          /> */}
             {/* <BlogButtons type="Blog" /> */}
           </article>
         </FadeIn>
