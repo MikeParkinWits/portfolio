@@ -164,8 +164,8 @@ export default class Portfolio5 extends Component {
 
               <section className="portfolio-page-contents e-content">
                 <h2 className="portfolio-page-heading-1">Overview</h2>
-                <section className="grid-container">
-                  <section className="grid-item">
+                <section className="overview-grid">
+                  <section className="overview-grid-item">
                     <h3 className="portfolio-page-heading-2 ">🔍</h3>
                     <h3 className="portfolio-page-heading-2 ">The Scenario</h3>
                     <p>
@@ -179,7 +179,7 @@ export default class Portfolio5 extends Component {
                     </p>
                   </section>
 
-                  <section className="grid-item">
+                  <section className="overview-grid-item">
                     <h3 className="portfolio-page-heading-2 ">⚠️</h3>
                     <h3 className="portfolio-page-heading-2 ">The Problem</h3>
                     <p>
@@ -198,7 +198,7 @@ export default class Portfolio5 extends Component {
                     </p>
                   </section>
 
-                  <section className="grid-item">
+                  <section className="overview-grid-item">
                     <h3 className="portfolio-page-heading-2 ">💡</h3>
                     <h3 className="portfolio-page-heading-2 ">The Solution</h3>
                     <p>
@@ -382,7 +382,7 @@ export default class Portfolio5 extends Component {
                 </h3>
                 <h4 className="portfolio-page-heading-3">Findings</h4>
 
-                <section className="grid-container-findings">
+                <section className="findings-grid-findings">
                   <FindingsCard
                     cardNumber={"1"}
                     cardFinding={
@@ -507,7 +507,8 @@ export default class Portfolio5 extends Component {
                 <p className="sub-head-p">
                   With a design solution chosen, I then went on to develop a
                   standard user journey for the driver in order to better
-                  understand how a user might use it.
+                  understand how a user might use the application and how it
+                  should function.
                 </p>
 
                 <PortfolioPageFigure

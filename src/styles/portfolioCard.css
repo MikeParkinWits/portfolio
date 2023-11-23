@@ -167,7 +167,8 @@
 
   display: inline-grid;
   /* grid-template-columns: 1fr 1fr 1fr; */
-  grid-template-columns: 1fr;
+  /* grid-template-columns: 1fr; */
+  grid-template-columns: 1fr 1fr 1fr;
   grid-auto-rows: minmax(100vh, autofit);
   gap: 1rem;
 

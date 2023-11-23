@@ -366,13 +366,13 @@
   color: #656565;
 }
 
-.grid-container {
+.overview-grid {
   display: flex;
   flex-direction: row;
   gap: 2rem; /* Adjust the gap as needed */
 }
 
-.grid-item {
+.overview-grid-item {
   flex: 1;
   background-color: rgb(255, 255, 255);
   padding: 1rem 2rem;
@@ -382,12 +382,12 @@
   margin: 1.25rem 0rem;
 }
 
-.grid-item h3 {
+.overview-grid-item h3 {
   margin: 1rem 0rem;
   text-align: center;
 }
 
-.grid-container-findings {
+.findings-grid-findings {
   display: grid;
   flex-direction: row;
   gap: 2.5rem; /* Adjust the gap as needed */
@@ -395,7 +395,7 @@
   grid-template-columns: 1fr 1fr;
 }
 
-.grid-item-findings {
+.findings-overview-grid-item {
   flex: 1;
   /* background-color: rgb(255, 255, 255); */
   /* padding: 1rem 2rem; */
@@ -414,7 +414,7 @@
   line-height: 1.3rem;
 }
 
-.grid-item-findings h3 {
+.findings-overview-grid-item h3 {
   margin: 0rem 0rem;
   text-align: center;
   color: white;
@@ -428,7 +428,7 @@
   padding: 1rem 3rem;
 }
 
-.grid-item-findings p {
+.findings-overview-grid-item p {
   font-weight: 700;
   text-align: left;
   margin: 0rem 0rem 0rem 0rem;
@@ -629,7 +629,7 @@
     color: #656565;
   }
 
-  .grid-container {
+  .overview-grid {
     display: flex;
     flex-direction: column;
     gap: 0rem; /* Adjust the gap as needed */
@@ -639,7 +639,7 @@
     width: auto;
   }
 
-  .grid-container-findings {
+  .findings-grid-findings {
     grid-template-columns: 1fr;
     margin-left: 0rem;
   }
@@ -648,7 +648,7 @@
     margin-left: 0rem;
   }
 
-  .grid-item-findings p {
+  .findings-overview-grid-item p {
     margin: 0rem 0rem 0rem 0rem;
     line-height: 1.4rem;
     text-align: left;
@@ -660,7 +660,7 @@
     justify-content: center;
   }
 
-  .grid-item-findings {
+  .findings-overview-grid-item {
     line-height: 1.3rem;
   }
 }
