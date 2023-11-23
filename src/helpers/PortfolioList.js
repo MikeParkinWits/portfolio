@@ -1,5 +1,5 @@
 import BraaiSimulatorImage from "../assets/PortfolioCardImages/BraaiSimulatorPreview2.jpg";
-import ParkerImage from "../assets/PortfolioCardImages/Untitled-3.jpg";
+import ParkerImage from "../assets/PortfolioCardImages/ParkerPreview-1.png";
 import TIWKImage from "../assets/PortfolioCardImages/TheInternetWeKnowPreview.png";
 import SwingImage from "../assets/PortfolioCardImages/SwingPreview2.jpg";
 import GameDesignResearchPaper from "../assets/PortfolioCardImages/GameDesignResearchPaperPreview.png";
@@ -19,19 +19,19 @@ export const PortfolioList = [
     type: "ux-case-study",
     cardBackgroundClass: "gradient-blue",
   },
-  {
-    cardTitle: "Braai Simulator",
-    cardDate: "2021",
-    cardSummary:
-      "Braai Simulator is a 3D, first-person, life simulation game where the player hosts a braai (barbeque)",
-    image: BraaiSimulatorImage,
-    imageTitle: "Braai Simulator Image",
-    imageAltText: "A computer with Braai Simulator Open",
-    cardRoute: "/portfolio/portfolio3",
-    cardType: "Game Design",
-    type: "game-dev",
-    cardBackgroundClass: "gradient-green",
-  },
+  // {
+  //   cardTitle: "Braai Simulator",
+  //   cardDate: "2021",
+  //   cardSummary:
+  //     "Braai Simulator is a 3D, first-person, life simulation game where the player hosts a braai (barbeque)",
+  //   image: BraaiSimulatorImage,
+  //   imageTitle: "Braai Simulator Image",
+  //   imageAltText: "A computer with Braai Simulator Open",
+  //   cardRoute: "/portfolio/portfolio3",
+  //   cardType: "Game Design",
+  //   type: "game-dev",
+  //   cardBackgroundClass: "gradient-green",
+  // },
   // {
   //   cardTitle: "The Internet We Know",
   //   cardDate: "2022",
@@ -45,19 +45,19 @@ export const PortfolioList = [
   //   type: "web-dev",
   //   cardBackgroundClass: "gradient-pink",
   // },
-  {
-    cardTitle: "Swing",
-    cardDate: "2021",
-    cardSummary:
-      "A 2D, arcade, game where players swing around an endless playground",
-    image: SwingImage,
-    imageTitle: "JavaScript Logo",
-    imageAltText: "JavaScript Logo",
-    cardRoute: "/portfolio/portfolio1",
-    cardType: "Game Design",
-    type: "game-dev",
-    cardBackgroundClass: "gradient-blue",
-  },
+  // {
+  //   cardTitle: "Swing",
+  //   cardDate: "2021",
+  //   cardSummary:
+  //     "A 2D, arcade, game where players swing around an endless playground",
+  //   image: SwingImage,
+  //   imageTitle: "JavaScript Logo",
+  //   imageAltText: "JavaScript Logo",
+  //   cardRoute: "/portfolio/portfolio1",
+  //   cardType: "Game Design",
+  //   type: "game-dev",
+  //   cardBackgroundClass: "gradient-blue",
+  // },
   // {
   //   cardTitle: "UX & Usability Research Paper",
   //   cardDate: "2021",
