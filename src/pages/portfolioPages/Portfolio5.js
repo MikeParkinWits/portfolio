@@ -129,14 +129,6 @@ export default class Portfolio5 extends Component {
     return (
       <>
         <FadeIn transitionDuration={750}>
-          <img
-            className="banner-image"
-            src={ParkerImage}
-            title={"Banner Image"}
-            alt={"Banner Image"}
-            width="1000"
-            height="1000"
-          ></img>
           {/* <PortfolioPageFigureLong
             imageSource={Figure9Image}
             figureCaption={""}
@@ -144,6 +136,14 @@ export default class Portfolio5 extends Component {
             singleCard={"single-card"}
           /> */}
           <article className="portfolio-pages h-entry">
+            <img
+              className="banner-image"
+              src={ParkerImage}
+              title={"Banner Image"}
+              alt={"Banner Image"}
+              width="1000"
+              height="1000"
+            ></img>
             <article>
               <header className="portfolio-header">
                 {/* <section className="disclaimer-text">
