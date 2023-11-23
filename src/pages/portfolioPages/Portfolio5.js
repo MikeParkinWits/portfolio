@@ -156,6 +156,10 @@ export default class Portfolio5 extends Component {
                     </p>
                   </section>
                   <section>
+                    <h2 className="portfolio-info-title">Type</h2>
+                    <p className="portfolio-info-sub-title">Solo Project</p>
+                  </section>
+                  <section>
                     <h2 className="portfolio-info-title">Timeframe</h2>
                     <p className="portfolio-info-sub-title">5 Months</p>
                   </section>

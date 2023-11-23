@@ -1,24 +1,12 @@
 import BraaiSimulatorImage from "../assets/PortfolioCardImages/BraaiSimulatorPreview2.jpg";
 import ParkerImage from "../assets/PortfolioCardImages/ParkerPreview-1.png";
+import PawnderImage from "../assets/PortfolioCardImages/PawnderPreview-1.png";
 import TIWKImage from "../assets/PortfolioCardImages/TheInternetWeKnowPreview.png";
 import SwingImage from "../assets/PortfolioCardImages/SwingPreview2.jpg";
 import GameDesignResearchPaper from "../assets/PortfolioCardImages/GameDesignResearchPaperPreview.png";
 import UIUXResearchPaper from "../assets/PortfolioCardImages/UIUXResearchPaperPreview.png";
 
 export const PortfolioList = [
-  {
-    cardTitle: "Pawnder",
-    cardDate: "2023",
-    cardSummary:
-      "An app-based platform, for mobile devices, that aims to revolutionise on-street parking in South Africa",
-    image: ParkerImage,
-    imageTitle: "Braai Simulator Image",
-    imageAltText: "A computer with Braai Simulator Open",
-    cardRoute: "/portfolio/pawnder",
-    cardType: "UX Case Study",
-    type: "ux-case-study",
-    cardBackgroundClass: "gradient-blue",
-  },
   {
     cardTitle: "Parker",
     cardDate: "2022",
@@ -28,6 +16,19 @@ export const PortfolioList = [
     imageTitle: "Parker Image",
     imageAltText: "A collection of phones with Parker open",
     cardRoute: "/portfolio/parker",
+    cardType: "UX Case Study",
+    type: "ux-case-study",
+    cardBackgroundClass: "gradient-blue",
+  },
+  {
+    cardTitle: "Pawnder (In Progress)",
+    cardDate: "2023",
+    cardSummary:
+      "A dating-style app that aims to simplify the pet adoption process for first-time, young adult, adopters",
+    image: PawnderImage,
+    imageTitle: "Pawnder Image",
+    imageAltText: "A collection of phones with Pawnders main page open",
+    cardRoute: "/portfolio/pawnder",
     cardType: "UX Case Study",
     type: "ux-case-study",
     cardBackgroundClass: "gradient-blue",
