@@ -20,7 +20,7 @@ export default class FindingsCard extends Component {
 
     return (
       <>
-        <section className="grid-item-findings">
+        <section className="findings-overview-grid-item">
           <section className="grid-square">
             {" "}
             <h3 className="portfolio-page-heading-2 ">{cardNumber}</h3>
