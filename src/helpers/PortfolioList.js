@@ -14,7 +14,7 @@ export const PortfolioList = [
     image: ParkerImage,
     imageTitle: "Braai Simulator Image",
     imageAltText: "A computer with Braai Simulator Open",
-    cardRoute: "/portfolio/portfolio5",
+    cardRoute: "/portfolio/parker",
     cardType: "UX Case Study",
     type: "ux-case-study",
     cardBackgroundClass: "gradient-blue",
