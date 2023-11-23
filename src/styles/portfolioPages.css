@@ -261,6 +261,7 @@
 
 .portfolio-bullet {
   padding-left: 1rem;
+  margin: 0.5rem 0rem;
 }
 
 .portfolio-figma {
@@ -649,10 +650,17 @@
 
   .grid-item-findings p {
     margin: 0rem 0rem 0rem 0rem;
+    line-height: 1.4rem;
+    text-align: left;
+    font-weight: 400;
   }
 
   .portfolio-double-figures {
     align-items: center;
     justify-content: center;
+  }
+
+  .grid-item-findings {
+    line-height: 1.3rem;
   }
 }
