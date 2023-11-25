@@ -181,7 +181,7 @@ export default class Portfolio5 extends Component {
                       process, especially for young adult first-time pet
                       adopters who are unfamiliar with the entire process. It
                       involves numerous steps: from choosing your desired pet
-                      breed, leraning about pet care, visiting shelters,
+                      breed, learning about pet care, visiting shelters,
                       aclimitzaing your pet... The list goes on.
                     </p>
                   </section>
