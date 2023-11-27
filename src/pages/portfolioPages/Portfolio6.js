@@ -58,7 +58,7 @@ export default class Portfolio5 extends Component {
     ReactGA.send({
       hitType: "pageview",
       page: window.location.pathname + window.location.search,
-      title: "Portfolio 5",
+      title: "Pawnder",
     });
   }
 
