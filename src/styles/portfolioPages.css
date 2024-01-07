@@ -53,6 +53,7 @@
 }
 
 .portfolio-page-buttons {
+  margin-top: 1rem;
   margin-bottom: 2.5rem;
   display: flex;
 }

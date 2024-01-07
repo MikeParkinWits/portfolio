@@ -17,6 +17,8 @@ import PriorityHighIcon from "@mui/icons-material/PriorityHigh";
 import PortfolioPageFigure from "../../components/PortfolioPageFigure";
 import FadeIn from "react-fade-in/lib/FadeIn";
 
+import PawnderPreview from "../../assets/PortfolioCardImages/Michael1.png";
+
 //Google Analytics Import
 import ReactGA from "react-ga4";
 
@@ -48,22 +50,51 @@ export default class Portfolio1 extends Component {
                   </p>
                 </section>
 
-                <section className="portfolio-page-title-line">
-                  <section>
-                    <h1 className="portfolio-item-title p-name">
-                      Braai Simulator
-                    </h1>
-                    <p className="portfolio-sub-title">
-                      A Game Created With Unity & C#
-                    </p>
+                <img
+                  className="banner-image"
+                  src={PawnderPreview}
+                  title={"Banner Image"}
+                  alt={"Banner Image"}
+                  width="1000"
+                  height="1000"
+                ></img>
+
+                <header className="portfolio-header">
+                  <section className="portfolio-page-title-line">
+                    <section>
+                      <h1 className="portfolio-item-title p-name">
+                        Braai Simulator
+                      </h1>
+                      <p className="portfolio-sub-title">
+                        A Game Created With Unity & C#
+                      </p>
+                    </section>
+                    <img
+                      className="portfolio-page-icon"
+                      src={TestImageOne}
+                      //   title={imageTitle}
+                      //   alt={imageAltText}
+                    ></img>
                   </section>
-                  <img
-                    className="portfolio-page-icon"
-                    src={TestImageOne}
-                    //   title={imageTitle}
-                    //   alt={imageAltText}
-                  ></img>
-                </section>
+
+                  <section className="portfolio-page-info">
+                    <section>
+                      <h2 className="portfolio-info-title">Role</h2>
+                      <p className="portfolio-info-sub-title">
+                        Lead Game Designer, Project Manager, and UX Designer
+                      </p>
+                    </section>
+                    <section>
+                      <h2 className="portfolio-info-title">Type</h2>
+                      <p className="portfolio-info-sub-title">Team Project</p>
+                    </section>
+                    <section>
+                      <h2 className="portfolio-info-title">Timeframe</h2>
+                      <p className="portfolio-info-sub-title">2 Months</p>
+                    </section>
+                  </section>
+                </header>
+
                 <section className="portfolio-page-buttons">
                   <ExternalLinkbutton
                     buttonText={"Download"}
