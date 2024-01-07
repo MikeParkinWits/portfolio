@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1773fa66.css",
-    "main.js": "/static/js/main.00a3f074.js",
+    "main.css": "/static/css/main.4fe00bc2.css",
+    "main.js": "/static/js/main.f7c3662f.js",
     "static/media/Michael1.png": "/static/media/Michael1.f6587bae69d0f873cb52.png",
     "static/media/BraaiSimulatorPreview3.jpg": "/static/media/BraaiSimulatorPreview3.d6ac173bb36e7943fdd4.jpg",
     "static/media/PawnderPreview-1.png": "/static/media/PawnderPreview-1.90a0cab51b2ffc9092b6.png",
@@ -54,11 +54,11 @@
     "static/media/SwiftSymbol.png": "/static/media/SwiftSymbol.d0cf8dd3a99e6de3edc6.png",
     "static/media/SwingIcon.png": "/static/media/SwingIcon.a394cb1f01a8a8b8465b.png",
     "index.html": "/index.html",
-    "main.1773fa66.css.map": "/static/css/main.1773fa66.css.map",
-    "main.00a3f074.js.map": "/static/js/main.00a3f074.js.map"
+    "main.4fe00bc2.css.map": "/static/css/main.4fe00bc2.css.map",
+    "main.f7c3662f.js.map": "/static/js/main.f7c3662f.js.map"
   },
   "entrypoints": [
-    "static/css/main.1773fa66.css",
-    "static/js/main.00a3f074.js"
+    "static/css/main.4fe00bc2.css",
+    "static/js/main.f7c3662f.js"
   ]
 }
