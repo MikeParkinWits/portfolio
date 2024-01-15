@@ -232,10 +232,10 @@ export default class Portfolio5 extends Component {
                   />
                 </section>
                 <h2 className="portfolio-page-heading-1">Details</h2>
-                <p>
+                {/* <p>
                   With an overview of the project, we can then look more closely
                   at the entire process below:
-                </p>
+                </p> */}
 
                 <h3 className="portfolio-page-heading-2">🎨 Design Process</h3>
                 <p>
@@ -260,12 +260,12 @@ export default class Portfolio5 extends Component {
                 <section className="portfolio-double-figures">
                   <section>
                     <p className="sub-head-p">
-                      Including all possible stakeholders in the design process
+                      {/* Including all possible stakeholders in the design process
                       is essential to create the best suitable design for all
-                      party's involved. As such, I have created an illustrated
-                      account of all the stakeholders and their relationship to
-                      one another. In this case, there are then two main
-                      stakeholders:
+                      party's involved. As such,  */}
+                      An illustrated account of all the stakeholders, and their
+                      relationship to one another, can be seen here. In this
+                      case, two main stakeholders were identified:
                     </p>
 
                     <ul className="portfolio-bullet-cont">
@@ -300,21 +300,24 @@ export default class Portfolio5 extends Component {
                   conducted comprehensive user research, including{" "}
                   <b className="bio-bold">surveys</b> and{" "}
                   <b className="bio-bold">semi-structured interviews</b>. The
-                  surveys, involving 42 participants from diverse backgrounds,
-                  aimed to uncover prevalent issues with on-street parking,
+                  surveys involved 42 participants from diverse backgrounds, and
+                  were done to uncover prevalent issues with on-street parking,
                   particularly concerning informal 'car guards.' Key questions
-                  explored safety concerns, guard reliability, and overall
-                  parking experiences. Findings are discussed in the subsequent
-                  section.
+                  explored{" "}
+                  <b className="bio-bold">
+                    safety concerns, guard reliability, and overall parking
+                    experiences.
+                  </b>{" "}
+                  Findings are discussed in the subsequent section.
                 </p>
 
                 <p className="sub-head-p">
                   Recognizing the limitations of surveys, I complemented the
-                  research with in-depth semi-structured interviews involving a
-                  group of 4 participants, including frequent and solo female
-                  drivers. These interviews revealed nuanced emotional and
-                  experiential aspects of the on-street parking scenario,
-                  detailed further in the findings section.
+                  research with 4 in-depth semi-structured interviews, which
+                  included frequent and solo female drivers. These interviews
+                  revealed nuanced emotional and experiential aspects of the
+                  on-street parking scenario, detailed further in the findings
+                  section.
                 </p>
 
                 <h4 className="portfolio-page-heading-3">
@@ -357,12 +360,13 @@ export default class Portfolio5 extends Component {
                         gained traction in South Africa.
                       </li>
                       <li className="portfolio-bullet">
-                        The primary issue is the added complexity rather than
-                        simplification of the parking process.
+                        The primary issue with existing systems is that they
+                        added complexity rather than simplified the parking
+                        process.
                       </li>
                       <li className="portfolio-bullet">
                         Although off-street parking solutions like KaChing and
-                        Admyt promote 'ticketless entry,' they frequently face
+                        Admyt promote 'ticketless entry', they frequently face
                         issues with malfunctioning AI cameras, forcing users to
                         revert to traditional ticket systems.
                       </li>
@@ -433,9 +437,10 @@ export default class Portfolio5 extends Component {
                   current system. The integration of a cashless transaction
                   system, enhanced safety measures, and a user-friendly
                   interface emerged as key priorities for improving the
-                  on-street parking experience in South Africa. These insights
+                  on-street parking experience in South Africa.
+                  {/* These insights
                   will guide the development of a solution that aligns with the
-                  unique needs and challenges faced by drivers in the region.
+                  unique needs and challenges faced by drivers in the region. */}
                 </p>
 
                 <h4 className="portfolio-page-heading-3">
@@ -481,7 +486,7 @@ export default class Portfolio5 extends Component {
                       develop potential solutions to this problem - which can be
                       seen below. Thereafter, I went through each idea and tried
                       to combine, and filter them into the best ones. From this,
-                      I then ultimately landed on the idea of{" "}
+                      I ultimately landed on the idea of{" "}
                       <b className="bio-bold">
                         creating a SaaS application that connects drivers to
                         verified on-street car guards.

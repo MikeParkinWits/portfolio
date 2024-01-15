@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "../../styles/portfolioPages.css";
+import "../../styles/buttons/portfolioPageButtons.css";
 
 //Component Imports
 import PortfolioPageFigure from "../../components/PortfolioPageFigure";
@@ -27,6 +28,7 @@ import Crazy8Image from "../../assets/PortfolioPageAssets/Portfolio5/Crazy8.png"
 import PawnderPreview from "../../assets/PortfolioCardImages/PawnderPreview-1.png";
 import WorkInProgressImage from "../../assets/PortfolioPageAssets/Portfolio6/Untitled.png";
 import PawnderPreviewTemp from "../../assets/PortfolioPageAssets/Portfolio6/PawnderTempPreview.png";
+import Video from "../../assets/PortfolioPageAssets/Portfolio6/PawnderPreview.mov";
 
 //Icon Imports
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -206,15 +208,58 @@ export default class Portfolio5 extends Component {
                       adoption agencies make use of technology, they are often
                       poorly designed and not well implemented. As such,{" "}
                       <b className="bio-bold-yellow">
-                        a dating-style application that utilizes swiping
-                        gestures to select pets
+                        a dating-style application that utilizes familiar
+                        swiping gestures to select pets
                       </b>{" "}
                       was designed - streamling the pet selection process.
                     </p>
                   </section>
                 </section>
 
-                <h3 className="portfolio-page-heading-2">🎨 Design Preview</h3>
+                <h3 className="portfolio-page-heading-2">🎨 Figma Prototype</h3>
+
+                {/* <section className="portfolio-double-figures">
+                  <section>
+                    <p className="sub-head-p">
+                      A video of, and link to the Figma prototype can be seen
+                      here:
+                    </p>
+                  </section>
+                  <video
+                    ref={this.videoRef}
+                    height="500"
+                    autoPlay
+                    loop
+                    playsInline
+                    muted
+                  >
+                    <source src={Video} type="video/mp4" />
+                  </video>
+                </section> */}
+
+                <video
+                  ref={this.videoRef}
+                  height="600"
+                  autoPlay
+                  loop
+                  playsInline
+                  muted
+                  className="portfolio-video"
+                >
+                  <source src={Video} type="video/mp4" />
+                </video>
+
+                <section className="portfolio-buttons">
+                  {" "}
+                  <a
+                    className={"portfolio-button"}
+                    href="https://www.figma.com/file/4a1KC63nEZqvk4QN3BxRbN/D3-Design-(Copy)?type=design&node-id=127%3A177&mode=design&t=wg1DyeGXGDukcVSO-1"
+                    target="_blank"
+                  >
+                    Open Figma Board
+                  </a>
+                </section>
+
                 <PortfolioPageFigureLong
                   imageSource={PawnderPreviewTemp}
                   figureCaption={""}

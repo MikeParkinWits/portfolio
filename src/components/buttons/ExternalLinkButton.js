@@ -10,15 +10,17 @@ export default class ExternalLinkbutton extends Component {
     buttonPath: "/",
     buttonIcon: <GitHubIcon />,
     downloadName: "Download",
+    buttonColor: "button-blue",
   };
 
   render() {
-    const { buttonText, buttonPath, buttonIcon, downloadName } = this.props;
+    const { buttonText, buttonPath, buttonIcon, downloadName, buttonColor } =
+      this.props;
 
     return (
       <>
         <a
-          className="external-link-button"
+          className={"external-link-button " + buttonColor}
           href={buttonPath}
           target="_blank"
           download={downloadName}

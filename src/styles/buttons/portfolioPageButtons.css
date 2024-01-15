@@ -1,0 +1,39 @@
+.portfolio-button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+
+  margin-right: 2.5rem;
+
+  padding: 0.7rem 2rem;
+  width: auto;
+
+  border: 0.1rem solid #ffa62b;
+
+  border-radius: 7px;
+
+  font-size: 1rem;
+
+  color: #ffa62b;
+
+  transition: 0.2s;
+  margin: 1rem;
+  /* margin-bottom: 1.5rem; */
+}
+
+.portfolio-buttons {
+  text-align: center;
+}
+
+.portfolio-button:hover {
+  background-color: #ffa62b;
+  color: #fcfcfc;
+  transition: 0.2s;
+
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transform: translateY(-0.25rem) scale(1.05);
+}
