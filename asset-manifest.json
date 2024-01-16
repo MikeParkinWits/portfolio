@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.4fe00bc2.css",
-    "main.js": "/static/js/main.f7c3662f.js",
+    "main.css": "/static/css/main.37370dcb.css",
+    "main.js": "/static/js/main.0ebe962d.js",
+    "static/media/PawnderPreview.mov": "/static/media/PawnderPreview.f35982e75beca3a524db.mov",
     "static/media/Michael1.png": "/static/media/Michael1.f6587bae69d0f873cb52.png",
     "static/media/BraaiSimulatorPreview3.jpg": "/static/media/BraaiSimulatorPreview3.d6ac173bb36e7943fdd4.jpg",
     "static/media/PawnderPreview-1.png": "/static/media/PawnderPreview-1.90a0cab51b2ffc9092b6.png",
@@ -12,6 +13,7 @@
     "static/media/PawnderTempPreview.png": "/static/media/PawnderTempPreview.97b7395c55f41b942398.png",
     "static/media/HiFidelityWireframes-4.png": "/static/media/HiFidelityWireframes-4.6e13df52c2c58873fb8a.png",
     "static/media/HiFidelityWireframes-3.png": "/static/media/HiFidelityWireframes-3.90306f88a57870bbba2e.png",
+    "static/media/CompetitiveAnalysis.png": "/static/media/CompetitiveAnalysis.f5ce30462bf60f2f123a.png",
     "static/media/UserJourney.png": "/static/media/UserJourney.79431820ac2837f9db05.png",
     "static/media/SwingPreview2.jpg": "/static/media/SwingPreview2.e4e9cf255fc182894ffd.jpg",
     "static/media/HiFidelityWireframes-1.png": "/static/media/HiFidelityWireframes-1.8e6aa1ee7480c2497d90.png",
@@ -33,6 +35,7 @@
     "static/media/StakeholderDiagram-test.png": "/static/media/StakeholderDiagram-test.11da3cc71e2890af8463.png",
     "static/media/ReactSymbol.png": "/static/media/ReactSymbol.3af64ee98d06c5688b87.png",
     "static/media/PawnderLogo.png": "/static/media/PawnderLogo.6f1226c328e1f371489a.png",
+    "static/media/StakeholderDiagram.png": "/static/media/StakeholderDiagram.87d933c2fea3c9d2d219.png",
     "static/media/GameDesignResearchPaperPreview.png": "/static/media/GameDesignResearchPaperPreview.ac71e0c0f1a546bbea9b.png",
     "static/media/UIUXResearchPaperPreview.png": "/static/media/UIUXResearchPaperPreview.ee575ce2b67f70e91760.png",
     "static/media/TheInternetWeKnowPreview.png": "/static/media/TheInternetWeKnowPreview.420296f59d29dcc4988f.png",
@@ -43,6 +46,7 @@
     "static/media/Memoji.png": "/static/media/Memoji.4d9ab3f6d9076e437983.png",
     "static/media/SwingPreview.png": "/static/media/SwingPreview.8c6cd6ef12c62be500fd.png",
     "static/media/CSSSymbol.png": "/static/media/CSSSymbol.c6ca61868c60fe941858.png",
+    "static/media/Timeline.png": "/static/media/Timeline.f96b7b1a550aefa69870.png",
     "static/media/Logos.png": "/static/media/Logos.4edf56f6badae9050ea4.png",
     "static/media/Image4.png": "/static/media/Image4.b4fdec76f10a33115a3b.png",
     "static/media/JavaScriptSymbol.png": "/static/media/JavaScriptSymbol.843632666871162de92f.png",
@@ -54,11 +58,11 @@
     "static/media/SwiftSymbol.png": "/static/media/SwiftSymbol.d0cf8dd3a99e6de3edc6.png",
     "static/media/SwingIcon.png": "/static/media/SwingIcon.a394cb1f01a8a8b8465b.png",
     "index.html": "/index.html",
-    "main.4fe00bc2.css.map": "/static/css/main.4fe00bc2.css.map",
-    "main.f7c3662f.js.map": "/static/js/main.f7c3662f.js.map"
+    "main.37370dcb.css.map": "/static/css/main.37370dcb.css.map",
+    "main.0ebe962d.js.map": "/static/js/main.0ebe962d.js.map"
   },
   "entrypoints": [
-    "static/css/main.4fe00bc2.css",
-    "static/js/main.f7c3662f.js"
+    "static/css/main.37370dcb.css",
+    "static/js/main.0ebe962d.js"
   ]
 }
