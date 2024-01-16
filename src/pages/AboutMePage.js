@@ -74,6 +74,18 @@ export default class AboutMePage extends Component {
 
             <section className="about-education">
               <header>
+                <h2 className="page-sub-title">Experience</h2>
+                <EducationBlock
+                  educationImage={GeorgiaTechLogo2}
+                  educationName="UX & Game Designer | Graduate Research Assistant"
+                  educationQualification="Georiga Institute of Technology"
+                  educationYear="2024 - Present"
+                />
+              </header>
+            </section>
+
+            <section className="about-education">
+              <header>
                 <h2 className="page-sub-title">Education</h2>
                 <EducationBlock
                   educationImage={GeorgiaTechLogo2}
