@@ -12,13 +12,13 @@
   padding: 0.7rem 2rem;
   width: auto;
 
-  border: 0.1rem solid #ffa62b;
+  border: 0.1rem solid #2978b5;
 
   border-radius: 7px;
 
   font-size: 1rem;
 
-  color: #ffa62b;
+  color: #2978b5;
 
   transition: 0.2s;
   margin: 1rem;
@@ -30,7 +30,7 @@
 }
 
 .portfolio-button:hover {
-  background-color: #ffa62b;
+  background-color: #2978b5;
   color: #fcfcfc;
   transition: 0.2s;
 

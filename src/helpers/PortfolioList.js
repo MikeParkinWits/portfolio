@@ -24,7 +24,7 @@ export const PortfolioList = [
     cardTitle: "Pawnder (In Progress)",
     cardDate: "2023",
     cardSummary:
-      "A dating-style app that aims to simplify the pet adoption process for first-time, young adult, adopters",
+      "A dating-style app that aims to simplify the pet adoption process for first-time, young adult, pet adopters",
     image: PawnderImage,
     imageTitle: "Pawnder Image",
     imageAltText: "A collection of phones with Pawnders main page open",

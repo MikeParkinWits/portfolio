@@ -29,6 +29,9 @@ import PawnderPreview from "../../assets/PortfolioCardImages/PawnderPreview-1.pn
 import WorkInProgressImage from "../../assets/PortfolioPageAssets/Portfolio6/Untitled.png";
 import PawnderPreviewTemp from "../../assets/PortfolioPageAssets/Portfolio6/PawnderTempPreview.png";
 import Video from "../../assets/PortfolioPageAssets/Portfolio6/PawnderPreview.mov";
+import Timeline from "../../assets/PortfolioPageAssets/Portfolio6/Timeline.png";
+import CompetitiveAnalysis from "../../assets/PortfolioPageAssets/Portfolio6/CompetitiveAnalysis.png";
+import StakeholderDiagram from "../../assets/PortfolioPageAssets/Portfolio6/StakeholderDiagram.png";
 
 //Icon Imports
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -142,8 +145,8 @@ export default class Portfolio5 extends Component {
                       Pawnder (In Progress)
                     </h1>
                     <p className="portfolio-sub-title">
-                      A dating-style app that aims to simplify the adoption
-                      process for first-time, young adult, adopters
+                      A dating-style application that aims to simplify the
+                      adoption process for first-time, young adult, pet adopters
                     </p>
                   </section>
                   <img
@@ -192,7 +195,7 @@ export default class Portfolio5 extends Component {
                     <h3 className="portfolio-page-heading-2 ">⚠️</h3>
                     <h3 className="portfolio-page-heading-2 ">The Problem</h3>
                     <p>
-                      <b className="bio-bold-yellow">
+                      <b className="bio-bold">
                         How can we develop a solution that streamlines the pet
                         adoption process, providing assistance to young,
                         first-time, pet adopters?
@@ -207,7 +210,7 @@ export default class Portfolio5 extends Component {
                       First-time, young adult, pet adopters noted that although
                       adoption agencies make use of technology, they are often
                       poorly designed and not well implemented. As such,{" "}
-                      <b className="bio-bold-yellow">
+                      <b className="bio-bold">
                         a dating-style application that utilizes familiar
                         swiping gestures to select pets
                       </b>{" "}
@@ -260,14 +263,171 @@ export default class Portfolio5 extends Component {
                   </a>
                 </section>
 
+                <h2 className="portfolio-page-heading-1">Details</h2>
+
+                <h3 className="portfolio-page-heading-2">🗓️ Timeline</h3>
+
                 <PortfolioPageFigureLong
-                  imageSource={PawnderPreviewTemp}
+                  imageSource={Timeline}
                   figureCaption={""}
                   title={
                     "User journey map showing process of driver when parking"
                   }
                   singleCard={"single-card"}
                 />
+
+                <h3 className="portfolio-page-heading-2 line-class">
+                  🕵🏼‍♂️ Discover
+                </h3>
+
+                {/* <h4 className="portfolio-page-heading-3">Topic Exploration</h4>
+
+                <p className="sub-head-p">
+                  For this project, the team began by{" "}
+                  <b className="bio-bold">
+                    exploring the topic space of pet adoption in the United
+                    States
+                  </b>{" "}
+                  through an in-depth literature review. This resulted in the
+                  following key takeways about the space:
+                </p>
+
+                <section className="findings-grid-findings">
+                  <FindingsCard
+                    cardNumber={"1"}
+                    cardFinding={
+                      "Pet adopters all have their own set of preferences when it comes to pet adoption, which differ depending on the pet they're looking to adopt"
+                    }
+                  />
+                  <FindingsCard
+                    cardNumber={"2"}
+                    cardFinding={
+                      "Adopters with accurate expectations for animal care were less likely to return pets, and those returning animals for owner-related reasons were less likely to adopt again"
+                    }
+                  />
+                  <FindingsCard
+                    cardNumber={"3"}
+                    cardFinding={
+                      "More than half of all shelter animals in the US are euthanized"
+                    }
+                  />
+                  <FindingsCard
+                    cardNumber={"4"}
+                    cardFinding={
+                      "People adopt pets for a multitude of reasons, ranging from education for children to companionship"
+                    }
+                  />
+                  <FindingsCard
+                    cardNumber={"5"}
+                    cardFinding={
+                      "While the COVID-19 pandemic led to more pet adoptions, it also led to an uptick in animal cruelty and more instances of pet abandonment"
+                    }
+                  />
+                </section> */}
+
+                <h4 className="portfolio-page-heading-3">
+                  Analysis of Existing Systems
+                </h4>
+
+                <section className="portfolio-double-figures">
+                  <section>
+                    {/* <p className="sub-head-p">
+                      <b className="bio-bold">In-Person Shelters</b>
+                    </p> */}
+
+                    <p className="sub-head-p">
+                      We began by performing an analysis of all of six existing
+                      systems that exist for pet adoption. These include:{" "}
+                      <b className="bio-bold">in-person shelters</b>,{" "}
+                      <b className="bio-bold">various adoption websites</b>,{" "}
+                      <b className="bio-bold">neighborhood applications</b>,{" "}
+                      <b className="bio-bold">social media platforms</b>, and{" "}
+                      <b className="bio-bold">word of mouth</b>. This resulted
+                      in the following key takeaways:
+                    </p>
+                    <ul className="portfolio-bullet-cont">
+                      <li className="portfolio-bullet">
+                        <b className="bio-bold">
+                          Traditional shelters were overwhelming for those
+                          unfamiliar with pet adoption
+                        </b>{" "}
+                        because of the odors and loud barking, raising concerns
+                        about the stress on both animals and visitors.
+                      </li>
+                      <li className="portfolio-bullet">
+                        While there are existing digital platforms that
+                        facilitate pet-adoption, they are sub-par and leave a
+                        lot to be desired. Thus,{" "}
+                        <b className="bio-bold">
+                          many find it easier to just circumvent the existing
+                          digital platforms.
+                        </b>
+                      </li>
+                      <li className="portfolio-bullet">
+                        Neighborhood applications, word of mouth, and social
+                        media platforms{" "}
+                        <b className="bio-bold">
+                          acted as a low-risk way of initiating the pet adoption
+                          process.
+                        </b>
+                        {""}
+                      </li>
+                    </ul>
+                  </section>
+                  <PortfolioPageFigure
+                    imageSource={CompetitiveAnalysis}
+                    figureCaption={""}
+                    title={"Collage of all the existing systems analyzed"}
+                    singleCard={"single-card"}
+                  />
+                </section>
+
+                <h4 className="portfolio-page-heading-3">Target Users</h4>
+
+                <p className="sub-head-p">
+                  Based on our initial research, for this project we settled on
+                  the target user of{" "}
+                  <b className="bio-bold">
+                    young adult, first-time, pet adopters
+                  </b>
+                  . This group represent an audience that is unfamiliar with pet
+                  adoption and thus, has the most to gain from a novel pet
+                  adoption solution. In addition, they are also well-versed in
+                  technology and so can benefit greatly from a better
+                  technological solution throughout the pet adoption journey. In
+                  our research, we found that young adults experienced
+                  frustration with existing technological systems for adoption
+                  and so to address this our design aims to serve as an easy to
+                  use, engaging platform that connects potential adopters to the
+                  pets they want.
+                </p>
+
+                <h4 className="portfolio-page-heading-3">Stakeholders</h4>
+
+                <p className="sub-head-p">
+                  Through our research, we identified{" "}
+                  <b className="bio-bold">two primary stakeholders </b>
+                  and <b className="bio-bold">three secondary stakeholders</b>.
+                  This can be seen in the diagram below:
+                </p>
+
+                <PortfolioPageFigure
+                  imageSource={StakeholderDiagram}
+                  figureCaption={""}
+                  title={
+                    "Diagram of all the diagram showing the primary, secondary, and tertiary stakeholders"
+                  }
+                  singleCard={"single-card"}
+                />
+
+                {/* <PortfolioPageFigureLong
+                  imageSource={PawnderPreviewTemp}
+                  figureCaption={""}
+                  title={
+                    "User journey map showing process of driver when parking"
+                  }
+                  singleCard={"single-card"}
+                /> */}
 
                 <section className="work-in-progress-container">
                   {" "}
