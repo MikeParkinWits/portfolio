@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.37370dcb.css",
-    "main.js": "/static/js/main.a4cee6d8.js",
+    "main.css": "/static/css/main.3fdfb575.css",
+    "main.js": "/static/js/main.9ba12e9f.js",
     "static/media/PawnderPreview.mov": "/static/media/PawnderPreview.f35982e75beca3a524db.mov",
     "static/media/Michael1.png": "/static/media/Michael1.f6587bae69d0f873cb52.png",
     "static/media/BraaiSimulatorPreview3.jpg": "/static/media/BraaiSimulatorPreview3.d6ac173bb36e7943fdd4.jpg",
@@ -9,11 +9,11 @@
     "static/media/ParkerPreview-1.png": "/static/media/ParkerPreview-1.d8d008dfffc7838d9ec3.png",
     "static/media/Memoji.mov": "/static/media/Memoji.baedb603b0f81c22e9d6.mov",
     "static/media/BraaiSimulatorPreview2.jpg": "/static/media/BraaiSimulatorPreview2.90322229a5ce77072108.jpg",
+    "static/media/CompetitiveAnalysis-2.png": "/static/media/CompetitiveAnalysis-2.6d4f2fd61c4df865c5d7.png",
     "static/media/HiFidelityWireframes-2.png": "/static/media/HiFidelityWireframes-2.73a209cfe71f8823e21e.png",
     "static/media/PawnderTempPreview.png": "/static/media/PawnderTempPreview.97b7395c55f41b942398.png",
     "static/media/HiFidelityWireframes-4.png": "/static/media/HiFidelityWireframes-4.6e13df52c2c58873fb8a.png",
     "static/media/HiFidelityWireframes-3.png": "/static/media/HiFidelityWireframes-3.90306f88a57870bbba2e.png",
-    "static/media/CompetitiveAnalysis.png": "/static/media/CompetitiveAnalysis.f5ce30462bf60f2f123a.png",
     "static/media/UserJourney.png": "/static/media/UserJourney.79431820ac2837f9db05.png",
     "static/media/SwingPreview2.jpg": "/static/media/SwingPreview2.e4e9cf255fc182894ffd.jpg",
     "static/media/HiFidelityWireframes-1.png": "/static/media/HiFidelityWireframes-1.8e6aa1ee7480c2497d90.png",
@@ -27,6 +27,8 @@
     "static/media/SWOT-test.png": "/static/media/SWOT-test.139be58ecf2ef8b5093b.png",
     "static/media/Image1.png": "/static/media/Image1.dd78b2442dfda4b55ac1.png",
     "static/media/Crazy8.png": "/static/media/Crazy8.151c159a3d0bfaa503fa.png",
+    "static/media/InterviewImage-Side.png": "/static/media/InterviewImage-Side.2fd6d0d300813ee7a3d1.png",
+    "static/media/InterviewImage.png": "/static/media/InterviewImage.3a8c67747a734685c571.png",
     "static/media/LowFidelityWireframes-2.png": "/static/media/LowFidelityWireframes-2.4c2d27d8663126b480e9.png",
     "static/media/BraaiSimulatorPreview.png": "/static/media/BraaiSimulatorPreview.bd6a3f90ea71cf1225d0.png",
     "static/media/DoubleDiamond-test.png": "/static/media/DoubleDiamond-test.3cb94a1fb46253517162.png",
@@ -58,11 +60,11 @@
     "static/media/SwiftSymbol.png": "/static/media/SwiftSymbol.d0cf8dd3a99e6de3edc6.png",
     "static/media/SwingIcon.png": "/static/media/SwingIcon.a394cb1f01a8a8b8465b.png",
     "index.html": "/index.html",
-    "main.37370dcb.css.map": "/static/css/main.37370dcb.css.map",
-    "main.a4cee6d8.js.map": "/static/js/main.a4cee6d8.js.map"
+    "main.3fdfb575.css.map": "/static/css/main.3fdfb575.css.map",
+    "main.9ba12e9f.js.map": "/static/js/main.9ba12e9f.js.map"
   },
   "entrypoints": [
-    "static/css/main.37370dcb.css",
-    "static/js/main.a4cee6d8.js"
+    "static/css/main.3fdfb575.css",
+    "static/js/main.9ba12e9f.js"
   ]
 }
