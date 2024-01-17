@@ -30,8 +30,10 @@ import WorkInProgressImage from "../../assets/PortfolioPageAssets/Portfolio6/Unt
 import PawnderPreviewTemp from "../../assets/PortfolioPageAssets/Portfolio6/PawnderTempPreview.png";
 import Video from "../../assets/PortfolioPageAssets/Portfolio6/PawnderPreview.mov";
 import Timeline from "../../assets/PortfolioPageAssets/Portfolio6/Timeline.png";
-import CompetitiveAnalysis from "../../assets/PortfolioPageAssets/Portfolio6/CompetitiveAnalysis.png";
+import CompetitiveAnalysis from "../../assets/PortfolioPageAssets/Portfolio6/CompetitiveAnalysis-2.png";
+import InterviewImageSide from "../../assets/PortfolioPageAssets/Portfolio6/InterviewImage-Side.png";
 import StakeholderDiagram from "../../assets/PortfolioPageAssets/Portfolio6/StakeholderDiagram.png";
+import InterviewImage from "../../assets/PortfolioPageAssets/Portfolio6/InterviewImage.png";
 
 //Icon Imports
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -334,13 +336,13 @@ export default class Portfolio5 extends Component {
                     </p> */}
 
                     <p className="sub-head-p">
-                      To start, an analysis was done of six common systems that
+                      To start, an analysis was done of five common systems that
                       exist for pet adoption - visiting/interacting with the
                       service where possible.
                     </p>
                     <ul className="portfolio-bullet-cont">
+                      <b className="bio-bold">Traditional Shelters</b>{" "}
                       <li className="portfolio-bullet">
-                        <b className="bio-bold">Traditional Shelters:</b>{" "}
                         In-person shelter adoption involves potential adopters
                         navigating through individual stalls to choose a pet,
                         creating an environment for personal interaction and
@@ -348,19 +350,21 @@ export default class Portfolio5 extends Component {
                         overwhelming or discouraging for others because of the
                         odors and loud noises.
                       </li>
+                      <br />
+                      <b className="bio-bold">Adoption Websites</b>
                       <li className="portfolio-bullet">
-                        <b className="bio-bold">Adoption Websites: </b>
                         Adoption websites play an important role in the adoption
                         process, displaying adoptable pets to adopters, allowing
                         them to view these pets from anywhere they wish.
                         However, potential adopters still need to go to a
                         shelter to actually adopt the pet.
                       </li>
+                      <br />
+                      <b className="bio-bold">
+                        Neighborhood Applications, Social Media Channels, & Word
+                        of Mouth
+                      </b>
                       <li className="portfolio-bullet">
-                        <b className="bio-bold">
-                          Neighborhood Applications, Social Media Channels, &
-                          Word of Mouth:{" "}
-                        </b>
                         While more informal, these adoption methods are often
                         done among individuals with pre-existing connections.
                         This ultimately fosters a heightened sense of trust
@@ -407,7 +411,7 @@ export default class Portfolio5 extends Component {
                   imageSource={StakeholderDiagram}
                   figureCaption={""}
                   title={
-                    "Diagram of all the diagram showing the primary, secondary, and tertiary stakeholders"
+                    "Diagram showing the primary, secondary, and tertiary stakeholders"
                   }
                   singleCard={"single-card"}
                 />
@@ -420,6 +424,103 @@ export default class Portfolio5 extends Component {
                   }
                   singleCard={"single-card"}
                 /> */}
+
+                <h3 className="portfolio-page-heading-2 line-class">
+                  🎯 Requirements Gathering & Ideation
+                </h3>
+
+                <p className="sub-head-p">
+                  Having explored the topic space at hand, the team then moved
+                  on to exploring how we can address the issue of facilitating
+                  pet adoption - starting with semi-structured interviews of our
+                  target group.
+                </p>
+
+                <section className="portfolio-double-figures">
+                  <section>
+                    <h4 className="portfolio-page-heading-3">
+                      Semi-Structured Interviews
+                    </h4>
+                    <p className="sub-head-p">
+                      Our semi-structured interviews aimed to gather more
+                      qualitative data and dive deeper into some reasons and
+                      behaviors with young-adult adopters. While our target user
+                      group was first-time adopters,{" "}
+                      <b className="bio-bold">
+                        we chose to interview participants with varying levels
+                        of adoption experience
+                      </b>{" "}
+                      in order to understand how the adoption process has
+                      changed over time. All interviews were then conducted over
+                      Zoom, giving our participants and us the most flexibility.
+                    </p>
+                  </section>
+                  <PortfolioPageFigure
+                    imageSource={InterviewImage}
+                    figureCaption={""}
+                    title={"Screenshot of Semi-structured User Interview"}
+                    singleCard={"single-card"}
+                  />
+                </section>
+
+                <h4 className="portfolio-page-heading-3">Findings</h4>
+
+                <p className="sub-head-p">
+                  After all interviews were completed, we held an interpretation
+                  session and constructed an affinity map to consolidate and
+                  organize our data across multiple users and uncover important
+                  insights.
+                </p>
+
+                <section>
+                  <iframe
+                    width="768"
+                    height="432"
+                    src="https://miro.com/app/live-embed/uXjVNfpbLH4=/?moveToViewport=-5451,-4515,11435,3319&embedId=816810461659"
+                    frameborder="0"
+                    scrolling="no"
+                    allow="fullscreen; clipboard-read; clipboard-write"
+                    allowfullscreen
+                    className="portfolio-figma"
+                  ></iframe>
+                </section>
+
+                <p className="sub-head-p">
+                  <b className="bio-bold">Key Takeaways</b>
+                </p>
+
+                <section className="findings-grid-findings">
+                  <FindingsCard
+                    cardNumber={"1"}
+                    cardFinding={
+                      "Young adults are fairly tech literate and felt let down by existing digital pet adoption solutions"
+                    }
+                  />
+                  <FindingsCard
+                    cardNumber={"2"}
+                    cardFinding={
+                      "First-time pet adopters have little, to no, experience with pet care"
+                    }
+                  />
+                  <FindingsCard
+                    cardNumber={"3"}
+                    cardFinding={
+                      "The primary motiviation for wanting a pet was either companionship or emotional support"
+                    }
+                  />
+                  <FindingsCard
+                    cardNumber={"4"}
+                    cardFinding={
+                      "Adopters had preset preferences for the type of pet they wanted, leading to unrealistic expectations for that pets role in their life"
+                    }
+                  />
+                  <FindingsCard
+                    cardNumber={"5"}
+                    cardFinding={
+                      "Most first-time adopters felt overwhlemed by the pet selection process and didn't know how to start"
+                    }
+                  />
+                </section>
 
                 <section className="work-in-progress-container">
                   {" "}
