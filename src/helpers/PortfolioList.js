@@ -8,19 +8,6 @@ import UIUXResearchPaper from "../assets/PortfolioCardImages/UIUXResearchPaperPr
 
 export const PortfolioList = [
   {
-    cardTitle: "Parker",
-    cardDate: "2022",
-    cardSummary:
-      "An app-based platform, for mobile devices, that aims to revolutionise on-street parking in South Africa",
-    image: ParkerImage,
-    imageTitle: "Parker Image",
-    imageAltText: "A collection of phones with Parker open",
-    cardRoute: "/portfolio/parker",
-    cardType: "UX Case Study",
-    type: "ux-case-study",
-    cardBackgroundClass: "gradient-blue",
-  },
-  {
     cardTitle: "Pawnder (In Progress)",
     cardDate: "2023",
     cardSummary:
@@ -29,6 +16,19 @@ export const PortfolioList = [
     imageTitle: "Pawnder Image",
     imageAltText: "A collection of phones with Pawnders main page open",
     cardRoute: "/portfolio/pawnder",
+    cardType: "UX Case Study",
+    type: "ux-case-study",
+    cardBackgroundClass: "gradient-blue",
+  },
+  {
+    cardTitle: "Parker",
+    cardDate: "2022",
+    cardSummary:
+      "An app-based platform, for mobile devices, that aims to revolutionise on-street parking in South Africa",
+    image: ParkerImage,
+    imageTitle: "Parker Image",
+    imageAltText: "A collection of phones with Parker open",
+    cardRoute: "/portfolio/parker",
     cardType: "UX Case Study",
     type: "ux-case-study",
     cardBackgroundClass: "gradient-blue",
