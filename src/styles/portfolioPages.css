@@ -766,4 +766,8 @@
     text-align: center;
     color: #444444;
   }
+
+  .portfolio-video {
+    width: 80%;
+  }
 }
