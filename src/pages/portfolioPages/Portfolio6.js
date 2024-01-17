@@ -34,6 +34,8 @@ import CompetitiveAnalysis from "../../assets/PortfolioPageAssets/Portfolio6/Com
 import InterviewImageSide from "../../assets/PortfolioPageAssets/Portfolio6/InterviewImage-Side.png";
 import StakeholderDiagram from "../../assets/PortfolioPageAssets/Portfolio6/StakeholderDiagram.png";
 import InterviewImage from "../../assets/PortfolioPageAssets/Portfolio6/InterviewImage.png";
+import HTAOne from "../../assets/PortfolioPageAssets/Portfolio6/HTAOne.png";
+import HTATwo from "../../assets/PortfolioPageAssets/Portfolio6/HTATwo.png";
 
 //Icon Imports
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -521,6 +523,53 @@ export default class Portfolio5 extends Component {
                     }
                   />
                 </section>
+
+                <h4 className="portfolio-page-heading-3">
+                  Hierarchical Task Analysis
+                </h4>
+
+                <p className="sub-head-p">
+                  Based on the main findings from our interviews, we created{" "}
+                  <b className="bio-bold">two hierarchical task analyses</b>.
+                  This first task analysis represents{" "}
+                  <b className="bio-bold">
+                    how our target users currently select a pet to adopt
+                  </b>
+                  , and the second task analysis represents{" "}
+                  <b className="bio-bold">
+                    how our target users currently go about finalizing the
+                    adoption process
+                  </b>
+                  .{" "}
+                </p>
+
+                <Carousel
+                  autoPlay={true}
+                  interval={10000}
+                  infiniteLoop={true}
+                  showArrows={false}
+                  renderIndicator={this.renderCustomIndicator}
+                  renderArrowPrev={this.renderCustomPrevArrow}
+                  renderArrowNext={this.renderCustomNextArrow}
+                  showStatus={false}
+                  showIndicators={true}
+                >
+                  <PortfolioPageFigure
+                    imageSource={HTAOne}
+                    figureCaption={""}
+                    title={"Screenshot of Semi-structured User Interview"}
+                    singleCard={"single-card"}
+                  />
+                  <div>
+                    <PortfolioPageFigure
+                      imageSource={HTATwo}
+                      figureCaption={""}
+                      title={"Screenshot of Semi-structured User Interview"}
+                      singleCard={"single-card"}
+                    />
+                    {/* <p className="legend">Legend 2</p> */}
+                  </div>
+                </Carousel>
 
                 <section className="work-in-progress-container">
                   {" "}
