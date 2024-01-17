@@ -270,14 +270,12 @@ export default class Portfolio5 extends Component {
                 <PortfolioPageFigureLong
                   imageSource={Timeline}
                   figureCaption={""}
-                  title={
-                    "User journey map showing process of driver when parking"
-                  }
+                  title={"Brief Overview of Timeline for Project"}
                   singleCard={"single-card"}
                 />
 
                 <h3 className="portfolio-page-heading-2 line-class">
-                  🕵🏼‍♂️ Discover
+                  🕵🏼‍♂️ Discovering the Problem Space
                 </h3>
 
                 {/* <h4 className="portfolio-page-heading-3">Topic Exploration</h4>
@@ -336,41 +334,39 @@ export default class Portfolio5 extends Component {
                     </p> */}
 
                     <p className="sub-head-p">
-                      We began by performing an analysis of all of six existing
-                      systems that exist for pet adoption. These include:{" "}
-                      <b className="bio-bold">in-person shelters</b>,{" "}
-                      <b className="bio-bold">various adoption websites</b>,{" "}
-                      <b className="bio-bold">neighborhood applications</b>,{" "}
-                      <b className="bio-bold">social media platforms</b>, and{" "}
-                      <b className="bio-bold">word of mouth</b>. This resulted
-                      in the following key takeaways:
+                      To start, an analysis was done of six common systems that
+                      exist for pet adoption - visiting/interacting with the
+                      service where possible.
                     </p>
                     <ul className="portfolio-bullet-cont">
                       <li className="portfolio-bullet">
-                        <b className="bio-bold">
-                          Traditional shelters were overwhelming for those
-                          unfamiliar with pet adoption
-                        </b>{" "}
-                        because of the odors and loud barking, raising concerns
-                        about the stress on both animals and visitors.
+                        <b className="bio-bold">Traditional Shelters:</b>{" "}
+                        In-person shelter adoption involves potential adopters
+                        navigating through individual stalls to choose a pet,
+                        creating an environment for personal interaction and
+                        discovery. While this approach suits some, it can be
+                        overwhelming or discouraging for others because of the
+                        odors and loud noises.
                       </li>
                       <li className="portfolio-bullet">
-                        While there are existing digital platforms that
-                        facilitate pet-adoption, they are sub-par and leave a
-                        lot to be desired. Thus,{" "}
-                        <b className="bio-bold">
-                          many find it easier to just circumvent the existing
-                          digital platforms.
-                        </b>
+                        <b className="bio-bold">Adoption Websites: </b>
+                        Adoption websites play an important role in the adoption
+                        process, displaying adoptable pets to adopters, allowing
+                        them to view these pets from anywhere they wish.
+                        However, potential adopters still need to go to a
+                        shelter to actually adopt the pet.
                       </li>
                       <li className="portfolio-bullet">
-                        Neighborhood applications, word of mouth, and social
-                        media platforms{" "}
                         <b className="bio-bold">
-                          acted as a low-risk way of initiating the pet adoption
-                          process.
+                          Neighborhood Applications, Social Media Channels, &
+                          Word of Mouth:{" "}
                         </b>
-                        {""}
+                        While more informal, these adoption methods are often
+                        done among individuals with pre-existing connections.
+                        This ultimately fosters a heightened sense of trust
+                        between adopters and those giving away the pet,
+                        promoting increased transparency in understanding the
+                        pet's behavior.
                       </li>
                     </ul>
                   </section>
@@ -385,21 +381,17 @@ export default class Portfolio5 extends Component {
                 <h4 className="portfolio-page-heading-3">Target Users</h4>
 
                 <p className="sub-head-p">
-                  Based on our initial research, for this project we settled on
-                  the target user of{" "}
+                  Based on initial research into the topic space, for this
+                  project the team chose to focus on{" "}
                   <b className="bio-bold">
-                    young adult, first-time, pet adopters
-                  </b>
-                  . This group represent an audience that is unfamiliar with pet
-                  adoption and thus, has the most to gain from a novel pet
-                  adoption solution. In addition, they are also well-versed in
-                  technology and so can benefit greatly from a better
-                  technological solution throughout the pet adoption journey. In
-                  our research, we found that young adults experienced
-                  frustration with existing technological systems for adoption
-                  and so to address this our design aims to serve as an easy to
-                  use, engaging platform that connects potential adopters to the
-                  pets they want.
+                    young adult, first-time pet adopters
+                  </b>{" "}
+                  who, being unfamiliar with pet adoption, stand to benefit the
+                  most from an innovative and novel adoption solution. In
+                  addition, this group is often frustrated with existing
+                  adoption technologies and would greatly benefit from a more
+                  user-friendly, engaging platform designed to connect them
+                  seamlessly with the pets they desire.
                 </p>
 
                 <h4 className="portfolio-page-heading-3">Stakeholders</h4>
