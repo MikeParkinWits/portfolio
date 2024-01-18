@@ -428,7 +428,7 @@ export default class Portfolio5 extends Component {
                 /> */}
 
                 <h3 className="portfolio-page-heading-2 line-class">
-                  🎯 Requirements Gathering & Ideation
+                  🎯 Requirements Gathering
                 </h3>
 
                 <p className="sub-head-p">
@@ -570,6 +570,57 @@ export default class Portfolio5 extends Component {
                     {/* <p className="legend">Legend 2</p> */}
                   </div>
                 </Carousel>
+
+                <h4 className="portfolio-page-heading-3">
+                  Design Requirements
+                </h4>
+                <p className="sub-head-p">
+                  As a result of our requirements-gathering activities, we
+                  defined six high-level design requirements to advise our
+                  future design decisions:
+                </p>
+
+                <ul className="portfolio-bullet-cont">
+                  <li className="portfolio-bullet">
+                    Our design{" "}
+                    <b className="bio-bold">
+                      should not assume prior knowledge of pet adoption
+                    </b>
+                  </li>
+                  <li className="portfolio-bullet">
+                    Our design{" "}
+                    <b className="bio-bold">
+                      should reflect how young adults interact with technology
+                    </b>
+                  </li>
+                  <li className="portfolio-bullet">
+                    Our design{" "}
+                    <b className="bio-bold">
+                      should accommodate users with sensory issues
+                    </b>
+                  </li>
+                  <li className="portfolio-bullet">
+                    Our design
+                    <b className="bio-bold">
+                      {" "}
+                      should be affordable for adopters and shelters
+                    </b>
+                  </li>
+                  <li className="portfolio-bullet">
+                    Our design{" "}
+                    <b className="bio-bold">
+                      should have clear and accurate information about adoptable
+                      pets
+                    </b>
+                  </li>
+                  <li className="portfolio-bullet">
+                    Our design{" "}
+                    <b className="bio-bold">
+                      should include a variety of pet species, rather than just
+                      a few.
+                    </b>
+                  </li>
+                </ul>
 
                 <section className="work-in-progress-container">
                   {" "}
