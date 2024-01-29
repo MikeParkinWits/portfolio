@@ -36,6 +36,7 @@ import StakeholderDiagram from "../../assets/PortfolioPageAssets/Portfolio6/Stak
 import InterviewImage from "../../assets/PortfolioPageAssets/Portfolio6/InterviewImage.png";
 import HTAOne from "../../assets/PortfolioPageAssets/Portfolio6/HTAOne.png";
 import HTATwo from "../../assets/PortfolioPageAssets/Portfolio6/HTATwo.png";
+import Mockups from "../../assets/PortfolioPageAssets/Portfolio6/Mockups.png";
 
 //Icon Imports
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -428,7 +429,7 @@ export default class Portfolio5 extends Component {
                 /> */}
 
                 <h3 className="portfolio-page-heading-2 line-class">
-                  🎯 Requirements Gathering
+                  🎯 Requirements Gathering & Ideation
                 </h3>
 
                 <p className="sub-head-p">
@@ -469,7 +470,8 @@ export default class Portfolio5 extends Component {
 
                 <p className="sub-head-p">
                   After all interviews were completed, we held an interpretation
-                  session and constructed an affinity map to consolidate and
+                  session and constructed an{" "}
+                  <b className="bio-bold">affinity map</b> to consolidate and
                   organize our data across multiple users and uncover important
                   insights.
                 </p>
@@ -621,6 +623,33 @@ export default class Portfolio5 extends Component {
                     </b>
                   </li>
                 </ul>
+
+                <h4 className="portfolio-page-heading-3">
+                  Brainstorming & Ideation
+                </h4>
+
+                <p className="sub-head-p">
+                  After gathering and defining our requirements, we then engaged
+                  in “informed brainstorming” to explore the design space for
+                  our problem and develop design alternatives. To do this we
+                  went through a round of{" "}
+                  <b className="bio-bold">metaphorical thinking</b> and{" "}
+                  <b className="bio-bold">crazy 8's</b>. This ultimately
+                  resulted in a handful of different ideas and mockups:
+                </p>
+
+                <PortfolioPageFigureLong
+                  imageSource={Mockups}
+                  figureCaption={""}
+                  title={"Brief Overview of Brainstorm Ideas"}
+                  singleCard={"single-card"}
+                />
+
+                <p className="sub-head-p">
+                  From this, we ultimately decided on the idea of creating
+                  Pawnder - a dating-style application that aims to simplify the
+                  adoption process for first-time, young adult, pet adopters.
+                </p>
 
                 <section className="work-in-progress-container">
                   {" "}
