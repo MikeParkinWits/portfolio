@@ -41,6 +41,7 @@ import HTAOne from "../../assets/PortfolioPageAssets/Portfolio6/HTAOne.png";
 import HTATwo from "../../assets/PortfolioPageAssets/Portfolio6/HTATwo.png";
 import Mockups from "../../assets/PortfolioPageAssets/Portfolio6/Mockups.png";
 import DesignLanguage from "../../assets/PortfolioPageAssets/Portfolio6/DesignLanguage.png";
+import EvaluationTimeline from "../../assets/PortfolioPageAssets/Portfolio6/EvaluationTimeline.png";
 
 //Icon Imports
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -733,7 +734,6 @@ export default class Portfolio5 extends Component {
                 />
 
                 <h4 className="portfolio-page-heading-3">
-                  {" "}
                   High-Fidelity Wireframes
                 </h4>
 
@@ -795,6 +795,51 @@ export default class Portfolio5 extends Component {
                     {/* <p className="legend">Legend 2</p> */}
                   </div>
                 </Carousel>
+
+                <h3 className="portfolio-page-heading-2 line-class">
+                  ✅ Evaluation & Final Suggestions
+                </h3>
+                <h4 className="portfolio-page-heading-3">Evaluation Plan</h4>
+
+                <p className="sub-head-p">
+                  Due to the time constraints of this project, we conducted a
+                  discount evaluation of our prototype with other students in
+                  the MS-HCI program. We developed a plan to support two
+                  evaluation goals, linking directly to two of our most crucial
+                  design requirements:
+                </p>
+
+                <ul className="portfolio-bullet-cont">
+                  <li className="portfolio-bullet">
+                    Our design{" "}
+                    <b className="bio-bold">
+                      should not assume prior knowledge of pet adoption
+                    </b>
+                  </li>
+                  <li className="portfolio-bullet">
+                    Our design{" "}
+                    <b className="bio-bold">
+                      should reflect how young adults interact with technology
+                    </b>
+                  </li>
+                </ul>
+
+                <h4 className="portfolio-page-heading-3">Method Details</h4>
+
+                <p className="sub-head-p">
+                  To provide a comprehensive evaluation of our system while
+                  still working within our time constraints, we elected to
+                  perform a combination of <b className="bio-bold">surveys</b>{" "}
+                  and <b className="bio-bold">usability tests</b> for Pawnder.
+                  These were perfromed as follows:
+                </p>
+
+                <PortfolioPageFigure
+                  imageSource={EvaluationTimeline}
+                  figureCaption={""}
+                  title={"Styleguide for Parker"}
+                  singleCard={"single-card"}
+                />
 
                 <section className="work-in-progress-container">
                   {" "}
