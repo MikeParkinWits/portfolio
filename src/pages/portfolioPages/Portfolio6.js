@@ -14,16 +14,19 @@ import StakeholderDiagramImage from "../../assets/PortfolioPageAssets/Portfolio5
 import SWOTDiagramImage from "../../assets/PortfolioPageAssets/Portfolio5/SWOT-test.png";
 import UserJourneyImage from "../../assets/PortfolioPageAssets/Portfolio5/UserJourney.png";
 import StyleguideImage from "../../assets/PortfolioPageAssets/Portfolio5/Styleguide.png";
-import HiFiWireframeOneImage from "../../assets/PortfolioPageAssets/Portfolio5/HiFidelityWireframes-1.png";
-import HiFiWireframeTwoImage from "../../assets/PortfolioPageAssets/Portfolio5/HiFidelityWireframes-2.png";
-import HiFiWireframeThreeImage from "../../assets/PortfolioPageAssets/Portfolio5/HiFidelityWireframes-3.png";
-import HiFiWireframeFourImage from "../../assets/PortfolioPageAssets/Portfolio5/HiFidelityWireframes-4.png";
-import HiFiWireframeFiveImage from "../../assets/PortfolioPageAssets/Portfolio5/HiFidelityWireframes-5.png";
-import LoFiWireframeOneImage from "../../assets/PortfolioPageAssets/Portfolio5/LowFidelity/LowFidelityWireframes-1.png";
-import LoFiWireframeTwoImage from "../../assets/PortfolioPageAssets/Portfolio5/LowFidelity/LowFidelityWireframes-2.png";
-import LoFiWireframeThreeImage from "../../assets/PortfolioPageAssets/Portfolio5/LowFidelity/LowFidelityWireframes-3.png";
-import LoFiWireframeFourImage from "../../assets/PortfolioPageAssets/Portfolio5/LowFidelity/LowFidelityWireframes-4.png";
-import LoFiWireframeFiveImage from "../../assets/PortfolioPageAssets/Portfolio5/LowFidelity/LowFidelityWireframes-5.png";
+import HiFiWireframeOneImage from "../../assets/PortfolioPageAssets/Portfolio6/HighFidelity/HighFidelityWireframes-1.png";
+import HiFiWireframeTwoImage from "../../assets/PortfolioPageAssets/Portfolio6/HighFidelity/HighFidelityWireframes-2.png";
+import HiFiWireframeThreeImage from "../../assets/PortfolioPageAssets/Portfolio6/HighFidelity/HighFidelityWireframes-3.png";
+import HiFiWireframeFourImage from "../../assets/PortfolioPageAssets/Portfolio6/HighFidelity/HighFidelityWireframes-4.png";
+import LoFiWireframeOneImage from "../../assets/PortfolioPageAssets/Portfolio6/LowFidelity/LowFidelityWireframes-1.png";
+import LoFiWireframeTwoImage from "../../assets/PortfolioPageAssets/Portfolio6/LowFidelity/LowFidelityWireframes-2.png";
+import LoFiWireframeThreeImage from "../../assets/PortfolioPageAssets/Portfolio6/LowFidelity/LowFidelityWireframes-3.png";
+import LoFiWireframeFourImage from "../../assets/PortfolioPageAssets/Portfolio6/LowFidelity/LowFidelityWireframes-4.png";
+import DesignLanguageOneImage from "../../assets/PortfolioPageAssets/Portfolio6/DesignLanguage/DesignLanguage-1.png";
+import DesignLanguageTwoImage from "../../assets/PortfolioPageAssets/Portfolio6/DesignLanguage/DesignLanguage-2.png";
+import DesignLanguageThreeImage from "../../assets/PortfolioPageAssets/Portfolio6/DesignLanguage/DesignLanguage-3.png";
+import DesignLanguageFourImage from "../../assets/PortfolioPageAssets/Portfolio6/DesignLanguage/DesignLanguage-4.png";
+import DesignLanguageFiveImage from "../../assets/PortfolioPageAssets/Portfolio6/DesignLanguage/DesignLanguage-5.png";
 import Crazy8Image from "../../assets/PortfolioPageAssets/Portfolio5/Crazy8.png";
 import PawnderPreview from "../../assets/PortfolioCardImages/PawnderPreview-1.png";
 import WorkInProgressImage from "../../assets/PortfolioPageAssets/Portfolio6/Untitled.png";
@@ -37,6 +40,7 @@ import InterviewImage from "../../assets/PortfolioPageAssets/Portfolio6/Intervie
 import HTAOne from "../../assets/PortfolioPageAssets/Portfolio6/HTAOne.png";
 import HTATwo from "../../assets/PortfolioPageAssets/Portfolio6/HTATwo.png";
 import Mockups from "../../assets/PortfolioPageAssets/Portfolio6/Mockups.png";
+import DesignLanguage from "../../assets/PortfolioPageAssets/Portfolio6/DesignLanguage.png";
 
 //Icon Imports
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -440,6 +444,12 @@ export default class Portfolio5 extends Component {
                 </p>
 
                 <section className="portfolio-double-figures">
+                  <PortfolioPageFigure
+                    imageSource={InterviewImage}
+                    figureCaption={""}
+                    title={"Screenshot of Semi-structured User Interview"}
+                    singleCard={"single-card"}
+                  />
                   <section>
                     <h4 className="portfolio-page-heading-3">
                       Semi-Structured Interviews
@@ -458,12 +468,6 @@ export default class Portfolio5 extends Component {
                       Zoom, giving our participants and us the most flexibility.
                     </p>
                   </section>
-                  <PortfolioPageFigure
-                    imageSource={InterviewImage}
-                    figureCaption={""}
-                    title={"Screenshot of Semi-structured User Interview"}
-                    singleCard={"single-card"}
-                  />
                 </section>
 
                 <h4 className="portfolio-page-heading-3">Findings</h4>
@@ -480,7 +484,7 @@ export default class Portfolio5 extends Component {
                   <iframe
                     width="768"
                     height="432"
-                    src="https://miro.com/app/live-embed/uXjVNfpbLH4=/?moveToViewport=-5451,-4515,11435,3319&embedId=816810461659"
+                    src="https://miro.com/app/live-embed/uXjVNzyQWbQ=/?moveToViewport=-5148,-2794,10020,5348&embedId=333127812217"
                     frameborder="0"
                     scrolling="no"
                     allow="fullscreen; clipboard-read; clipboard-write"
@@ -635,7 +639,8 @@ export default class Portfolio5 extends Component {
                   went through a round of{" "}
                   <b className="bio-bold">metaphorical thinking</b> and{" "}
                   <b className="bio-bold">crazy 8's</b>. This ultimately
-                  resulted in a handful of different ideas and mockups:
+                  resulted in a handful of different ideas and mockups, some of
+                  which can be seen below:
                 </p>
 
                 <PortfolioPageFigureLong
@@ -646,10 +651,150 @@ export default class Portfolio5 extends Component {
                 />
 
                 <p className="sub-head-p">
-                  From this, we ultimately decided on the idea of creating
-                  Pawnder - a dating-style application that aims to simplify the
-                  adoption process for first-time, young adult, pet adopters.
+                  From all of this, we then ultimately chose Pawnder as our
+                  final idea and started to create our design prototype.
                 </p>
+
+                <h3 className="portfolio-page-heading-2 line-class">
+                  🛠️ Prototyping
+                </h3>
+
+                <h4 className="portfolio-page-heading-3">
+                  Low-Fidelity Wireframes
+                </h4>
+
+                <p className="sub-head-p">
+                  Using Figma, we started by developing a series of low-fidelity
+                  wireframes for the application.
+                </p>
+
+                <Carousel
+                  autoPlay={true}
+                  interval={10000}
+                  infiniteLoop={true}
+                  showArrows={false}
+                  renderIndicator={this.renderCustomIndicator}
+                  renderArrowPrev={this.renderCustomPrevArrow}
+                  renderArrowNext={this.renderCustomNextArrow}
+                  showStatus={false}
+                  showIndicators={true}
+                >
+                  <div>
+                    <PortfolioPageFigure
+                      imageSource={LoFiWireframeOneImage}
+                      figureCaption={""}
+                      title={"Styleguide for Parker"}
+                      singleCard={"single-card"}
+                    />
+                    {/* <p className="legend">Legend 1</p> */}
+                  </div>
+                  <div>
+                    <PortfolioPageFigure
+                      imageSource={LoFiWireframeTwoImage}
+                      figureCaption={""}
+                      title={"Styleguide for Parker"}
+                      singleCard={"single-card"}
+                    />
+                    {/* <p className="legend">Legend 2</p> */}
+                  </div>
+                  <div>
+                    <PortfolioPageFigure
+                      imageSource={LoFiWireframeThreeImage}
+                      figureCaption={""}
+                      title={"Styleguide for Parker"}
+                      singleCard={"single-card"}
+                    />
+                    {/* <p className="legend">Legend 2</p> */}
+                  </div>
+                  <div>
+                    <PortfolioPageFigure
+                      imageSource={LoFiWireframeFourImage}
+                      figureCaption={""}
+                      title={"Styleguide for Parker"}
+                      singleCard={"single-card"}
+                    />
+                    {/* <p className="legend">Legend 2</p> */}
+                  </div>
+                </Carousel>
+
+                <h4 className="portfolio-page-heading-3">Design Language</h4>
+
+                <p className="sub-head-p">
+                  Thereafter, we created a design language for the applications
+                  high-fidelity wireframes - ensuring it was playful and matched
+                  the intended aesthetic of Pawnder.
+                </p>
+
+                <PortfolioPageFigure
+                  imageSource={DesignLanguage}
+                  figureCaption={""}
+                  title={"Brief Overview of Brainstorm Ideas"}
+                  singleCard={"single-card"}
+                />
+
+                <h4 className="portfolio-page-heading-3">
+                  {" "}
+                  High-Fidelity Wireframes
+                </h4>
+
+                <p className="sub-head-p">
+                  Finally, we then used the low-fidelity wireframes, along with
+                  various feedback sessions to develop a set of high-fidelity
+                  wireframes and prototype (seen in the project overview).{" "}
+                  <b className="bio-bold">
+                    As the lead UX designer for the project, most of the
+                    high-fidelity wireframes were designed and created by me.
+                  </b>
+                </p>
+
+                <Carousel
+                  autoPlay={true}
+                  interval={10000}
+                  infiniteLoop={true}
+                  showArrows={false}
+                  renderIndicator={this.renderCustomIndicator}
+                  renderArrowPrev={this.renderCustomPrevArrow}
+                  renderArrowNext={this.renderCustomNextArrow}
+                  showStatus={false}
+                  showIndicators={true}
+                >
+                  <div>
+                    <PortfolioPageFigureLong
+                      imageSource={HiFiWireframeOneImage}
+                      figureCaption={""}
+                      title={"Styleguide for Parker"}
+                      singleCard={"single-card"}
+                    />
+                    {/* <p className="legend">Legend 1</p> */}
+                  </div>
+                  <div>
+                    <PortfolioPageFigureLong
+                      imageSource={HiFiWireframeTwoImage}
+                      figureCaption={""}
+                      title={"Styleguide for Parker"}
+                      singleCard={"single-card"}
+                    />
+                    {/* <p className="legend">Legend 2</p> */}
+                  </div>
+                  <div>
+                    <PortfolioPageFigureLong
+                      imageSource={HiFiWireframeThreeImage}
+                      figureCaption={""}
+                      title={"Styleguide for Parker"}
+                      singleCard={"single-card"}
+                    />
+                    {/* <p className="legend">Legend 2</p> */}
+                  </div>
+                  <div>
+                    <PortfolioPageFigureLong
+                      imageSource={HiFiWireframeFourImage}
+                      figureCaption={""}
+                      title={"Styleguide for Parker"}
+                      singleCard={"single-card"}
+                    />
+                    {/* <p className="legend">Legend 2</p> */}
+                  </div>
+                </Carousel>
 
                 <section className="work-in-progress-container">
                   {" "}
