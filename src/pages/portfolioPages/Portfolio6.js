@@ -151,9 +151,7 @@ export default class Portfolio5 extends Component {
               <header className="portfolio-header">
                 <section className="portfolio-page-title-line">
                   <section>
-                    <h1 className="portfolio-item-title p-name">
-                      Pawnder (In Progress)
-                    </h1>
+                    <h1 className="portfolio-item-title p-name">Pawnder</h1>
                     <p className="portfolio-sub-title">
                       A dating-style application that aims to simplify the
                       adoption process for first-time, young adult, pet adopters
@@ -224,7 +222,7 @@ export default class Portfolio5 extends Component {
                         a dating-style application that utilizes familiar
                         swiping gestures to select pets
                       </b>{" "}
-                      was designed - streamling the pet selection process.
+                      was designed - streamlining the pet selection process.
                     </p>
                   </section>
                 </section>
@@ -684,7 +682,7 @@ export default class Portfolio5 extends Component {
                     <PortfolioPageFigure
                       imageSource={LoFiWireframeOneImage}
                       figureCaption={""}
-                      title={"Styleguide for Parker"}
+                      title={"Low Fidelity Wireframe One"}
                       singleCard={"single-card"}
                     />
                     {/* <p className="legend">Legend 1</p> */}
@@ -693,7 +691,7 @@ export default class Portfolio5 extends Component {
                     <PortfolioPageFigure
                       imageSource={LoFiWireframeTwoImage}
                       figureCaption={""}
-                      title={"Styleguide for Parker"}
+                      title={"Low Fidelity Wireframe Two"}
                       singleCard={"single-card"}
                     />
                     {/* <p className="legend">Legend 2</p> */}
@@ -702,7 +700,7 @@ export default class Portfolio5 extends Component {
                     <PortfolioPageFigure
                       imageSource={LoFiWireframeThreeImage}
                       figureCaption={""}
-                      title={"Styleguide for Parker"}
+                      title={"Low Fidelity Wireframe Three"}
                       singleCard={"single-card"}
                     />
                     {/* <p className="legend">Legend 2</p> */}
@@ -711,7 +709,7 @@ export default class Portfolio5 extends Component {
                     <PortfolioPageFigure
                       imageSource={LoFiWireframeFourImage}
                       figureCaption={""}
-                      title={"Styleguide for Parker"}
+                      title={"Low Fidelity Wireframe Four"}
                       singleCard={"single-card"}
                     />
                     {/* <p className="legend">Legend 2</p> */}
@@ -729,7 +727,7 @@ export default class Portfolio5 extends Component {
                 <PortfolioPageFigure
                   imageSource={DesignLanguage}
                   figureCaption={""}
-                  title={"Brief Overview of Brainstorm Ideas"}
+                  title={"Pawnder Design Language"}
                   singleCard={"single-card"}
                 />
 
@@ -762,7 +760,7 @@ export default class Portfolio5 extends Component {
                     <PortfolioPageFigureLong
                       imageSource={HiFiWireframeOneImage}
                       figureCaption={""}
-                      title={"Styleguide for Parker"}
+                      title={"High Fidelity Wireframe One"}
                       singleCard={"single-card"}
                     />
                     {/* <p className="legend">Legend 1</p> */}
@@ -771,7 +769,7 @@ export default class Portfolio5 extends Component {
                     <PortfolioPageFigureLong
                       imageSource={HiFiWireframeTwoImage}
                       figureCaption={""}
-                      title={"Styleguide for Parker"}
+                      title={"High Fidelity Wireframe Two"}
                       singleCard={"single-card"}
                     />
                     {/* <p className="legend">Legend 2</p> */}
@@ -780,7 +778,7 @@ export default class Portfolio5 extends Component {
                     <PortfolioPageFigureLong
                       imageSource={HiFiWireframeThreeImage}
                       figureCaption={""}
-                      title={"Styleguide for Parker"}
+                      title={"High Fidelity Wireframe Three"}
                       singleCard={"single-card"}
                     />
                     {/* <p className="legend">Legend 2</p> */}
@@ -789,7 +787,7 @@ export default class Portfolio5 extends Component {
                     <PortfolioPageFigureLong
                       imageSource={HiFiWireframeFourImage}
                       figureCaption={""}
-                      title={"Styleguide for Parker"}
+                      title={"High Fidelity Wireframe Four"}
                       singleCard={"single-card"}
                     />
                     {/* <p className="legend">Legend 2</p> */}
@@ -837,11 +835,11 @@ export default class Portfolio5 extends Component {
                 <PortfolioPageFigure
                   imageSource={EvaluationTimeline}
                   figureCaption={""}
-                  title={"Styleguide for Parker"}
+                  title={"Evaluation Order"}
                   singleCard={"single-card"}
                 />
 
-                <section className="work-in-progress-container">
+                {/* <section className="work-in-progress-container">
                   {" "}
                   <img
                     className="work-in-progress-image"
@@ -854,7 +852,7 @@ export default class Portfolio5 extends Component {
                     <p>Looks Like I'm Still Working On This One!</p>
                     <p>Be Sure To Check Back Soon!</p>
                   </section>
-                </section>
+                </section> */}
               </section>
             </article>
             {/* <BlogButtons type="Blog" /> */}

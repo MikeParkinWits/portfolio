@@ -5,6 +5,7 @@ import Memoji from "../assets/Me-About.JPG";
 import WitsLogo from "../assets/WitsLogo.png";
 import GeorgiaTechLogo1 from "../assets/GeorgiaTechLogo1.png";
 import GeorgiaTechLogo2 from "../assets/GeorgiaTechLogo2.jpeg";
+import LenovoLogo from "../assets/LenovoLogo.jpg";
 
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import Linkbutton from "../components/buttons/Linkbutton";
@@ -76,10 +77,16 @@ export default class AboutMePage extends Component {
               <header>
                 <h2 className="page-sub-title">Experience</h2>
                 <EducationBlock
+                  educationImage={LenovoLogo}
+                  educationName="UX Design Intern"
+                  educationQualification="Lenovo"
+                  educationYear="June 2024 - Present"
+                />
+                <EducationBlock
                   educationImage={GeorgiaTechLogo2}
                   educationName="UX & Game Designer | Graduate Researcher"
                   educationQualification="Georiga Institute of Technology"
-                  educationYear="2024 - Present"
+                  educationYear="Jan 2024 - Present"
                 />
               </header>
             </section>
@@ -91,14 +98,14 @@ export default class AboutMePage extends Component {
                   educationImage={GeorgiaTechLogo2}
                   educationName="Georgia Institute of Technology"
                   educationQualification="Master of Science in Human-Computer Interaction"
-                  educationYear="2023 - 2025"
+                  educationYear="Aug 2023 - May 2025"
                 />
                 <EducationBlock
                   educationImage={WitsLogo}
                   educationName="The University of the Witwatersrand"
                   educationQualification="Bachelor of Arts in Digital Arts (Game, and Interactive Media,
                   Design)"
-                  educationYear="2019 - 2022"
+                  educationYear="Jan 2019 - Dec 2022"
                 />
               </header>
             </section>

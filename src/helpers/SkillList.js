@@ -10,6 +10,22 @@ import SkillImageEight from "../assets/Skill Symbols/AffinitySymbol.png";
 
 export const SkillList = [
   {
+    skillName: "Figma",
+    cardSummary:
+      "A look at my technical engagement throughout the semester and the challenges I faced",
+    skillImage: SkillImageFour,
+    imageTitle: "JavaScript Logo",
+    imageAltText: "JavaScript Logo",
+  },
+  {
+    skillName: "Affinity Photo",
+    cardSummary:
+      "A look at my technical engagement throughout the semester and the challenges I faced",
+    skillImage: SkillImageEight,
+    imageTitle: "JavaScript Logo",
+    imageAltText: "JavaScript Logo",
+  },
+  {
     skillName: "JavaScript",
     cardSummary:
       "A look at my technical engagement throughout the semester and the challenges I faced",
@@ -54,22 +70,6 @@ export const SkillList = [
     cardSummary:
       "A look at my technical engagement throughout the semester and the challenges I faced",
     skillImage: SkillImageThree,
-    imageTitle: "JavaScript Logo",
-    imageAltText: "JavaScript Logo",
-  },
-  {
-    skillName: "Figma",
-    cardSummary:
-      "A look at my technical engagement throughout the semester and the challenges I faced",
-    skillImage: SkillImageFour,
-    imageTitle: "JavaScript Logo",
-    imageAltText: "JavaScript Logo",
-  },
-  {
-    skillName: "Affinity Photo",
-    cardSummary:
-      "A look at my technical engagement throughout the semester and the challenges I faced",
-    skillImage: SkillImageEight,
     imageTitle: "JavaScript Logo",
     imageAltText: "JavaScript Logo",
   },
