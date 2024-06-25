@@ -483,7 +483,7 @@ export default class Portfolio5 extends Component {
                   <iframe
                     width="768"
                     height="432"
-                    src="https://miro.com/app/live-embed/uXjVNzyQWbQ=/?moveToViewport=-5148,-2794,10020,5348&embedId=333127812217"
+                    src="https://miro.com/app/embed/uXjVNzyQWbQ=/?pres=1&frameId=3458764593101417765&embedId=136446380911"
                     frameborder="0"
                     scrolling="no"
                     allow="fullscreen; clipboard-read; clipboard-write"

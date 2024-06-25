@@ -26,7 +26,6 @@
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.6.2",
     "react-scripts": "5.0.1",
-    "react-snap": "github:juanse254/react-snap",
     "styled-components": "^5.3.6",
     "swiper": "^11.0.5",
     "web-vitals": "^2.1.4"
@@ -59,6 +58,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^4.0.0",
+    "react-snap": "^1.23.0"
   }
 }
